@@ -1,508 +1,514 @@
 /*!
 * DevExtreme (dx.all.d.ts)
-* Version: 23.2.6
-* Build date: Wed May 01 2024
+* Version: 24.1.3
+* Build date: Tue Jun 11 2024
 *
 * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
 * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
 */
 
-interface JQuery<TElement = HTMLElement> { }
-interface JQuery<TElement = HTMLElement> {
-  dxAccordion(): JQuery;
-  dxAccordion(options: 'instance'): DevExpress.ui.dxAccordion;
-  dxAccordion(options: DevExpress.ui.dxAccordion.Properties): JQuery;
-  dxAccordion(options: string): any;
-  dxAccordion(options: string, ...params: any[]): any;
-
-  dxActionSheet(): JQuery;
-  dxActionSheet(options: 'instance'): DevExpress.ui.dxActionSheet;
-  dxActionSheet(options: DevExpress.ui.dxActionSheet.Properties): JQuery;
-  dxActionSheet(options: string): any;
-  dxActionSheet(options: string, ...params: any[]): any;
-
-  dxAutocomplete(): JQuery;
-  dxAutocomplete(options: 'instance'): DevExpress.ui.dxAutocomplete;
-  dxAutocomplete(options: DevExpress.ui.dxAutocomplete.Properties): JQuery;
-  dxAutocomplete(options: string): any;
-  dxAutocomplete(options: string, ...params: any[]): any;
-
-  dxBarGauge(): JQuery;
-  dxBarGauge(options: 'instance'): DevExpress.viz.dxBarGauge;
-  dxBarGauge(options: DevExpress.viz.dxBarGauge.Properties): JQuery;
-  dxBarGauge(options: string): any;
-  dxBarGauge(options: string, ...params: any[]): any;
-
-  dxBox(): JQuery;
-  dxBox(options: 'instance'): DevExpress.ui.dxBox;
-  dxBox(options: DevExpress.ui.dxBox.Properties): JQuery;
-  dxBox(options: string): any;
-  dxBox(options: string, ...params: any[]): any;
-
-  dxBullet(): JQuery;
-  dxBullet(options: 'instance'): DevExpress.viz.dxBullet;
-  dxBullet(options: DevExpress.viz.dxBullet.Properties): JQuery;
-  dxBullet(options: string): any;
-  dxBullet(options: string, ...params: any[]): any;
-
-  dxButton(): JQuery;
-  dxButton(options: 'instance'): DevExpress.ui.dxButton;
-  dxButton(options: DevExpress.ui.dxButton.Properties): JQuery;
-  dxButton(options: string): any;
-  dxButton(options: string, ...params: any[]): any;
-
-  dxButtonGroup(): JQuery;
-  dxButtonGroup(options: 'instance'): DevExpress.ui.dxButtonGroup;
-  dxButtonGroup(options: DevExpress.ui.dxButtonGroup.Properties): JQuery;
-  dxButtonGroup(options: string): any;
-  dxButtonGroup(options: string, ...params: any[]): any;
-
-  dxCalendar(): JQuery;
-  dxCalendar(options: 'instance'): DevExpress.ui.dxCalendar;
-  dxCalendar(options: DevExpress.ui.dxCalendar.Properties): JQuery;
-  dxCalendar(options: string): any;
-  dxCalendar(options: string, ...params: any[]): any;
-
-  dxChart(): JQuery;
-  dxChart(options: 'instance'): DevExpress.viz.dxChart;
-  dxChart(options: DevExpress.viz.dxChart.Properties): JQuery;
-  dxChart(options: string): any;
-  dxChart(options: string, ...params: any[]): any;
-
-  dxCheckBox(): JQuery;
-  dxCheckBox(options: 'instance'): DevExpress.ui.dxCheckBox;
-  dxCheckBox(options: DevExpress.ui.dxCheckBox.Properties): JQuery;
-  dxCheckBox(options: string): any;
-  dxCheckBox(options: string, ...params: any[]): any;
-
-  dxCircularGauge(): JQuery;
-  dxCircularGauge(options: 'instance'): DevExpress.viz.dxCircularGauge;
-  dxCircularGauge(options: DevExpress.viz.dxCircularGauge.Properties): JQuery;
-  dxCircularGauge(options: string): any;
-  dxCircularGauge(options: string, ...params: any[]): any;
-
-  dxColorBox(): JQuery;
-  dxColorBox(options: 'instance'): DevExpress.ui.dxColorBox;
-  dxColorBox(options: DevExpress.ui.dxColorBox.Properties): JQuery;
-  dxColorBox(options: string): any;
-  dxColorBox(options: string, ...params: any[]): any;
-
-  dxContextMenu(): JQuery;
-  dxContextMenu(options: 'instance'): DevExpress.ui.dxContextMenu;
-  dxContextMenu(options: DevExpress.ui.dxContextMenu.Properties): JQuery;
-  dxContextMenu(options: string): any;
-  dxContextMenu(options: string, ...params: any[]): any;
-
-  dxDataGrid(): JQuery;
-  dxDataGrid(options: 'instance'): DevExpress.ui.dxDataGrid;
-  dxDataGrid(options: DevExpress.ui.dxDataGrid.Properties): JQuery;
-  dxDataGrid(options: string): any;
-  dxDataGrid(options: string, ...params: any[]): any;
-
-  dxDateBox(): JQuery;
-  dxDateBox(options: 'instance'): DevExpress.ui.dxDateBox;
-  dxDateBox(options: DevExpress.ui.dxDateBox.Properties): JQuery;
-  dxDateBox(options: string): any;
-  dxDateBox(options: string, ...params: any[]): any;
-
-  dxDateRangeBox(): JQuery;
-  dxDateRangeBox(options: 'instance'): DevExpress.ui.dxDateRangeBox;
-  dxDateRangeBox(options: DevExpress.ui.dxDateRangeBox.Properties): JQuery;
-  dxDateRangeBox(options: string): any;
-  dxDateRangeBox(options: string, ...params: any[]): any;
-
-  dxDeferRendering(): JQuery;
-  dxDeferRendering(options: 'instance'): DevExpress.ui.dxDeferRendering;
-  dxDeferRendering(
-    options: DevExpress.ui.dxDeferRendering.Properties
-  ): JQuery;
-  dxDeferRendering(options: string): any;
-  dxDeferRendering(options: string, ...params: any[]): any;
-
-  dxDiagram(): JQuery;
-  dxDiagram(options: 'instance'): DevExpress.ui.dxDiagram;
-  dxDiagram(options: DevExpress.ui.dxDiagram.Properties): JQuery;
-  dxDiagram(options: string): any;
-  dxDiagram(options: string, ...params: any[]): any;
-
-  dxDraggable(): JQuery;
-  dxDraggable(options: 'instance'): DevExpress.ui.dxDraggable;
-  dxDraggable(options: DevExpress.ui.dxDraggable.Properties): JQuery;
-  dxDraggable(options: string): any;
-  dxDraggable(options: string, ...params: any[]): any;
-
-  dxDrawer(): JQuery;
-  dxDrawer(options: 'instance'): DevExpress.ui.dxDrawer;
-  dxDrawer(options: DevExpress.ui.dxDrawer.Properties): JQuery;
-  dxDrawer(options: string): any;
-  dxDrawer(options: string, ...params: any[]): any;
-
-  dxDropDownBox(): JQuery;
-  dxDropDownBox(options: 'instance'): DevExpress.ui.dxDropDownBox;
-  dxDropDownBox(options: DevExpress.ui.dxDropDownBox.Properties): JQuery;
-  dxDropDownBox(options: string): any;
-  dxDropDownBox(options: string, ...params: any[]): any;
-
-  dxDropDownButton(): JQuery;
-  dxDropDownButton(options: 'instance'): DevExpress.ui.dxDropDownButton;
-  dxDropDownButton(
-    options: DevExpress.ui.dxDropDownButton.Properties
-  ): JQuery;
-  dxDropDownButton(options: string): any;
-  dxDropDownButton(options: string, ...params: any[]): any;
-
-  dxFileManager(): JQuery;
-  dxFileManager(options: 'instance'): DevExpress.ui.dxFileManager;
-  dxFileManager(options: DevExpress.ui.dxFileManager.Properties): JQuery;
-  dxFileManager(options: string): any;
-  dxFileManager(options: string, ...params: any[]): any;
-
-  dxFileUploader(): JQuery;
-  dxFileUploader(options: 'instance'): DevExpress.ui.dxFileUploader;
-  dxFileUploader(options: DevExpress.ui.dxFileUploader.Properties): JQuery;
-  dxFileUploader(options: string): any;
-  dxFileUploader(options: string, ...params: any[]): any;
-
-  dxFilterBuilder(): JQuery;
-  dxFilterBuilder(options: 'instance'): DevExpress.ui.dxFilterBuilder;
-  dxFilterBuilder(options: DevExpress.ui.dxFilterBuilder.Properties): JQuery;
-  dxFilterBuilder(options: string): any;
-  dxFilterBuilder(options: string, ...params: any[]): any;
-
-  dxForm(): JQuery;
-  dxForm(options: 'instance'): DevExpress.ui.dxForm;
-  dxForm(options: DevExpress.ui.dxForm.Properties): JQuery;
-  dxForm(options: string): any;
-  dxForm(options: string, ...params: any[]): any;
-
-  dxFunnel(): JQuery;
-  dxFunnel(options: 'instance'): DevExpress.viz.dxFunnel;
-  dxFunnel(options: DevExpress.viz.dxFunnel.Properties): JQuery;
-  dxFunnel(options: string): any;
-  dxFunnel(options: string, ...params: any[]): any;
-
-  dxGallery(): JQuery;
-  dxGallery(options: 'instance'): DevExpress.ui.dxGallery;
-  dxGallery(options: DevExpress.ui.dxGallery.Properties): JQuery;
-  dxGallery(options: string): any;
-  dxGallery(options: string, ...params: any[]): any;
-
-  dxGantt(): JQuery;
-  dxGantt(options: 'instance'): DevExpress.ui.dxGantt;
-  dxGantt(options: DevExpress.ui.dxGantt.Properties): JQuery;
-  dxGantt(options: string): any;
-  dxGantt(options: string, ...params: any[]): any;
-
-  dxHtmlEditor(): JQuery;
-  dxHtmlEditor(options: 'instance'): DevExpress.ui.dxHtmlEditor;
-  dxHtmlEditor(options: DevExpress.ui.dxHtmlEditor.Properties): JQuery;
-  dxHtmlEditor(options: string): any;
-  dxHtmlEditor(options: string, ...params: any[]): any;
-
-  dxLinearGauge(): JQuery;
-  dxLinearGauge(options: 'instance'): DevExpress.viz.dxLinearGauge;
-  dxLinearGauge(options: DevExpress.viz.dxLinearGauge.Properties): JQuery;
-  dxLinearGauge(options: string): any;
-  dxLinearGauge(options: string, ...params: any[]): any;
-
-  dxList(): JQuery;
-  dxList(options: 'instance'): DevExpress.ui.dxList;
-  dxList(options: DevExpress.ui.dxList.Properties): JQuery;
-  dxList(options: string): any;
-  dxList(options: string, ...params: any[]): any;
-
-  dxLoadIndicator(): JQuery;
-  dxLoadIndicator(options: 'instance'): DevExpress.ui.dxLoadIndicator;
-  dxLoadIndicator(options: DevExpress.ui.dxLoadIndicator.Properties): JQuery;
-  dxLoadIndicator(options: string): any;
-  dxLoadIndicator(options: string, ...params: any[]): any;
-
-  dxLoadPanel(): JQuery;
-  dxLoadPanel(options: 'instance'): DevExpress.ui.dxLoadPanel;
-  dxLoadPanel(options: DevExpress.ui.dxLoadPanel.Properties): JQuery;
-  dxLoadPanel(options: string): any;
-  dxLoadPanel(options: string, ...params: any[]): any;
-
-  dxLookup(): JQuery;
-  dxLookup(options: 'instance'): DevExpress.ui.dxLookup;
-  dxLookup(options: DevExpress.ui.dxLookup.Properties): JQuery;
-  dxLookup(options: string): any;
-  dxLookup(options: string, ...params: any[]): any;
-
-  dxMap(): JQuery;
-  dxMap(options: 'instance'): DevExpress.ui.dxMap;
-  dxMap(options: DevExpress.ui.dxMap.Properties): JQuery;
-  dxMap(options: string): any;
-  dxMap(options: string, ...params: any[]): any;
-
-  dxMenu(): JQuery;
-  dxMenu(options: 'instance'): DevExpress.ui.dxMenu;
-  dxMenu(options: DevExpress.ui.dxMenu.Properties): JQuery;
-  dxMenu(options: string): any;
-  dxMenu(options: string, ...params: any[]): any;
-
-  dxMultiView(): JQuery;
-  dxMultiView(options: 'instance'): DevExpress.ui.dxMultiView;
-  dxMultiView(options: DevExpress.ui.dxMultiView.Properties): JQuery;
-  dxMultiView(options: string): any;
-  dxMultiView(options: string, ...params: any[]): any;
-
-  dxNumberBox(): JQuery;
-  dxNumberBox(options: 'instance'): DevExpress.ui.dxNumberBox;
-  dxNumberBox(options: DevExpress.ui.dxNumberBox.Properties): JQuery;
-  dxNumberBox(options: string): any;
-  dxNumberBox(options: string, ...params: any[]): any;
-
-  dxPieChart(): JQuery;
-  dxPieChart(options: 'instance'): DevExpress.viz.dxPieChart;
-  dxPieChart(options: DevExpress.viz.dxPieChart.Properties): JQuery;
-  dxPieChart(options: string): any;
-  dxPieChart(options: string, ...params: any[]): any;
-
-  dxPivotGrid(): JQuery;
-  dxPivotGrid(options: 'instance'): DevExpress.ui.dxPivotGrid;
-  dxPivotGrid(options: DevExpress.ui.dxPivotGrid.Properties): JQuery;
-  dxPivotGrid(options: string): any;
-  dxPivotGrid(options: string, ...params: any[]): any;
-
-  dxPivotGridFieldChooser(): JQuery;
-  dxPivotGridFieldChooser(
-    options: 'instance'
-  ): DevExpress.ui.dxPivotGridFieldChooser;
-  dxPivotGridFieldChooser(
-    options: DevExpress.ui.dxPivotGridFieldChooser.Properties
-  ): JQuery;
-  dxPivotGridFieldChooser(options: string): any;
-  dxPivotGridFieldChooser(options: string, ...params: any[]): any;
-
-  dxPolarChart(): JQuery;
-  dxPolarChart(options: 'instance'): DevExpress.viz.dxPolarChart;
-  dxPolarChart(options: DevExpress.viz.dxPolarChart.Properties): JQuery;
-  dxPolarChart(options: string): any;
-  dxPolarChart(options: string, ...params: any[]): any;
-
-  dxPopover(): JQuery;
-  dxPopover(options: 'instance'): DevExpress.ui.dxPopover;
-  dxPopover(options: DevExpress.ui.dxPopover.Properties): JQuery;
-  dxPopover(options: string): any;
-  dxPopover(options: string, ...params: any[]): any;
-
-  dxPopup(): JQuery;
-  dxPopup(options: 'instance'): DevExpress.ui.dxPopup;
-  dxPopup(options: DevExpress.ui.dxPopup.Properties): JQuery;
-  dxPopup(options: string): any;
-  dxPopup(options: string, ...params: any[]): any;
-
-  dxProgressBar(): JQuery;
-  dxProgressBar(options: 'instance'): DevExpress.ui.dxProgressBar;
-  dxProgressBar(options: DevExpress.ui.dxProgressBar.Properties): JQuery;
-  dxProgressBar(options: string): any;
-  dxProgressBar(options: string, ...params: any[]): any;
-
-  dxRadioGroup(): JQuery;
-  dxRadioGroup(options: 'instance'): DevExpress.ui.dxRadioGroup;
-  dxRadioGroup(options: DevExpress.ui.dxRadioGroup.Properties): JQuery;
-  dxRadioGroup(options: string): any;
-  dxRadioGroup(options: string, ...params: any[]): any;
-
-  dxRangeSelector(): JQuery;
-  dxRangeSelector(options: 'instance'): DevExpress.viz.dxRangeSelector;
-  dxRangeSelector(options: DevExpress.viz.dxRangeSelector.Properties): JQuery;
-  dxRangeSelector(options: string): any;
-  dxRangeSelector(options: string, ...params: any[]): any;
-
-  dxRangeSlider(): JQuery;
-  dxRangeSlider(options: 'instance'): DevExpress.ui.dxRangeSlider;
-  dxRangeSlider(options: DevExpress.ui.dxRangeSlider.Properties): JQuery;
-  dxRangeSlider(options: string): any;
-  dxRangeSlider(options: string, ...params: any[]): any;
-
-  dxRecurrenceEditor(): JQuery;
-  dxRecurrenceEditor(options: 'instance'): DevExpress.ui.dxRecurrenceEditor;
-  dxRecurrenceEditor(
-    options: DevExpress.ui.dxRecurrenceEditor.Properties
-  ): JQuery;
-  dxRecurrenceEditor(options: string): any;
-  dxRecurrenceEditor(options: string, ...params: any[]): any;
-
-  dxResizable(): JQuery;
-  dxResizable(options: 'instance'): DevExpress.ui.dxResizable;
-  dxResizable(options: DevExpress.ui.dxResizable.Properties): JQuery;
-  dxResizable(options: string): any;
-  dxResizable(options: string, ...params: any[]): any;
-
-  dxResponsiveBox(): JQuery;
-  dxResponsiveBox(options: 'instance'): DevExpress.ui.dxResponsiveBox;
-  dxResponsiveBox(options: DevExpress.ui.dxResponsiveBox.Properties): JQuery;
-  dxResponsiveBox(options: string): any;
-  dxResponsiveBox(options: string, ...params: any[]): any;
-
-  dxSankey(): JQuery;
-  dxSankey(options: 'instance'): DevExpress.viz.dxSankey;
-  dxSankey(options: DevExpress.viz.dxSankey.Properties): JQuery;
-  dxSankey(options: string): any;
-  dxSankey(options: string, ...params: any[]): any;
-
-  dxScheduler(): JQuery;
-  dxScheduler(options: 'instance'): DevExpress.ui.dxScheduler;
-  dxScheduler(options: DevExpress.ui.dxScheduler.Properties): JQuery;
-  dxScheduler(options: string): any;
-  dxScheduler(options: string, ...params: any[]): any;
-
-  dxScrollView(): JQuery;
-  dxScrollView(options: 'instance'): DevExpress.ui.dxScrollView;
-  dxScrollView(options: DevExpress.ui.dxScrollView.Properties): JQuery;
-  dxScrollView(options: string): any;
-  dxScrollView(options: string, ...params: any[]): any;
-
-  dxSelectBox(): JQuery;
-  dxSelectBox(options: 'instance'): DevExpress.ui.dxSelectBox;
-  dxSelectBox(options: DevExpress.ui.dxSelectBox.Properties): JQuery;
-  dxSelectBox(options: string): any;
-  dxSelectBox(options: string, ...params: any[]): any;
-
-  dxSlider(): JQuery;
-  dxSlider(options: 'instance'): DevExpress.ui.dxSlider;
-  dxSlider(options: DevExpress.ui.dxSlider.Properties): JQuery;
-  dxSlider(options: string): any;
-  dxSlider(options: string, ...params: any[]): any;
-
-  dxSortable(): JQuery;
-  dxSortable(options: 'instance'): DevExpress.ui.dxSortable;
-  dxSortable(options: DevExpress.ui.dxSortable.Properties): JQuery;
-  dxSortable(options: string): any;
-  dxSortable(options: string, ...params: any[]): any;
-
-  dxSparkline(): JQuery;
-  dxSparkline(options: 'instance'): DevExpress.viz.dxSparkline;
-  dxSparkline(options: DevExpress.viz.dxSparkline.Properties): JQuery;
-  dxSparkline(options: string): any;
-  dxSparkline(options: string, ...params: any[]): any;
-
-  dxSpeedDialAction(): JQuery;
-  dxSpeedDialAction(options: 'instance'): DevExpress.ui.dxSpeedDialAction;
-  dxSpeedDialAction(
-    options: DevExpress.ui.dxSpeedDialAction.Properties
-  ): JQuery;
-  dxSpeedDialAction(options: string): any;
-  dxSpeedDialAction(options: string, ...params: any[]): any;
-
-  dxSwitch(): JQuery;
-  dxSwitch(options: 'instance'): DevExpress.ui.dxSwitch;
-  dxSwitch(options: DevExpress.ui.dxSwitch.Properties): JQuery;
-  dxSwitch(options: string): any;
-  dxSwitch(options: string, ...params: any[]): any;
-
-  dxTabPanel(): JQuery;
-  dxTabPanel(options: 'instance'): DevExpress.ui.dxTabPanel;
-  dxTabPanel(options: DevExpress.ui.dxTabPanel.Properties): JQuery;
-  dxTabPanel(options: string): any;
-  dxTabPanel(options: string, ...params: any[]): any;
-
-  dxTabs(): JQuery;
-  dxTabs(options: 'instance'): DevExpress.ui.dxTabs;
-  dxTabs(options: DevExpress.ui.dxTabs.Properties): JQuery;
-  dxTabs(options: string): any;
-  dxTabs(options: string, ...params: any[]): any;
-
-  dxTagBox(): JQuery;
-  dxTagBox(options: 'instance'): DevExpress.ui.dxTagBox;
-  dxTagBox(options: DevExpress.ui.dxTagBox.Properties): JQuery;
-  dxTagBox(options: string): any;
-  dxTagBox(options: string, ...params: any[]): any;
-
-  dxTextArea(): JQuery;
-  dxTextArea(options: 'instance'): DevExpress.ui.dxTextArea;
-  dxTextArea(options: DevExpress.ui.dxTextArea.Properties): JQuery;
-  dxTextArea(options: string): any;
-  dxTextArea(options: string, ...params: any[]): any;
-
-  dxTextBox(): JQuery;
-  dxTextBox(options: 'instance'): DevExpress.ui.dxTextBox;
-  dxTextBox(options: DevExpress.ui.dxTextBox.Properties): JQuery;
-  dxTextBox(options: string): any;
-  dxTextBox(options: string, ...params: any[]): any;
-
-  dxTileView(): JQuery;
-  dxTileView(options: 'instance'): DevExpress.ui.dxTileView;
-  dxTileView(options: DevExpress.ui.dxTileView.Properties): JQuery;
-  dxTileView(options: string): any;
-  dxTileView(options: string, ...params: any[]): any;
-
-  dxToast(): JQuery;
-  dxToast(options: 'instance'): DevExpress.ui.dxToast;
-  dxToast(options: DevExpress.ui.dxToast.Properties): JQuery;
-  dxToast(options: string): any;
-  dxToast(options: string, ...params: any[]): any;
-
-  dxToolbar(): JQuery;
-  dxToolbar(options: 'instance'): DevExpress.ui.dxToolbar;
-  dxToolbar(options: DevExpress.ui.dxToolbar.Properties): JQuery;
-  dxToolbar(options: string): any;
-  dxToolbar(options: string, ...params: any[]): any;
-
-  dxTooltip(): JQuery;
-  dxTooltip(options: 'instance'): DevExpress.ui.dxTooltip;
-  dxTooltip(options: DevExpress.ui.dxTooltip.Properties): JQuery;
-  dxTooltip(options: string): any;
-  dxTooltip(options: string, ...params: any[]): any;
-
-  dxTreeList(): JQuery;
-  dxTreeList(options: 'instance'): DevExpress.ui.dxTreeList;
-  dxTreeList(options: DevExpress.ui.dxTreeList.Properties): JQuery;
-  dxTreeList(options: string): any;
-  dxTreeList(options: string, ...params: any[]): any;
-
-  dxTreeMap(): JQuery;
-  dxTreeMap(options: 'instance'): DevExpress.viz.dxTreeMap;
-  dxTreeMap(options: DevExpress.viz.dxTreeMap.Properties): JQuery;
-  dxTreeMap(options: string): any;
-  dxTreeMap(options: string, ...params: any[]): any;
-
-  dxTreeView(): JQuery;
-  dxTreeView(options: 'instance'): DevExpress.ui.dxTreeView;
-  dxTreeView(options: DevExpress.ui.dxTreeView.Properties): JQuery;
-  dxTreeView(options: string): any;
-  dxTreeView(options: string, ...params: any[]): any;
-
-  dxValidationGroup(): JQuery;
-  dxValidationGroup(options: 'instance'): DevExpress.ui.dxValidationGroup;
-  dxValidationGroup(
-    options: DevExpress.ui.dxValidationGroup.Properties
-  ): JQuery;
-  dxValidationGroup(options: string): any;
-  dxValidationGroup(options: string, ...params: any[]): any;
-
-  dxValidationMessage(): JQuery;
-  dxValidationMessage(options: 'instance'): DevExpress.ui.dxValidationMessage;
-  dxValidationMessage(
-    options: DevExpress.ui.dxValidationMessage.Properties
-  ): JQuery;
-  dxValidationMessage(options: string): any;
-  dxValidationMessage(options: string, ...params: any[]): any;
-
-  dxValidationSummary(): JQuery;
-  dxValidationSummary(options: 'instance'): DevExpress.ui.dxValidationSummary;
-  dxValidationSummary(
-    options: DevExpress.ui.dxValidationSummary.Properties
-  ): JQuery;
-  dxValidationSummary(options: string): any;
-  dxValidationSummary(options: string, ...params: any[]): any;
-
-  dxValidator(): JQuery;
-  dxValidator(options: 'instance'): DevExpress.ui.dxValidator;
-  dxValidator(options: DevExpress.ui.dxValidator.Properties): JQuery;
-  dxValidator(options: string): any;
-  dxValidator(options: string, ...params: any[]): any;
-
-  dxVectorMap(): JQuery;
-  dxVectorMap(options: 'instance'): DevExpress.viz.dxVectorMap;
-  dxVectorMap(options: DevExpress.viz.dxVectorMap.Properties): JQuery;
-  dxVectorMap(options: string): any;
-  dxVectorMap(options: string, ...params: any[]): any;
-}
-interface JQueryEventObject { }
-interface JQueryPromise<T> { }
+  interface JQuery<TElement = HTMLElement> {}
+  interface JQuery<TElement = HTMLElement> {
+    dxAccordion(): JQuery;
+    dxAccordion(options: 'instance'): DevExpress.ui.dxAccordion;
+    dxAccordion(options: DevExpress.ui.dxAccordion.Properties): JQuery;
+    dxAccordion(options: string): any;
+    dxAccordion(options: string, ...params: any[]): any;
+
+    dxActionSheet(): JQuery;
+    dxActionSheet(options: 'instance'): DevExpress.ui.dxActionSheet;
+    dxActionSheet(options: DevExpress.ui.dxActionSheet.Properties): JQuery;
+    dxActionSheet(options: string): any;
+    dxActionSheet(options: string, ...params: any[]): any;
+
+    dxAutocomplete(): JQuery;
+    dxAutocomplete(options: 'instance'): DevExpress.ui.dxAutocomplete;
+    dxAutocomplete(options: DevExpress.ui.dxAutocomplete.Properties): JQuery;
+    dxAutocomplete(options: string): any;
+    dxAutocomplete(options: string, ...params: any[]): any;
+
+    dxBarGauge(): JQuery;
+    dxBarGauge(options: 'instance'): DevExpress.viz.dxBarGauge;
+    dxBarGauge(options: DevExpress.viz.dxBarGauge.Properties): JQuery;
+    dxBarGauge(options: string): any;
+    dxBarGauge(options: string, ...params: any[]): any;
+
+    dxBox(): JQuery;
+    dxBox(options: 'instance'): DevExpress.ui.dxBox;
+    dxBox(options: DevExpress.ui.dxBox.Properties): JQuery;
+    dxBox(options: string): any;
+    dxBox(options: string, ...params: any[]): any;
+
+    dxBullet(): JQuery;
+    dxBullet(options: 'instance'): DevExpress.viz.dxBullet;
+    dxBullet(options: DevExpress.viz.dxBullet.Properties): JQuery;
+    dxBullet(options: string): any;
+    dxBullet(options: string, ...params: any[]): any;
+
+    dxButton(): JQuery;
+    dxButton(options: 'instance'): DevExpress.ui.dxButton;
+    dxButton(options: DevExpress.ui.dxButton.Properties): JQuery;
+    dxButton(options: string): any;
+    dxButton(options: string, ...params: any[]): any;
+
+    dxButtonGroup(): JQuery;
+    dxButtonGroup(options: 'instance'): DevExpress.ui.dxButtonGroup;
+    dxButtonGroup(options: DevExpress.ui.dxButtonGroup.Properties): JQuery;
+    dxButtonGroup(options: string): any;
+    dxButtonGroup(options: string, ...params: any[]): any;
+
+    dxCalendar(): JQuery;
+    dxCalendar(options: 'instance'): DevExpress.ui.dxCalendar;
+    dxCalendar(options: DevExpress.ui.dxCalendar.Properties): JQuery;
+    dxCalendar(options: string): any;
+    dxCalendar(options: string, ...params: any[]): any;
+
+    dxChart(): JQuery;
+    dxChart(options: 'instance'): DevExpress.viz.dxChart;
+    dxChart(options: DevExpress.viz.dxChart.Properties): JQuery;
+    dxChart(options: string): any;
+    dxChart(options: string, ...params: any[]): any;
+
+    dxCheckBox(): JQuery;
+    dxCheckBox(options: 'instance'): DevExpress.ui.dxCheckBox;
+    dxCheckBox(options: DevExpress.ui.dxCheckBox.Properties): JQuery;
+    dxCheckBox(options: string): any;
+    dxCheckBox(options: string, ...params: any[]): any;
+
+    dxCircularGauge(): JQuery;
+    dxCircularGauge(options: 'instance'): DevExpress.viz.dxCircularGauge;
+    dxCircularGauge(options: DevExpress.viz.dxCircularGauge.Properties): JQuery;
+    dxCircularGauge(options: string): any;
+    dxCircularGauge(options: string, ...params: any[]): any;
+
+    dxColorBox(): JQuery;
+    dxColorBox(options: 'instance'): DevExpress.ui.dxColorBox;
+    dxColorBox(options: DevExpress.ui.dxColorBox.Properties): JQuery;
+    dxColorBox(options: string): any;
+    dxColorBox(options: string, ...params: any[]): any;
+
+    dxContextMenu(): JQuery;
+    dxContextMenu(options: 'instance'): DevExpress.ui.dxContextMenu;
+    dxContextMenu(options: DevExpress.ui.dxContextMenu.Properties): JQuery;
+    dxContextMenu(options: string): any;
+    dxContextMenu(options: string, ...params: any[]): any;
+
+    dxDataGrid(): JQuery;
+    dxDataGrid(options: 'instance'): DevExpress.ui.dxDataGrid;
+    dxDataGrid(options: DevExpress.ui.dxDataGrid.Properties): JQuery;
+    dxDataGrid(options: string): any;
+    dxDataGrid(options: string, ...params: any[]): any;
+
+    dxDateBox(): JQuery;
+    dxDateBox(options: 'instance'): DevExpress.ui.dxDateBox;
+    dxDateBox(options: DevExpress.ui.dxDateBox.Properties): JQuery;
+    dxDateBox(options: string): any;
+    dxDateBox(options: string, ...params: any[]): any;
+
+    dxDateRangeBox(): JQuery;
+    dxDateRangeBox(options: 'instance'): DevExpress.ui.dxDateRangeBox;
+    dxDateRangeBox(options: DevExpress.ui.dxDateRangeBox.Properties): JQuery;
+    dxDateRangeBox(options: string): any;
+    dxDateRangeBox(options: string, ...params: any[]): any;
+
+    dxDeferRendering(): JQuery;
+    dxDeferRendering(options: 'instance'): DevExpress.ui.dxDeferRendering;
+    dxDeferRendering(
+      options: DevExpress.ui.dxDeferRendering.Properties
+    ): JQuery;
+    dxDeferRendering(options: string): any;
+    dxDeferRendering(options: string, ...params: any[]): any;
+
+    dxDiagram(): JQuery;
+    dxDiagram(options: 'instance'): DevExpress.ui.dxDiagram;
+    dxDiagram(options: DevExpress.ui.dxDiagram.Properties): JQuery;
+    dxDiagram(options: string): any;
+    dxDiagram(options: string, ...params: any[]): any;
+
+    dxDraggable(): JQuery;
+    dxDraggable(options: 'instance'): DevExpress.ui.dxDraggable;
+    dxDraggable(options: DevExpress.ui.dxDraggable.Properties): JQuery;
+    dxDraggable(options: string): any;
+    dxDraggable(options: string, ...params: any[]): any;
+
+    dxDrawer(): JQuery;
+    dxDrawer(options: 'instance'): DevExpress.ui.dxDrawer;
+    dxDrawer(options: DevExpress.ui.dxDrawer.Properties): JQuery;
+    dxDrawer(options: string): any;
+    dxDrawer(options: string, ...params: any[]): any;
+
+    dxDropDownBox(): JQuery;
+    dxDropDownBox(options: 'instance'): DevExpress.ui.dxDropDownBox;
+    dxDropDownBox(options: DevExpress.ui.dxDropDownBox.Properties): JQuery;
+    dxDropDownBox(options: string): any;
+    dxDropDownBox(options: string, ...params: any[]): any;
+
+    dxDropDownButton(): JQuery;
+    dxDropDownButton(options: 'instance'): DevExpress.ui.dxDropDownButton;
+    dxDropDownButton(
+      options: DevExpress.ui.dxDropDownButton.Properties
+    ): JQuery;
+    dxDropDownButton(options: string): any;
+    dxDropDownButton(options: string, ...params: any[]): any;
+
+    dxFileManager(): JQuery;
+    dxFileManager(options: 'instance'): DevExpress.ui.dxFileManager;
+    dxFileManager(options: DevExpress.ui.dxFileManager.Properties): JQuery;
+    dxFileManager(options: string): any;
+    dxFileManager(options: string, ...params: any[]): any;
+
+    dxFileUploader(): JQuery;
+    dxFileUploader(options: 'instance'): DevExpress.ui.dxFileUploader;
+    dxFileUploader(options: DevExpress.ui.dxFileUploader.Properties): JQuery;
+    dxFileUploader(options: string): any;
+    dxFileUploader(options: string, ...params: any[]): any;
+
+    dxFilterBuilder(): JQuery;
+    dxFilterBuilder(options: 'instance'): DevExpress.ui.dxFilterBuilder;
+    dxFilterBuilder(options: DevExpress.ui.dxFilterBuilder.Properties): JQuery;
+    dxFilterBuilder(options: string): any;
+    dxFilterBuilder(options: string, ...params: any[]): any;
+
+    dxForm(): JQuery;
+    dxForm(options: 'instance'): DevExpress.ui.dxForm;
+    dxForm(options: DevExpress.ui.dxForm.Properties): JQuery;
+    dxForm(options: string): any;
+    dxForm(options: string, ...params: any[]): any;
+
+    dxFunnel(): JQuery;
+    dxFunnel(options: 'instance'): DevExpress.viz.dxFunnel;
+    dxFunnel(options: DevExpress.viz.dxFunnel.Properties): JQuery;
+    dxFunnel(options: string): any;
+    dxFunnel(options: string, ...params: any[]): any;
+
+    dxGallery(): JQuery;
+    dxGallery(options: 'instance'): DevExpress.ui.dxGallery;
+    dxGallery(options: DevExpress.ui.dxGallery.Properties): JQuery;
+    dxGallery(options: string): any;
+    dxGallery(options: string, ...params: any[]): any;
+
+    dxGantt(): JQuery;
+    dxGantt(options: 'instance'): DevExpress.ui.dxGantt;
+    dxGantt(options: DevExpress.ui.dxGantt.Properties): JQuery;
+    dxGantt(options: string): any;
+    dxGantt(options: string, ...params: any[]): any;
+
+    dxHtmlEditor(): JQuery;
+    dxHtmlEditor(options: 'instance'): DevExpress.ui.dxHtmlEditor;
+    dxHtmlEditor(options: DevExpress.ui.dxHtmlEditor.Properties): JQuery;
+    dxHtmlEditor(options: string): any;
+    dxHtmlEditor(options: string, ...params: any[]): any;
+
+    dxLinearGauge(): JQuery;
+    dxLinearGauge(options: 'instance'): DevExpress.viz.dxLinearGauge;
+    dxLinearGauge(options: DevExpress.viz.dxLinearGauge.Properties): JQuery;
+    dxLinearGauge(options: string): any;
+    dxLinearGauge(options: string, ...params: any[]): any;
+
+    dxList(): JQuery;
+    dxList(options: 'instance'): DevExpress.ui.dxList;
+    dxList(options: DevExpress.ui.dxList.Properties): JQuery;
+    dxList(options: string): any;
+    dxList(options: string, ...params: any[]): any;
+
+    dxLoadIndicator(): JQuery;
+    dxLoadIndicator(options: 'instance'): DevExpress.ui.dxLoadIndicator;
+    dxLoadIndicator(options: DevExpress.ui.dxLoadIndicator.Properties): JQuery;
+    dxLoadIndicator(options: string): any;
+    dxLoadIndicator(options: string, ...params: any[]): any;
+
+    dxLoadPanel(): JQuery;
+    dxLoadPanel(options: 'instance'): DevExpress.ui.dxLoadPanel;
+    dxLoadPanel(options: DevExpress.ui.dxLoadPanel.Properties): JQuery;
+    dxLoadPanel(options: string): any;
+    dxLoadPanel(options: string, ...params: any[]): any;
+
+    dxLookup(): JQuery;
+    dxLookup(options: 'instance'): DevExpress.ui.dxLookup;
+    dxLookup(options: DevExpress.ui.dxLookup.Properties): JQuery;
+    dxLookup(options: string): any;
+    dxLookup(options: string, ...params: any[]): any;
+
+    dxMap(): JQuery;
+    dxMap(options: 'instance'): DevExpress.ui.dxMap;
+    dxMap(options: DevExpress.ui.dxMap.Properties): JQuery;
+    dxMap(options: string): any;
+    dxMap(options: string, ...params: any[]): any;
+
+    dxMenu(): JQuery;
+    dxMenu(options: 'instance'): DevExpress.ui.dxMenu;
+    dxMenu(options: DevExpress.ui.dxMenu.Properties): JQuery;
+    dxMenu(options: string): any;
+    dxMenu(options: string, ...params: any[]): any;
+
+    dxMultiView(): JQuery;
+    dxMultiView(options: 'instance'): DevExpress.ui.dxMultiView;
+    dxMultiView(options: DevExpress.ui.dxMultiView.Properties): JQuery;
+    dxMultiView(options: string): any;
+    dxMultiView(options: string, ...params: any[]): any;
+
+    dxNumberBox(): JQuery;
+    dxNumberBox(options: 'instance'): DevExpress.ui.dxNumberBox;
+    dxNumberBox(options: DevExpress.ui.dxNumberBox.Properties): JQuery;
+    dxNumberBox(options: string): any;
+    dxNumberBox(options: string, ...params: any[]): any;
+
+    dxPieChart(): JQuery;
+    dxPieChart(options: 'instance'): DevExpress.viz.dxPieChart;
+    dxPieChart(options: DevExpress.viz.dxPieChart.Properties): JQuery;
+    dxPieChart(options: string): any;
+    dxPieChart(options: string, ...params: any[]): any;
+
+    dxPivotGrid(): JQuery;
+    dxPivotGrid(options: 'instance'): DevExpress.ui.dxPivotGrid;
+    dxPivotGrid(options: DevExpress.ui.dxPivotGrid.Properties): JQuery;
+    dxPivotGrid(options: string): any;
+    dxPivotGrid(options: string, ...params: any[]): any;
+
+    dxPivotGridFieldChooser(): JQuery;
+    dxPivotGridFieldChooser(
+      options: 'instance'
+    ): DevExpress.ui.dxPivotGridFieldChooser;
+    dxPivotGridFieldChooser(
+      options: DevExpress.ui.dxPivotGridFieldChooser.Properties
+    ): JQuery;
+    dxPivotGridFieldChooser(options: string): any;
+    dxPivotGridFieldChooser(options: string, ...params: any[]): any;
+
+    dxPolarChart(): JQuery;
+    dxPolarChart(options: 'instance'): DevExpress.viz.dxPolarChart;
+    dxPolarChart(options: DevExpress.viz.dxPolarChart.Properties): JQuery;
+    dxPolarChart(options: string): any;
+    dxPolarChart(options: string, ...params: any[]): any;
+
+    dxPopover(): JQuery;
+    dxPopover(options: 'instance'): DevExpress.ui.dxPopover;
+    dxPopover(options: DevExpress.ui.dxPopover.Properties): JQuery;
+    dxPopover(options: string): any;
+    dxPopover(options: string, ...params: any[]): any;
+
+    dxPopup(): JQuery;
+    dxPopup(options: 'instance'): DevExpress.ui.dxPopup;
+    dxPopup(options: DevExpress.ui.dxPopup.Properties): JQuery;
+    dxPopup(options: string): any;
+    dxPopup(options: string, ...params: any[]): any;
+
+    dxProgressBar(): JQuery;
+    dxProgressBar(options: 'instance'): DevExpress.ui.dxProgressBar;
+    dxProgressBar(options: DevExpress.ui.dxProgressBar.Properties): JQuery;
+    dxProgressBar(options: string): any;
+    dxProgressBar(options: string, ...params: any[]): any;
+
+    dxRadioGroup(): JQuery;
+    dxRadioGroup(options: 'instance'): DevExpress.ui.dxRadioGroup;
+    dxRadioGroup(options: DevExpress.ui.dxRadioGroup.Properties): JQuery;
+    dxRadioGroup(options: string): any;
+    dxRadioGroup(options: string, ...params: any[]): any;
+
+    dxRangeSelector(): JQuery;
+    dxRangeSelector(options: 'instance'): DevExpress.viz.dxRangeSelector;
+    dxRangeSelector(options: DevExpress.viz.dxRangeSelector.Properties): JQuery;
+    dxRangeSelector(options: string): any;
+    dxRangeSelector(options: string, ...params: any[]): any;
+
+    dxRangeSlider(): JQuery;
+    dxRangeSlider(options: 'instance'): DevExpress.ui.dxRangeSlider;
+    dxRangeSlider(options: DevExpress.ui.dxRangeSlider.Properties): JQuery;
+    dxRangeSlider(options: string): any;
+    dxRangeSlider(options: string, ...params: any[]): any;
+
+    dxRecurrenceEditor(): JQuery;
+    dxRecurrenceEditor(options: 'instance'): DevExpress.ui.dxRecurrenceEditor;
+    dxRecurrenceEditor(
+      options: DevExpress.ui.dxRecurrenceEditor.Properties
+    ): JQuery;
+    dxRecurrenceEditor(options: string): any;
+    dxRecurrenceEditor(options: string, ...params: any[]): any;
+
+    dxResizable(): JQuery;
+    dxResizable(options: 'instance'): DevExpress.ui.dxResizable;
+    dxResizable(options: DevExpress.ui.dxResizable.Properties): JQuery;
+    dxResizable(options: string): any;
+    dxResizable(options: string, ...params: any[]): any;
+
+    dxResponsiveBox(): JQuery;
+    dxResponsiveBox(options: 'instance'): DevExpress.ui.dxResponsiveBox;
+    dxResponsiveBox(options: DevExpress.ui.dxResponsiveBox.Properties): JQuery;
+    dxResponsiveBox(options: string): any;
+    dxResponsiveBox(options: string, ...params: any[]): any;
+
+    dxSankey(): JQuery;
+    dxSankey(options: 'instance'): DevExpress.viz.dxSankey;
+    dxSankey(options: DevExpress.viz.dxSankey.Properties): JQuery;
+    dxSankey(options: string): any;
+    dxSankey(options: string, ...params: any[]): any;
+
+    dxScheduler(): JQuery;
+    dxScheduler(options: 'instance'): DevExpress.ui.dxScheduler;
+    dxScheduler(options: DevExpress.ui.dxScheduler.Properties): JQuery;
+    dxScheduler(options: string): any;
+    dxScheduler(options: string, ...params: any[]): any;
+
+    dxScrollView(): JQuery;
+    dxScrollView(options: 'instance'): DevExpress.ui.dxScrollView;
+    dxScrollView(options: DevExpress.ui.dxScrollView.Properties): JQuery;
+    dxScrollView(options: string): any;
+    dxScrollView(options: string, ...params: any[]): any;
+
+    dxSelectBox(): JQuery;
+    dxSelectBox(options: 'instance'): DevExpress.ui.dxSelectBox;
+    dxSelectBox(options: DevExpress.ui.dxSelectBox.Properties): JQuery;
+    dxSelectBox(options: string): any;
+    dxSelectBox(options: string, ...params: any[]): any;
+
+    dxSlider(): JQuery;
+    dxSlider(options: 'instance'): DevExpress.ui.dxSlider;
+    dxSlider(options: DevExpress.ui.dxSlider.Properties): JQuery;
+    dxSlider(options: string): any;
+    dxSlider(options: string, ...params: any[]): any;
+
+    dxSplitter(): JQuery;
+    dxSplitter(options: 'instance'): DevExpress.ui.dxSplitter;
+    dxSplitter(options: DevExpress.ui.dxSplitter.Properties): JQuery;
+    dxSplitter(options: string): any;
+    dxSplitter(options: string, ...params: any[]): any;
+
+    dxSortable(): JQuery;
+    dxSortable(options: 'instance'): DevExpress.ui.dxSortable;
+    dxSortable(options: DevExpress.ui.dxSortable.Properties): JQuery;
+    dxSortable(options: string): any;
+    dxSortable(options: string, ...params: any[]): any;
+
+    dxSparkline(): JQuery;
+    dxSparkline(options: 'instance'): DevExpress.viz.dxSparkline;
+    dxSparkline(options: DevExpress.viz.dxSparkline.Properties): JQuery;
+    dxSparkline(options: string): any;
+    dxSparkline(options: string, ...params: any[]): any;
+
+    dxSpeedDialAction(): JQuery;
+    dxSpeedDialAction(options: 'instance'): DevExpress.ui.dxSpeedDialAction;
+    dxSpeedDialAction(
+      options: DevExpress.ui.dxSpeedDialAction.Properties
+    ): JQuery;
+    dxSpeedDialAction(options: string): any;
+    dxSpeedDialAction(options: string, ...params: any[]): any;
+
+    dxSwitch(): JQuery;
+    dxSwitch(options: 'instance'): DevExpress.ui.dxSwitch;
+    dxSwitch(options: DevExpress.ui.dxSwitch.Properties): JQuery;
+    dxSwitch(options: string): any;
+    dxSwitch(options: string, ...params: any[]): any;
+
+    dxTabPanel(): JQuery;
+    dxTabPanel(options: 'instance'): DevExpress.ui.dxTabPanel;
+    dxTabPanel(options: DevExpress.ui.dxTabPanel.Properties): JQuery;
+    dxTabPanel(options: string): any;
+    dxTabPanel(options: string, ...params: any[]): any;
+
+    dxTabs(): JQuery;
+    dxTabs(options: 'instance'): DevExpress.ui.dxTabs;
+    dxTabs(options: DevExpress.ui.dxTabs.Properties): JQuery;
+    dxTabs(options: string): any;
+    dxTabs(options: string, ...params: any[]): any;
+
+    dxTagBox(): JQuery;
+    dxTagBox(options: 'instance'): DevExpress.ui.dxTagBox;
+    dxTagBox(options: DevExpress.ui.dxTagBox.Properties): JQuery;
+    dxTagBox(options: string): any;
+    dxTagBox(options: string, ...params: any[]): any;
+
+    dxTextArea(): JQuery;
+    dxTextArea(options: 'instance'): DevExpress.ui.dxTextArea;
+    dxTextArea(options: DevExpress.ui.dxTextArea.Properties): JQuery;
+    dxTextArea(options: string): any;
+    dxTextArea(options: string, ...params: any[]): any;
+
+    dxTextBox(): JQuery;
+    dxTextBox(options: 'instance'): DevExpress.ui.dxTextBox;
+    dxTextBox(options: DevExpress.ui.dxTextBox.Properties): JQuery;
+    dxTextBox(options: string): any;
+    dxTextBox(options: string, ...params: any[]): any;
+
+    dxTileView(): JQuery;
+    dxTileView(options: 'instance'): DevExpress.ui.dxTileView;
+    dxTileView(options: DevExpress.ui.dxTileView.Properties): JQuery;
+    dxTileView(options: string): any;
+    dxTileView(options: string, ...params: any[]): any;
+
+    dxToast(): JQuery;
+    dxToast(options: 'instance'): DevExpress.ui.dxToast;
+    dxToast(options: DevExpress.ui.dxToast.Properties): JQuery;
+    dxToast(options: string): any;
+    dxToast(options: string, ...params: any[]): any;
+
+    dxToolbar(): JQuery;
+    dxToolbar(options: 'instance'): DevExpress.ui.dxToolbar;
+    dxToolbar(options: DevExpress.ui.dxToolbar.Properties): JQuery;
+    dxToolbar(options: string): any;
+    dxToolbar(options: string, ...params: any[]): any;
+
+    dxTooltip(): JQuery;
+    dxTooltip(options: 'instance'): DevExpress.ui.dxTooltip;
+    dxTooltip(options: DevExpress.ui.dxTooltip.Properties): JQuery;
+    dxTooltip(options: string): any;
+    dxTooltip(options: string, ...params: any[]): any;
+
+    dxTreeList(): JQuery;
+    dxTreeList(options: 'instance'): DevExpress.ui.dxTreeList;
+    dxTreeList(options: DevExpress.ui.dxTreeList.Properties): JQuery;
+    dxTreeList(options: string): any;
+    dxTreeList(options: string, ...params: any[]): any;
+
+    dxTreeMap(): JQuery;
+    dxTreeMap(options: 'instance'): DevExpress.viz.dxTreeMap;
+    dxTreeMap(options: DevExpress.viz.dxTreeMap.Properties): JQuery;
+    dxTreeMap(options: string): any;
+    dxTreeMap(options: string, ...params: any[]): any;
+
+    dxTreeView(): JQuery;
+    dxTreeView(options: 'instance'): DevExpress.ui.dxTreeView;
+    dxTreeView(options: DevExpress.ui.dxTreeView.Properties): JQuery;
+    dxTreeView(options: string): any;
+    dxTreeView(options: string, ...params: any[]): any;
+
+    dxValidationGroup(): JQuery;
+    dxValidationGroup(options: 'instance'): DevExpress.ui.dxValidationGroup;
+    dxValidationGroup(
+      options: DevExpress.ui.dxValidationGroup.Properties
+    ): JQuery;
+    dxValidationGroup(options: string): any;
+    dxValidationGroup(options: string, ...params: any[]): any;
+
+    dxValidationMessage(): JQuery;
+    dxValidationMessage(options: 'instance'): DevExpress.ui.dxValidationMessage;
+    dxValidationMessage(
+      options: DevExpress.ui.dxValidationMessage.Properties
+    ): JQuery;
+    dxValidationMessage(options: string): any;
+    dxValidationMessage(options: string, ...params: any[]): any;
+
+    dxValidationSummary(): JQuery;
+    dxValidationSummary(options: 'instance'): DevExpress.ui.dxValidationSummary;
+    dxValidationSummary(
+      options: DevExpress.ui.dxValidationSummary.Properties
+    ): JQuery;
+    dxValidationSummary(options: string): any;
+    dxValidationSummary(options: string, ...params: any[]): any;
+
+    dxValidator(): JQuery;
+    dxValidator(options: 'instance'): DevExpress.ui.dxValidator;
+    dxValidator(options: DevExpress.ui.dxValidator.Properties): JQuery;
+    dxValidator(options: string): any;
+    dxValidator(options: string, ...params: any[]): any;
+
+    dxVectorMap(): JQuery;
+    dxVectorMap(options: 'instance'): DevExpress.viz.dxVectorMap;
+    dxVectorMap(options: DevExpress.viz.dxVectorMap.Properties): JQuery;
+    dxVectorMap(options: string): any;
+    dxVectorMap(options: string, ...params: any[]): any;
+  }
+  interface JQueryEventObject {}
+  interface JQueryPromise<T> {}
 
 declare module DevExpress {
   /**
@@ -740,7 +746,7 @@ declare module DevExpress {
   /**
     * 
     */
-  export const devices: DevicesObject;
+   export const devices: DevicesObject;
   /**
    * An object that serves as a namespace for the methods and events specifying information on the current device.
    */
@@ -834,13 +840,13 @@ declare module DevExpress {
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
-    interface DOMComponentInstance extends DOMComponent<Properties> { }
+    interface DOMComponentInstance extends DOMComponent<Properties> {}
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
     type OptionChangedEventInfo<TComponent> =
       DevExpress.events.EventInfo<TComponent> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
@@ -1046,17 +1052,17 @@ declare module DevExpress {
      * Specifies the target element&apos;s side or corner where the overlay element should be positioned.
      */
     at?:
-    | DevExpress.common.PositionAlignment
-    | {
-      /**
-       * Specifies a position in the horizontal direction (for left, right, or center alignment).
-       */
-      x?: DevExpress.common.HorizontalAlignment;
-      /**
-       * Specifies a position in the vertical direction (for top, bottom, or center alignment).
-       */
-      y?: DevExpress.common.VerticalAlignment;
-    };
+      | DevExpress.common.PositionAlignment
+      | {
+          /**
+           * Specifies a position in the horizontal direction (for left, right, or center alignment).
+           */
+          x?: DevExpress.common.HorizontalAlignment;
+          /**
+           * Specifies a position in the vertical direction (for top, bottom, or center alignment).
+           */
+          y?: DevExpress.common.VerticalAlignment;
+        };
     /**
      * A boundary element in which the overlay element must be positioned.
      */
@@ -1065,47 +1071,47 @@ declare module DevExpress {
      * Specifies the offset of boundaries from the boundary element.
      */
     boundaryOffset?:
-    | string
-    | {
-      /**
-       * Specifies a horizontal offset.
-       */
-      x?: number;
-      /**
-       * Specifies a vertical offset.
-       */
-      y?: number;
-    };
+      | string
+      | {
+          /**
+           * Specifies a horizontal offset.
+           */
+          x?: number;
+          /**
+           * Specifies a vertical offset.
+           */
+          y?: number;
+        };
     /**
      * Specifies how to resolve collisions - when the overlay element exceeds the boundary element.
      */
     collision?:
-    | DevExpress.animation.CollisionResolutionCombination
-    | {
-      /**
-       * Specifies how to resolve horizontal collisions.
-       */
-      x?: DevExpress.animation.CollisionResolution;
-      /**
-       * Specifies how to resolve vertical collisions.
-       */
-      y?: DevExpress.animation.CollisionResolution;
-    };
+      | DevExpress.animation.CollisionResolutionCombination
+      | {
+          /**
+           * Specifies how to resolve horizontal collisions.
+           */
+          x?: DevExpress.animation.CollisionResolution;
+          /**
+           * Specifies how to resolve vertical collisions.
+           */
+          y?: DevExpress.animation.CollisionResolution;
+        };
     /**
      * Specifies the overlay element&apos;s side or corner to align with a target element.
      */
     my?:
-    | DevExpress.common.PositionAlignment
-    | {
-      /**
-       * Specifies a position in the horizontal direction (for left, right, or center alignment).
-       */
-      x?: DevExpress.common.HorizontalAlignment;
-      /**
-       * Specifies a position in the vertical direction (for top, bottom, or center alignment).
-       */
-      y?: DevExpress.common.VerticalAlignment;
-    };
+      | DevExpress.common.PositionAlignment
+      | {
+          /**
+           * Specifies a position in the horizontal direction (for left, right, or center alignment).
+           */
+          x?: DevExpress.common.HorizontalAlignment;
+          /**
+           * Specifies a position in the vertical direction (for top, bottom, or center alignment).
+           */
+          y?: DevExpress.common.VerticalAlignment;
+        };
     /**
      * The target element relative to which the overlay element should be positioned.
      */
@@ -1114,17 +1120,17 @@ declare module DevExpress {
      * Specifies the overlay element&apos;s offset from a specified position.
      */
     offset?:
-    | string
-    | {
-      /**
-       * Specifies a horizontal offset.
-       */
-      x?: number;
-      /**
-       * Specifies a vertical offset.
-       */
-      y?: number;
-    };
+      | string
+      | {
+          /**
+           * Specifies a horizontal offset.
+           */
+          x?: number;
+          /**
+           * Specifies a vertical offset.
+           */
+          y?: number;
+        };
   }
   /**
    * Registers a new component in the DevExpress.ui namespace.
@@ -1239,35 +1245,35 @@ declare module DevExpress.animation {
     | string
     | number
     | {
-      /**
-       * Element opacity.
-       */
-      opacity: number;
-    }
+        /**
+         * Element opacity.
+         */
+        opacity: number;
+      }
     | {
-      /**
-       * A value that controls element size.
-       */
-      scale: number;
-    }
+        /**
+         * A value that controls element size.
+         */
+        scale: number;
+      }
     | {
-      /**
-       * Element position.
-       */
-      position: PositionConfig;
-    }
+        /**
+         * Element position.
+         */
+        position: PositionConfig;
+      }
     | {
-      /**
-       * A shortcut that positions the element&apos;s left side relative to the parent element.
-       */
-      left: number;
-    }
+        /**
+         * A shortcut that positions the element&apos;s left side relative to the parent element.
+         */
+        left: number;
+      }
     | {
-      /**
-       * A shortcut that positions the element&apos;s top side relative to the parent element.
-       */
-      top: number;
-    };
+        /**
+         * A shortcut that positions the element&apos;s top side relative to the parent element.
+         */
+        top: number;
+      };
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
@@ -1299,7 +1305,7 @@ declare module DevExpress.animation {
   /**
    * @deprecated Use the PositionConfig type instead
    */
-  export interface positionConfig extends PositionConfig { }
+  export interface positionConfig extends PositionConfig {}
 }
 declare module DevExpress.common {
   export type ApplyValueMode = 'instantly' | 'useButtons';
@@ -1519,6 +1525,10 @@ declare module DevExpress.common {
      */
     pointerEventStrategy?: 'mouse-and-touch' | 'mouse' | 'touch';
     /**
+     * @deprecated Attention! This field is not documented and should only be specified in a limited number of use cases. For more information, please submit a ticket to our Support Center.
+     */
+    timezones?: unknown[];
+    /**
      * Specifies whether the UI components support a right-to-left representation. Available for individual UI components as well.
      */
     rtlEnabled?: boolean;
@@ -1543,6 +1553,7 @@ declare module DevExpress.common {
      * A license key.
      */
     licenseKey?: string;
+    buyNowLink?: string;
   };
   /**
    * An additional type for LoadResult.
@@ -1922,25 +1933,25 @@ declare module DevExpress.common.charts {
      * Generates an empty space, measured in pixels, around the legend.
      */
     margin?:
-    | number
-    | {
-      /**
-       * Specifies the legend&apos;s bottom margin in pixels.
-       */
-      bottom?: number;
-      /**
-       * Specifies the legend&apos;s left margin in pixels.
-       */
-      left?: number;
-      /**
-       * Specifies the legend&apos;s right margin in pixels.
-       */
-      right?: number;
-      /**
-       * Specifies the legend&apos;s top margin in pixels.
-       */
-      top?: number;
-    };
+      | number
+      | {
+          /**
+           * Specifies the legend&apos;s bottom margin in pixels.
+           */
+          bottom?: number;
+          /**
+           * Specifies the legend&apos;s left margin in pixels.
+           */
+          left?: number;
+          /**
+           * Specifies the legend&apos;s right margin in pixels.
+           */
+          right?: number;
+          /**
+           * Specifies the legend&apos;s top margin in pixels.
+           */
+          top?: number;
+        };
     /**
      * Specifies the marker&apos;s size in a legend item in pixels.
      */
@@ -1969,69 +1980,69 @@ declare module DevExpress.common.charts {
      * Configures the legend title.
      */
     title?:
-    | {
-      /**
-       * Specifies the legend title&apos;s font properties.
-       */
-      font?: Font;
-      /**
-       * Along with verticalAlignment, specifies the legend title&apos;s position.
-       */
-      horizontalAlignment?: HorizontalAlignment;
-      /**
-       * Generates space around the legend title.
-       */
-      margin?: {
-        /**
-         * Specifies the legend title&apos;s bottom margin.
-         */
-        bottom?: number;
-        /**
-         * Specifies the legend title&apos;s left margin.
-         */
-        left?: number;
-        /**
-         * Specifies the legend title&apos;s right margin.
-         */
-        right?: number;
-        /**
-         * Specifies the legend title&apos;s top margin.
-         */
-        top?: number;
-      };
-      /**
-       * Reserves a pixel-measured space for the legend title.
-       */
-      placeholderSize?: number;
-      /**
-       * Configures the legend subtitle. The subtitle appears only if the title is specified.
-       */
-      subtitle?:
       | {
-        /**
-         * Specifies the legend subtitle&apos;s font properties.
-         */
-        font?: Font;
-        /**
-         * Specifies the distance between the legend&apos;s title and subtitle in pixels.
-         */
-        offset?: number;
-        /**
-         * Specifies the subtitle&apos;s text.
-         */
-        text?: string;
-      }
+          /**
+           * Specifies the legend title&apos;s font properties.
+           */
+          font?: Font;
+          /**
+           * Along with verticalAlignment, specifies the legend title&apos;s position.
+           */
+          horizontalAlignment?: HorizontalAlignment;
+          /**
+           * Generates space around the legend title.
+           */
+          margin?: {
+            /**
+             * Specifies the legend title&apos;s bottom margin.
+             */
+            bottom?: number;
+            /**
+             * Specifies the legend title&apos;s left margin.
+             */
+            left?: number;
+            /**
+             * Specifies the legend title&apos;s right margin.
+             */
+            right?: number;
+            /**
+             * Specifies the legend title&apos;s top margin.
+             */
+            top?: number;
+          };
+          /**
+           * Reserves a pixel-measured space for the legend title.
+           */
+          placeholderSize?: number;
+          /**
+           * Configures the legend subtitle. The subtitle appears only if the title is specified.
+           */
+          subtitle?:
+            | {
+                /**
+                 * Specifies the legend subtitle&apos;s font properties.
+                 */
+                font?: Font;
+                /**
+                 * Specifies the distance between the legend&apos;s title and subtitle in pixels.
+                 */
+                offset?: number;
+                /**
+                 * Specifies the subtitle&apos;s text.
+                 */
+                text?: string;
+              }
+            | string;
+          /**
+           * Specifies the legend title&apos;s text.
+           */
+          text?: string;
+          /**
+           * Specifies the legend title&apos;s vertical alignment.
+           */
+          verticalAlignment?: VerticalEdge;
+        }
       | string;
-      /**
-       * Specifies the legend title&apos;s text.
-       */
-      text?: string;
-      /**
-       * Specifies the legend title&apos;s vertical alignment.
-       */
-      verticalAlignment?: VerticalEdge;
-    }
-    | string;
     /**
      * Along with horizontalAlignment, specifies the legend&apos;s position.
      */
@@ -2367,54 +2378,54 @@ declare module DevExpress.common.charts {
      * Substitutes the standard point symbols with an image.
      */
     image?:
-    | string
-    | {
-      /**
-       * Specifies the height of the image used instead of a point marker.
-       */
-      height?:
-      | number
-      | {
-        /**
-         * Specifies the height of the image that represents the maximum point in a range area series.
-         */
-        rangeMaxPoint?: number;
-        /**
-         * Specifies the height of the image that represents the minimum point in a range area series.
-         */
-        rangeMinPoint?: number;
-      };
-      /**
-       * Specifies the URL of the image to be used as a point marker.
-       */
-      url?:
       | string
       | {
-        /**
-         * Specifies the URL of the image to be used as a maximum point marker.
-         */
-        rangeMaxPoint?: string;
-        /**
-         * Specifies the URL of the image to be used as a maximum point marker.
-         */
-        rangeMinPoint?: string;
-      };
-      /**
-       * Specifies the width of an image that is used as a point marker.
-       */
-      width?:
-      | number
-      | {
-        /**
-         * Specifies the width of the image that represents the maximum point in a range area series.
-         */
-        rangeMaxPoint?: number;
-        /**
-         * Specifies the width of the image that represents the minimum point in a range area series.
-         */
-        rangeMinPoint?: number;
-      };
-    };
+          /**
+           * Specifies the height of the image used instead of a point marker.
+           */
+          height?:
+            | number
+            | {
+                /**
+                 * Specifies the height of the image that represents the maximum point in a range area series.
+                 */
+                rangeMaxPoint?: number;
+                /**
+                 * Specifies the height of the image that represents the minimum point in a range area series.
+                 */
+                rangeMinPoint?: number;
+              };
+          /**
+           * Specifies the URL of the image to be used as a point marker.
+           */
+          url?:
+            | string
+            | {
+                /**
+                 * Specifies the URL of the image to be used as a maximum point marker.
+                 */
+                rangeMaxPoint?: string;
+                /**
+                 * Specifies the URL of the image to be used as a maximum point marker.
+                 */
+                rangeMinPoint?: string;
+              };
+          /**
+           * Specifies the width of an image that is used as a point marker.
+           */
+          width?:
+            | number
+            | {
+                /**
+                 * Specifies the width of the image that represents the maximum point in a range area series.
+                 */
+                rangeMaxPoint?: number;
+                /**
+                 * Specifies the width of the image that represents the minimum point in a range area series.
+                 */
+                rangeMinPoint?: number;
+              };
+        };
     /**
      * Specifies series elements to be highlighted when a user selects a series point.
      */
@@ -2525,43 +2536,43 @@ declare module DevExpress.common.charts {
   export type TimeIntervalConfig =
     | number
     | {
-      /**
-       * Specifies the time interval measured in days. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      days?: number;
-      /**
-       * Specifies the time interval measured in hours. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      hours?: number;
-      /**
-       * Specifies the time interval measured in milliseconds. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      milliseconds?: number;
-      /**
-       * Specifies the time interval measured in minutes. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      minutes?: number;
-      /**
-       * Specifies the time interval measured in months. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      months?: number;
-      /**
-       * Specifies the time interval measured in quarters. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      quarters?: number;
-      /**
-       * Specifies the time interval measured in seconds. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      seconds?: number;
-      /**
-       * Specifies the time interval measured in weeks. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      weeks?: number;
-      /**
-       * Specifies the time interval measured in years. Accepts integer values. Available only for an axis/scale that displays date-time values.
-       */
-      years?: number;
-    }
+        /**
+         * Specifies the time interval measured in days. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        days?: number;
+        /**
+         * Specifies the time interval measured in hours. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        hours?: number;
+        /**
+         * Specifies the time interval measured in milliseconds. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        milliseconds?: number;
+        /**
+         * Specifies the time interval measured in minutes. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        minutes?: number;
+        /**
+         * Specifies the time interval measured in months. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        months?: number;
+        /**
+         * Specifies the time interval measured in quarters. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        quarters?: number;
+        /**
+         * Specifies the time interval measured in seconds. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        seconds?: number;
+        /**
+         * Specifies the time interval measured in weeks. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        weeks?: number;
+        /**
+         * Specifies the time interval measured in years. Accepts integer values. Available only for an axis/scale that displays date-time values.
+         */
+        years?: number;
+      }
     | TimeInterval;
   export type ValueErrorBarDisplayMode = 'auto' | 'high' | 'low' | 'none';
   export type ValueErrorBarType =
@@ -2658,8 +2669,8 @@ declare module DevExpress.common.grids {
      * Calculates custom display values for column cells. Requires specifying the dataField or calculateCellValue property. Used in lookup optimization.
      */
     calculateDisplayValue?:
-    | string
-    | ((this: ColumnBase, rowData: TRowData) => any);
+      | string
+      | ((this: ColumnBase, rowData: TRowData) => any);
     /**
      * Specifies the column&apos;s custom rules to filter data.
      */
@@ -2674,8 +2685,8 @@ declare module DevExpress.common.grids {
      * Calculates custom values used to sort this column.
      */
     calculateSortValue?:
-    | string
-    | ((this: ColumnBase, rowData: TRowData) => any);
+      | string
+      | ((this: ColumnBase, rowData: TRowData) => any);
     /**
      * Specifies a caption for the column.
      */
@@ -3000,11 +3011,11 @@ declare module DevExpress.common.grids {
      * Specifies the header filter&apos;s data source.
      */
     dataSource?:
-    | DevExpress.ui.dxFilterBuilder.FilterLookupDataSource<any>
-    | ((options: {
-      component?: any;
-      dataSource?: DevExpress.data.DataSource.Options | null;
-    }) => void);
+      | DevExpress.ui.dxFilterBuilder.FilterLookupDataSource<any>
+      | ((options: {
+          component?: any;
+          dataSource?: DevExpress.data.DataSource.Options | null;
+        }) => void);
     /**
      * Specifies how the header filter combines values into groups. Does not apply if you specify a custom header filter data source.
      */
@@ -3045,12 +3056,12 @@ declare module DevExpress.common.grids {
      * Specifies the data source for the lookup column.
      */
     dataSource?:
-    | DevExpress.ui.dxFilterBuilder.FilterLookupDataSource<any>
-    | ((options: {
-      data?: any;
-      key?: any;
-    }) => DevExpress.ui.dxFilterBuilder.FilterLookupDataSource<any>)
-    | null;
+      | DevExpress.ui.dxFilterBuilder.FilterLookupDataSource<any>
+      | ((options: {
+          data?: any;
+          key?: any;
+        }) => DevExpress.ui.dxFilterBuilder.FilterLookupDataSource<any>)
+      | null;
     /**
      * Specifies the data source field whose values must be displayed.
      */
@@ -4326,17 +4337,17 @@ declare module DevExpress.common.grids {
      * Specifies the cursor offset from the dragged row.
      */
     cursorOffset?:
-    | string
-    | {
-      /**
-       * Specifies the horizontal cursor offset from the dragged row in pixels.
-       */
-      x?: number;
-      /**
-       * Specifies the vertical cursor offset from the dragged row in pixels.
-       */
-      y?: number;
-    };
+      | string
+      | {
+          /**
+           * Specifies the horizontal cursor offset from the dragged row in pixels.
+           */
+          x?: number;
+          /**
+           * Specifies the vertical cursor offset from the dragged row in pixels.
+           */
+          y?: number;
+        };
     /**
      * A container for custom data.
      */
@@ -4349,11 +4360,11 @@ declare module DevExpress.common.grids {
      * Specifies custom markup to be shown instead of the item being dragged.
      */
     dragTemplate?:
-    | DevExpress.core.template
-    | ((
-      dragInfo: RowDraggingTemplateData<TRowData>,
-      containerElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          dragInfo: RowDraggingTemplateData<TRowData>,
+          containerElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies how to highlight the row&apos;s drop position.
      */
@@ -4829,7 +4840,7 @@ declare module DevExpress.core {
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
   type ComponentFactory<TComponent> = {
-    new(
+    new (
       element: UserDefinedElement,
       options?: Record<string, unknown>
     ): TComponent;
@@ -4838,19 +4849,19 @@ declare module DevExpress.core {
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface Condition { }
+  export interface Condition {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  interface Condition extends JQueryEventObject { }
+  interface Condition extends JQueryEventObject {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
   export type DeepPartial<T> = T extends Scalar
     ? T
     : {
-      [P in keyof T]?: DeepPartial<T[P]>;
-    };
+        [P in keyof T]?: DeepPartial<T[P]>;
+      };
   /**
    * Specifies the device-dependent default configuration properties for a component.
    */
@@ -4894,19 +4905,19 @@ declare module DevExpress.core {
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface ElementsArrayWrapper<T extends Element> { }
+  export interface ElementsArrayWrapper<T extends Element> {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  interface ElementsArrayWrapper<T extends Element> extends JQuery<T> { }
+  interface ElementsArrayWrapper<T extends Element> extends JQuery<T> {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface ElementWrapper<T extends Element> { }
+  export interface ElementWrapper<T extends Element> {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  interface ElementWrapper<T extends Element> extends JQuery<T> { }
+  interface ElementWrapper<T extends Element> extends JQuery<T> {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
@@ -4930,11 +4941,11 @@ declare module DevExpress.core {
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface PromiseType<T> { }
+  export interface PromiseType<T> {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  interface PromiseType<T> extends JQueryPromise<T> { }
+  interface PromiseType<T> extends JQueryPromise<T> {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
@@ -4992,9 +5003,9 @@ declare module DevExpress.core.utils {
     then<TResult1 = T, TResult2 = never>(
       onFulfilled?:
         | ((
-          value: T,
-          extraParameters?: any
-        ) => TResult1 | PromiseLike<TResult1>)
+            value: T,
+            extraParameters?: any
+          ) => TResult1 | PromiseLike<TResult1>)
         | undefined
         | null,
       onRejected?:
@@ -5429,9 +5440,9 @@ declare module DevExpress.data {
       select?: SelectDescriptor<TItem>;
       sort?: SortDescriptor<TItem> | Array<SortDescriptor<TItem>>;
       store?:
-      | Array<TStoreItem>
-      | DevExpress.data.utils.Store<TStoreItem, any>
-      | DevExpress.data.utils.StoreOptions<TStoreItem, any>;
+        | Array<TStoreItem>
+        | DevExpress.data.utils.Store<TStoreItem, any>
+        | DevExpress.data.utils.StoreOptions<TStoreItem, any>;
     }
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -5539,9 +5550,9 @@ declare module DevExpress.data {
      * Configures the store underlying the DataSource.
      */
     store?:
-    | Array<TStoreItem>
-    | DevExpress.data.utils.Store<TStoreItem, TKey>
-    | DevExpress.data.utils.StoreOptions<TStoreItem, TKey>;
+      | Array<TStoreItem>
+      | DevExpress.data.utils.Store<TStoreItem, TKey>
+      | DevExpress.data.utils.StoreOptions<TStoreItem, TKey>;
   }
   /**
    * The EdmLiteral is an object for working with primitive data types from the OData&apos;s Abstract Type System that are not supported in JavaScript.
@@ -5583,9 +5594,9 @@ declare module DevExpress.data {
   export type GroupDescriptor<T> =
     | KeySelector<T>
     | (OrderingDescriptor<T> & {
-      groupInterval?: number | GroupingInterval;
-      isExpanded?: boolean;
-    });
+        groupInterval?: number | GroupingInterval;
+        isExpanded?: boolean;
+      });
   export type GroupingInterval =
     | 'year'
     | 'quarter'
@@ -5930,14 +5941,14 @@ declare module DevExpress.data {
      * Specifies the type of the key property or properties.
      */
     keyType?:
-    | 'String'
-    | 'Int32'
-    | 'Int64'
-    | 'Guid'
-    | 'Boolean'
-    | 'Single'
-    | 'Decimal'
-    | any;
+      | 'String'
+      | 'Int32'
+      | 'Int64'
+      | 'Guid'
+      | 'Boolean'
+      | 'Single'
+      | 'Decimal'
+      | any;
     /**
      * Specifies the URL of an OData entity collection.
      */
@@ -6198,8 +6209,8 @@ declare module DevExpress.data {
      * Specifies how the field&apos;s values are combined into groups for the headers. Cannot be used with an XmlaStore.
      */
     groupInterval?:
-    | DevExpress.data.PivotGridDataSource.PivotGridGroupInterval
-    | number;
+      | DevExpress.data.PivotGridDataSource.PivotGridGroupInterval
+      | number;
     /**
      * Specifies the name of the field&apos;s group.
      */
@@ -6340,22 +6351,22 @@ declare module DevExpress.data {
      * Configures the DataSource&apos;s underlying store.
      */
     store?:
-    | DevExpress.data.utils.Store
-    | DevExpress.data.utils.StoreOptions
-    | XmlaStore
-    | (XmlaStoreOptions & { type: 'xmla' })
-    | Array<{
-      /**
-       * Specifies the PivotGridDataSource&apos;s storage type.
-       */
-      type?: DevExpress.data.PivotGridDataSource.PivotGridStoreType;
-    }>
-    | {
-      /**
-       * Specifies the PivotGridDataSource&apos;s storage type.
-       */
-      type?: DevExpress.data.PivotGridDataSource.PivotGridStoreType;
-    };
+      | DevExpress.data.utils.Store
+      | DevExpress.data.utils.StoreOptions
+      | XmlaStore
+      | (XmlaStoreOptions & { type: 'xmla' })
+      | Array<{
+          /**
+           * Specifies the PivotGridDataSource&apos;s storage type.
+           */
+          type?: DevExpress.data.PivotGridDataSource.PivotGridStoreType;
+        }>
+      | {
+          /**
+           * Specifies the PivotGridDataSource&apos;s storage type.
+           */
+          type?: DevExpress.data.PivotGridDataSource.PivotGridStoreType;
+        };
   }
   /**
    * Creates a Query instance.
@@ -6564,8 +6575,8 @@ declare module DevExpress.data {
   export type SummaryDescriptor<T> =
     | KeySelector<T>
     | (SelectionDescriptor<T> & {
-      summaryType?: 'sum' | 'avg' | 'min' | 'max' | 'count';
-    });
+        summaryType?: 'sum' | 'avg' | 'min' | 'max' | 'count';
+      });
   /**
    * The XmlaStore is a store that provides an interface for accessing an OLAP cube according to the XMLA standard.
    */
@@ -6808,7 +6819,7 @@ declare module DevExpress.events {
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface EventType { }
+  export interface EventType {}
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
@@ -7754,7 +7765,7 @@ declare module DevExpress.pdfExporter {
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
   export interface PdfDataGridCell
-    extends DevExpress.excelExporter.DataGridCell { }
+    extends DevExpress.excelExporter.DataGridCell {}
   /**
    * Properties that can be passed as a parameter to the exportDataGrid(options) method from the pdfExporter module.
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -7969,12 +7980,12 @@ declare module DevExpress.ui {
      * Specifies a template that should be used to render this item only.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      itemData: this,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: this,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies text displayed for the UI component item.
      */
@@ -8005,12 +8016,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for items.
      */
     itemTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: TItem,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: TItem,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * An array of items displayed by the UI component.
      */
@@ -8027,14 +8038,14 @@ declare module DevExpress.ui {
      * A function that is executed when a collection item is clicked or tapped.
      */
     onItemClick?:
-    | ((
-      e: DevExpress.events.NativeEventInfo<
-        TComponent,
-        MouseEvent | PointerEvent
-      > &
-        DevExpress.events.ItemInfo<TItem>
-    ) => void)
-    | string;
+      | ((
+          e: DevExpress.events.NativeEventInfo<
+            TComponent,
+            MouseEvent | PointerEvent
+          > &
+            DevExpress.events.ItemInfo<TItem>
+        ) => void)
+      | string;
     /**
      * A function that is executed when a collection item is right-clicked or pressed.
      */
@@ -8121,12 +8132,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for items.
      */
     itemTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * An array of items displayed by the UI component.
      */
@@ -8218,7 +8229,7 @@ declare module DevExpress.ui {
    * 
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface DraggableBase { }
+  export interface DraggableBase {}
   /**
    * 
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -8241,17 +8252,17 @@ declare module DevExpress.ui {
      * Specifies the cursor offset from the dragged item.
      */
     cursorOffset?:
-    | string
-    | {
-      /**
-       * Specifies the horizontal cursor offset from the dragged item in pixels.
-       */
-      x?: number;
-      /**
-       * Specifies the vertical cursor offset from the dragged item in pixels.
-       */
-      y?: number;
-    };
+      | string
+      | {
+          /**
+           * Specifies the horizontal cursor offset from the dragged item in pixels.
+           */
+          x?: number;
+          /**
+           * Specifies the vertical cursor offset from the dragged item in pixels.
+           */
+          y?: number;
+        };
     /**
      * A container for custom data.
      */
@@ -8426,8 +8437,8 @@ declare module DevExpress.ui {
      * Specifies a template that should be used to render the title for this item only.
      */
     titleTemplate?:
-    | DevExpress.core.template
-    | (() => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | (() => string | DevExpress.core.UserDefinedElement);
   }
   /**
    * 
@@ -8469,22 +8480,22 @@ declare module DevExpress.ui {
      * Specifies a custom template for items.
      */
     itemTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: TItem,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: TItem,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies a custom template for item titles.
      */
     itemTitleTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: TItem,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: TItem,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * An array of items displayed by the UI component.
      */
@@ -8497,10 +8508,10 @@ declare module DevExpress.ui {
      * A function that is executed when an accordion item&apos;s title is clicked or tapped.
      */
     onItemTitleClick?:
-    | ((
-      e: DevExpress.ui.dxAccordion.ItemTitleClickEvent<TItem, TKey>
-    ) => void)
-    | string;
+      | ((
+          e: DevExpress.ui.dxAccordion.ItemTitleClickEvent<TItem, TKey>
+        ) => void)
+      | string;
     /**
      * Specifies whether to repaint only those elements whose data changed.
      */
@@ -8643,13 +8654,13 @@ declare module DevExpress.ui {
      * A handler for the click event raised for the button representing the given action sheet button.
      */
     onClick?:
-    | ((
-      e: DevExpress.events.NativeEventInfo<
-        dxActionSheet<this, TKey>,
-        MouseEvent | PointerEvent
-      >
-    ) => void)
-    | string;
+      | ((
+          e: DevExpress.events.NativeEventInfo<
+            dxActionSheet<this, TKey>,
+            MouseEvent | PointerEvent
+          >
+        ) => void)
+      | string;
     /**
      * Specifies the type of the button that is an action sheet item.
      */
@@ -8683,8 +8694,8 @@ declare module DevExpress.ui {
      * A function that is executed when the Cancel button is clicked or tapped.
      */
     onCancelClick?:
-    | ((e: DevExpress.ui.dxActionSheet.CancelClickEvent<TItem, TKey>) => void)
-    | string;
+      | ((e: DevExpress.ui.dxActionSheet.CancelClickEvent<TItem, TKey>) => void)
+      | string;
     /**
      * Specifies whether or not to display the Cancel button in action sheet.
      */
@@ -8823,7 +8834,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxAutocomplete> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     /**
      * The type of the paste event handler&apos;s argument.
      */
@@ -8837,7 +8848,7 @@ declare module DevExpress.ui {
      */
     export type SelectionChangedEvent =
       DevExpress.events.EventInfo<dxAutocomplete> &
-      DevExpress.ui.dxDropDownList.SelectionChangedInfo;
+        DevExpress.ui.dxDropDownList.SelectionChangedInfo;
     /**
      * The type of the valueChanged event handler&apos;s argument.
      */
@@ -8882,7 +8893,7 @@ declare module DevExpress.ui {
   export class dxBox<
     TItem extends DevExpress.ui.dxBox.ItemLike<TKey> = any,
     TKey = any
-  > extends CollectionWidget<dxBoxOptions<TItem, TKey>, TItem, TKey> { }
+  > extends CollectionWidget<dxBoxOptions<TItem, TKey>, TItem, TKey> {}
   module dxBox {
     export type BoxDirection = 'col' | 'row';
     /**
@@ -9036,7 +9047,7 @@ declare module DevExpress.ui {
   /**
    * The Button UI component is a simple button that performs specified commands when a user clicks it.
    */
-  export class dxButton extends Widget<dxButtonOptions> { }
+  export class dxButton extends Widget<dxButtonOptions> {}
   module dxButton {
     /**
      * The type of the click event handler&apos;s argument.
@@ -9077,7 +9088,7 @@ declare module DevExpress.ui {
   /**
    * The ButtonGroup is a UI component that contains a set of toggle buttons and can be used as a mode switcher.
    */
-  export class dxButtonGroup extends Widget<dxButtonGroupOptions> { }
+  export class dxButtonGroup extends Widget<dxButtonGroupOptions> {}
   module dxButtonGroup {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -9105,14 +9116,14 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxButtonGroup> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxButtonGroupOptions;
     /**
      * The type of the selectionChanged event handler&apos;s argument.
      */
     export type SelectionChangedEvent =
       DevExpress.events.EventInfo<dxButtonGroup> &
-      DevExpress.ui.CollectionWidget.SelectionChangedInfo;
+        DevExpress.ui.CollectionWidget.SelectionChangedInfo;
   }
   /**
    * @deprecated Use Item instead
@@ -9147,11 +9158,11 @@ declare module DevExpress.ui {
      * Specifies a template for all the buttons in the group.
      */
     buttonTemplate?:
-    | DevExpress.core.template
-    | ((
-      buttonData: any,
-      buttonContent: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          buttonData: any,
+          buttonContent: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies whether the UI component can be focused using keyboard navigation.
      */
@@ -9229,11 +9240,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for the Button UI component.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      data: DevExpress.ui.dxButton.TemplateData,
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          data: DevExpress.ui.dxButton.TemplateData,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * The text displayed on the button.
      */
@@ -9326,12 +9337,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for calendar cells.
      */
     cellTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: DevExpress.ui.dxCalendar.CellTemplateData,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: DevExpress.ui.dxCalendar.CellTemplateData,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the date-time value serialization format.
      */
@@ -9340,8 +9351,8 @@ declare module DevExpress.ui {
      * Specifies dates that users cannot select.
      */
     disabledDates?:
-    | Array<Date>
-    | ((data: DevExpress.ui.dxCalendar.DisabledDate) => boolean);
+      | Array<Date>
+      | ((data: DevExpress.ui.dxCalendar.DisabledDate) => boolean);
     /**
      * Specifies the first day of a week.
      */
@@ -9629,11 +9640,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for the input field. Must contain the TextBox UI component.
      */
     fieldTemplate?:
-    | DevExpress.core.template
-    | ((
-      value: string,
-      fieldElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          value: string,
+          fieldElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the size of a step by which a handle is moved using a keyboard shortcut.
      */
@@ -9730,7 +9741,7 @@ declare module DevExpress.ui {
         dxContextMenu<TKey>,
         MouseEvent | PointerEvent | TouchEvent
       > &
-      DevExpress.events.ItemInfo<Item>;
+        DevExpress.events.ItemInfo<Item>;
     /**
      * The type of the itemRendered event handler&apos;s argument.
      */
@@ -9799,12 +9810,12 @@ declare module DevExpress.ui {
      * @deprecated Use the hideOnOutsideClick option instead.
      */
     closeOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * Binds the UI component to data.
      */
@@ -9816,12 +9827,12 @@ declare module DevExpress.ui {
      * Specifies whether to hide the UI component if a user clicks outside it.
      */
     hideOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * Holds an array of menu items.
      */
@@ -9856,17 +9867,17 @@ declare module DevExpress.ui {
      * Specifies properties for displaying the UI component.
      */
     showEvent?:
-    | {
-      /**
-       * The delay in milliseconds after which the UI component is displayed.
-       */
-      delay?: number;
-      /**
-       * Specifies the event names on which the UI component is shown.
-       */
-      name?: string;
-    }
-    | string;
+      | {
+          /**
+           * The delay in milliseconds after which the UI component is displayed.
+           */
+          delay?: number;
+          /**
+           * Specifies the event names on which the UI component is shown.
+           */
+          name?: string;
+        }
+      | string;
     /**
      * Specifies the direction at which submenus are displayed.
      */
@@ -9885,7 +9896,8 @@ declare module DevExpress.ui {
    */
   export class dxDataGrid<TRowData = any, TKey = any>
     extends Widget<dxDataGridOptions<TRowData, TKey>>
-    implements DevExpress.common.grids.GridBase<TRowData, TKey> {
+    implements DevExpress.common.grids.GridBase<TRowData, TKey>
+  {
     /**
      * Adds a new column.
      */
@@ -10525,20 +10537,20 @@ declare module DevExpress.ui {
        * Specifies whether a user can delete rows. It is called for each data row when defined as a function.
        */
       allowDeleting?:
-      | boolean
-      | ((options: {
-        component?: dxDataGrid<TRowData, TKey>;
-        row?: Row<TRowData, TKey>;
-      }) => boolean);
+        | boolean
+        | ((options: {
+            component?: dxDataGrid<TRowData, TKey>;
+            row?: Row<TRowData, TKey>;
+          }) => boolean);
       /**
        * Specifies whether a user can update rows. It is called for each data row when defined as a function.
        */
       allowUpdating?:
-      | boolean
-      | ((options: {
-        component?: dxDataGrid<TRowData, TKey>;
-        row?: Row<TRowData, TKey>;
-      }) => boolean);
+        | boolean
+        | ((options: {
+            component?: dxDataGrid<TRowData, TKey>;
+            row?: Row<TRowData, TKey>;
+          }) => boolean);
       /**
        * Contains properties that specify texts for editing-related UI elements.
        */
@@ -11107,11 +11119,11 @@ declare module DevExpress.ui {
        * Specifies a custom template for detail sections.
        */
       template?:
-      | DevExpress.core.template
-      | ((
-        detailElement: DevExpress.core.DxElement,
-        detailInfo: MasterDetailTemplateData<TRowData, TKey>
-      ) => any);
+        | DevExpress.core.template
+        | ((
+            detailElement: DevExpress.core.DxElement,
+            detailInfo: MasterDetailTemplateData<TRowData, TKey>
+          ) => any);
     };
     export type MasterDetailTemplateData<TRowData = any, TKey = any> = {
       readonly key: TKey;
@@ -11807,20 +11819,20 @@ declare module DevExpress.ui {
      * Sets custom column values used to group grid records.
      */
     calculateGroupValue?:
-    | string
-    | ((this: DevExpress.ui.dxDataGrid.ColumnBase, rowData: TRowData) => any);
+      | string
+      | ((this: DevExpress.ui.dxDataGrid.ColumnBase, rowData: TRowData) => any);
     /**
      * Specifies a custom template for data cells.
      */
     cellTemplate?:
-    | DevExpress.core.template
-    | ((
-      cellElement: DevExpress.core.DxElement,
-      cellInfo: DevExpress.ui.dxDataGrid.ColumnCellTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          cellElement: DevExpress.core.DxElement,
+          cellInfo: DevExpress.ui.dxDataGrid.ColumnCellTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => any);
     /**
      * An array of grid columns.
      */
@@ -11829,26 +11841,26 @@ declare module DevExpress.ui {
      * Specifies a custom template for data cells in editing state.
      */
     editCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      cellElement: DevExpress.core.DxElement,
-      cellInfo: DevExpress.ui.dxDataGrid.ColumnEditCellTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          cellElement: DevExpress.core.DxElement,
+          cellInfo: DevExpress.ui.dxDataGrid.ColumnEditCellTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => any);
     /**
      * Specifies a custom template for group cells (group rows).
      */
     groupCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      cellElement: DevExpress.core.DxElement,
-      cellInfo: DevExpress.ui.dxDataGrid.ColumnGroupCellTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          cellElement: DevExpress.core.DxElement,
+          cellInfo: DevExpress.ui.dxDataGrid.ColumnGroupCellTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => any);
     /**
      * Specifies the index of a column when grid records are grouped by the values of this column.
      */
@@ -11857,14 +11869,14 @@ declare module DevExpress.ui {
      * Specifies a custom template for column headers.
      */
     headerCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      columnHeader: DevExpress.core.DxElement,
-      headerInfo: DevExpress.ui.dxDataGrid.ColumnHeaderCellTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          columnHeader: DevExpress.core.DxElement,
+          headerInfo: DevExpress.ui.dxDataGrid.ColumnHeaderCellTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => any);
     /**
      * Specifies whether or not to display the column when grid records are grouped by it.
      */
@@ -11894,34 +11906,34 @@ declare module DevExpress.ui {
      * Specifies a custom button template.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      cellElement: DevExpress.core.DxElement,
-      cellInfo: DevExpress.ui.dxDataGrid.ColumnButtonTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          cellElement: DevExpress.core.DxElement,
+          cellInfo: DevExpress.ui.dxDataGrid.ColumnButtonTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the button&apos;s visibility.
      */
     visible?:
-    | boolean
-    | ((options: {
-      component?: dxDataGrid<TRowData, TKey>;
-      row?: DevExpress.ui.dxDataGrid.Row<TRowData, TKey>;
-      column?: DevExpress.ui.dxDataGrid.Column<TRowData, TKey>;
-    }) => boolean);
+      | boolean
+      | ((options: {
+          component?: dxDataGrid<TRowData, TKey>;
+          row?: DevExpress.ui.dxDataGrid.Row<TRowData, TKey>;
+          column?: DevExpress.ui.dxDataGrid.Column<TRowData, TKey>;
+        }) => boolean);
     /**
      * Specifies whether the button is disabled.
      */
     disabled?:
-    | boolean
-    | ((options: {
-      component?: dxDataGrid<TRowData, TKey>;
-      row?: DevExpress.ui.dxDataGrid.Row<TRowData, TKey>;
-      column?: DevExpress.ui.dxDataGrid.Column<TRowData, TKey>;
-    }) => boolean);
+      | boolean
+      | ((options: {
+          component?: dxDataGrid<TRowData, TKey>;
+          row?: DevExpress.ui.dxDataGrid.Row<TRowData, TKey>;
+          column?: DevExpress.ui.dxDataGrid.Column<TRowData, TKey>;
+        }) => boolean);
   }
   /**
    * 
@@ -12069,53 +12081,53 @@ declare module DevExpress.ui {
      * Notifies the DataGrid of the server&apos;s data processing operations.
      */
     remoteOperations?:
-    | boolean
-    | {
-      /**
-       * Specifies whether or not filtering must be performed on the server side.
-       */
-      filtering?: boolean;
-      /**
-       * Specifies whether paging by groups should be performed on the server side.
-       */
-      groupPaging?: boolean;
-      /**
-       * Specifies whether or not grouping must be performed on the server side.
-       */
-      grouping?: boolean;
-      /**
-       * Specifies whether or not paging must be performed on the server side.
-       */
-      paging?: boolean;
-      /**
-       * Specifies whether or not sorting must be performed on the server side.
-       */
-      sorting?: boolean;
-      /**
-       * Specifies whether or not summaries summaries are calculated on the server-side.
-       */
-      summary?: boolean;
-    }
-    | DevExpress.common.Mode;
+      | boolean
+      | {
+          /**
+           * Specifies whether or not filtering must be performed on the server side.
+           */
+          filtering?: boolean;
+          /**
+           * Specifies whether paging by groups should be performed on the server side.
+           */
+          groupPaging?: boolean;
+          /**
+           * Specifies whether or not grouping must be performed on the server side.
+           */
+          grouping?: boolean;
+          /**
+           * Specifies whether or not paging must be performed on the server side.
+           */
+          paging?: boolean;
+          /**
+           * Specifies whether or not sorting must be performed on the server side.
+           */
+          sorting?: boolean;
+          /**
+           * Specifies whether or not summaries summaries are calculated on the server-side.
+           */
+          summary?: boolean;
+        }
+      | DevExpress.common.Mode;
     /**
      * Specifies a custom template for rows.
      * @deprecated Use the dataRowTemplate option instead.
      */
     rowTemplate?:
-    | DevExpress.core.template
-    | ((
-      rowElement: DevExpress.core.DxElement,
-      rowInfo: DevExpress.ui.dxDataGrid.RowTemplateData<TRowData, TKey>
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          rowElement: DevExpress.core.DxElement,
+          rowInfo: DevExpress.ui.dxDataGrid.RowTemplateData<TRowData, TKey>
+        ) => any);
     /**
      * Specifies a custom template for data rows.
      */
     dataRowTemplate?:
-    | DevExpress.core.template
-    | ((
-      rowElement: DevExpress.core.DxElement,
-      rowInfo: DevExpress.ui.dxDataGrid.DataRowTemplateData<TRowData, TKey>
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          rowElement: DevExpress.core.DxElement,
+          rowInfo: DevExpress.ui.dxDataGrid.DataRowTemplateData<TRowData, TKey>
+        ) => any);
     /**
      * Configures scrolling.
      */
@@ -12293,8 +12305,8 @@ declare module DevExpress.ui {
      * Specifies dates that users cannot select. Applies only if pickerType is &apos;calendar&apos;.
      */
     disabledDates?:
-    | Array<Date>
-    | ((data: DevExpress.ui.dxDateBox.DisabledDate) => boolean);
+      | Array<Date>
+      | ((data: DevExpress.ui.dxDateBox.DisabledDate) => boolean);
     /**
      * Specifies the attributes to be passed on to the underlying HTML element.
      */
@@ -12454,7 +12466,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxDateRangeBox> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     /**
      * The type of the paste event handler&apos;s argument.
      */
@@ -12562,7 +12574,7 @@ declare module DevExpress.ui {
   /**
    * The DeferRendering is a UI component that waits for its content to be ready before rendering it. While the content is getting ready, the DeferRendering displays a loading indicator.
    */
-  export class dxDeferRendering extends Widget<dxDeferRenderingOptions> { }
+  export class dxDeferRendering extends Widget<dxDeferRenderingOptions> {}
   module dxDeferRendering {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -12583,7 +12595,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxDeferRendering> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxDeferRenderingOptions;
     /**
      * The type of the rendered event handler&apos;s argument.
@@ -12719,173 +12731,6 @@ declare module DevExpress.ui {
       readonly item: dxDiagramShape;
     };
     /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramAutoZoomMode = 'fitContent' | 'fitWidth' | 'disabled';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramCommand =
-      | 'separator'
-      | 'exportSvg'
-      | 'exportPng'
-      | 'exportJpg'
-      | 'undo'
-      | 'redo'
-      | 'cut'
-      | 'copy'
-      | 'paste'
-      | 'selectAll'
-      | 'delete'
-      | 'fontName'
-      | 'fontSize'
-      | 'bold'
-      | 'italic'
-      | 'underline'
-      | 'fontColor'
-      | 'lineStyle'
-      | 'lineWidth'
-      | 'lineColor'
-      | 'fillColor'
-      | 'textAlignLeft'
-      | 'textAlignCenter'
-      | 'textAlignRight'
-      | 'lock'
-      | 'unlock'
-      | 'sendToBack'
-      | 'bringToFront'
-      | 'insertShapeImage'
-      | 'editShapeImage'
-      | 'deleteShapeImage'
-      | 'connectorLineType'
-      | 'connectorLineStart'
-      | 'connectorLineEnd'
-      | 'layoutTreeTopToBottom'
-      | 'layoutTreeBottomToTop'
-      | 'layoutTreeLeftToRight'
-      | 'layoutTreeRightToLeft'
-      | 'layoutLayeredTopToBottom'
-      | 'layoutLayeredBottomToTop'
-      | 'layoutLayeredLeftToRight'
-      | 'layoutLayeredRightToLeft'
-      | 'fullScreen'
-      | 'zoomLevel'
-      | 'showGrid'
-      | 'snapToGrid'
-      | 'gridSize'
-      | 'units'
-      | 'pageSize'
-      | 'pageOrientation'
-      | 'pageColor'
-      | 'simpleView'
-      | 'toolbox';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramConnectorLineEnd =
-      | 'none'
-      | 'arrow'
-      | 'outlinedTriangle'
-      | 'filledTriangle';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramConnectorLineType = 'straight' | 'orthogonal';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramConnectorPosition = 'start' | 'end';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramDataLayoutType = 'auto' | 'off' | 'tree' | 'layered';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramExportFormat = 'svg' | 'png' | 'jpg';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramItemType = 'shape' | 'connector';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramPanelVisibility =
-      | 'auto'
-      | 'visible'
-      | 'collapsed'
-      | 'disabled';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramRequestEditOperationReason =
-      | 'checkUIElementAvailability'
-      | 'modelModification';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramShapeCategory =
-      | 'general'
-      | 'flowchart'
-      | 'orgChart'
-      | 'containers'
-      | 'custom';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramShapeType =
-      | 'text'
-      | 'rectangle'
-      | 'ellipse'
-      | 'cross'
-      | 'triangle'
-      | 'diamond'
-      | 'heart'
-      | 'pentagon'
-      | 'hexagon'
-      | 'octagon'
-      | 'star'
-      | 'arrowLeft'
-      | 'arrowTop'
-      | 'arrowRight'
-      | 'arrowBottom'
-      | 'arrowNorthSouth'
-      | 'arrowEastWest'
-      | 'process'
-      | 'decision'
-      | 'terminator'
-      | 'predefinedProcess'
-      | 'document'
-      | 'multipleDocuments'
-      | 'manualInput'
-      | 'preparation'
-      | 'data'
-      | 'database'
-      | 'hardDisk'
-      | 'internalStorage'
-      | 'paperTape'
-      | 'manualOperation'
-      | 'delay'
-      | 'storedData'
-      | 'display'
-      | 'merge'
-      | 'connector'
-      | 'or'
-      | 'summingJunction'
-      | 'verticalContainer'
-      | 'horizontalContainer'
-      | 'cardWithImageOnLeft'
-      | 'cardWithImageOnTop'
-      | 'cardWithImageOnRight';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramToolboxDisplayMode = 'icons' | 'texts';
-    /**
-     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-     */
-    export type DiagramUnits = 'in' | 'cm' | 'px';
-    /**
      * The type of the disposing event handler&apos;s argument.
      */
     export type DisposingEvent = DevExpress.events.EventInfo<dxDiagram>;
@@ -12927,32 +12772,32 @@ declare module DevExpress.ui {
          * 
          */
         readonly operation:
-        | 'addShape'
-        | 'addShapeFromToolbox'
-        | 'deleteShape'
-        | 'deleteConnector'
-        | 'changeConnection'
-        | 'changeConnectorPoints';
+          | 'addShape'
+          | 'addShapeFromToolbox'
+          | 'deleteShape'
+          | 'deleteConnector'
+          | 'changeConnection'
+          | 'changeConnectorPoints';
         /**
          * 
          */
         readonly args:
-        | dxDiagramAddShapeArgs
-        | dxDiagramAddShapeFromToolboxArgs
-        | dxDiagramDeleteShapeArgs
-        | dxDiagramDeleteConnectorArgs
-        | dxDiagramChangeConnectionArgs
-        | dxDiagramChangeConnectorPointsArgs
-        | dxDiagramBeforeChangeShapeTextArgs
-        | dxDiagramChangeShapeTextArgs
-        | dxDiagramBeforeChangeConnectorTextArgs
-        | dxDiagramChangeConnectorTextArgs
-        | dxDiagramResizeShapeArgs
-        | dxDiagramMoveShapeArgs;
+          | dxDiagramAddShapeArgs
+          | dxDiagramAddShapeFromToolboxArgs
+          | dxDiagramDeleteShapeArgs
+          | dxDiagramDeleteConnectorArgs
+          | dxDiagramChangeConnectionArgs
+          | dxDiagramChangeConnectorPointsArgs
+          | dxDiagramBeforeChangeShapeTextArgs
+          | dxDiagramChangeShapeTextArgs
+          | dxDiagramBeforeChangeConnectorTextArgs
+          | dxDiagramChangeConnectorTextArgs
+          | dxDiagramResizeShapeArgs
+          | dxDiagramMoveShapeArgs;
         /**
          * 
          */
-        readonly reason: DiagramRequestEditOperationReason;
+        readonly reason: RequestEditOperationReason;
         /**
          * 
          */
@@ -13014,7 +12859,7 @@ declare module DevExpress.ui {
     /**
      * The type of the processed shape.
      */
-    shapeType?: DevExpress.ui.dxDiagram.DiagramShapeType | string;
+    shapeType?: DevExpress.ui.dxDiagram.ShapeType | string;
   }
   /**
    * Contains information about the processed connector.
@@ -13064,7 +12909,7 @@ declare module DevExpress.ui {
     /**
      * The position of the connector in the processed point.
      */
-    connectorPosition?: DevExpress.ui.dxDiagram.DiagramConnectorPosition;
+    connectorPosition?: DevExpress.ui.dxDiagram.ConnectorPosition;
   }
   /**
    * Contains information about the processed connector.
@@ -13183,32 +13028,6 @@ declare module DevExpress.ui {
     toPointIndex?: number;
   }
   /**
-   * An object that provides information about a custom command in the Diagram UI component.
-   * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
-   */
-  export interface dxDiagramCustomCommand {
-    /**
-     * Specifies the custom command&apos;s identifier.
-     */
-    name?: string;
-    /**
-     * Specifies the custom command&apos;s text and tooltip text.
-     */
-    text?: string;
-    /**
-     * Specifies the custom command&apos;s icon.
-     */
-    icon?: string;
-    /**
-     * Lists command sub items.
-     */
-    items?: Array<dxDiagramCustomCommand>;
-    /**
-     * Specifies a location for the command or separator on the main toolbar.
-     */
-    location?: DevExpress.common.ToolbarItemLocation;
-  }
-  /**
    * Contains information about the processed connector.
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
@@ -13248,7 +13067,7 @@ declare module DevExpress.ui {
     /**
      * Returns the type of the item.
      */
-    itemType?: DevExpress.ui.dxDiagram.DiagramItemType;
+    itemType?: DevExpress.ui.dxDiagram.ItemType;
   }
   /**
    * Contains information about the processed shape.
@@ -13286,183 +13105,6 @@ declare module DevExpress.ui {
       y?: number;
     };
   }
-
-  export type TCustomShape = {
-    /**
-     * Specifies whether a card shape&apos;s image can be edited.
-     */
-    allowEditImage?: boolean;
-    /**
-     * Specifies whether the shape&apos;s text can be edited.
-     */
-    allowEditText?: boolean;
-    /**
-     * Specifies whether the shape can be resized.
-     */
-    allowResize?: boolean;
-    /**
-     * Specifies the shape background image&apos;s fractional height.
-     */
-    backgroundImageHeight?: number;
-    /**
-     * Specifies the shape background image&apos;s left offset.
-     */
-    backgroundImageLeft?: number;
-    /**
-     * Specifies the shape background image&apos;s top offset.
-     */
-    backgroundImageTop?: number;
-    /**
-     * Specifies the shape background image&apos;s URL.
-     */
-    backgroundImageUrl?: string;
-    /**
-     * Specifies the shape image displayed in the toolbox.
-     */
-    backgroundImageToolboxUrl?: string;
-    /**
-     * Specifies the shape background image&apos;s fractional width.
-     */
-    backgroundImageWidth?: number;
-    /**
-     * Specifies the base shape type for the custom shape. The built-in shape types are shown in the Shape Types section.
-     */
-    baseType?: DevExpress.ui.dxDiagram.DiagramShapeType | string;
-    /**
-     * Specifies a category to which the custom shape belongs.
-     */
-    category?: string;
-    /**
-     * An array of the shape&apos;s connection points.
-     */
-    connectionPoints?: Array<{
-      /**
-       * Specifies the horizontal offset.
-       */
-      x?: number;
-      /**
-       * Specifies the vertical offset.
-       */
-      y?: number;
-    }>;
-    /**
-     * Specifies the initial height of the shape.
-     */
-    defaultHeight?: number;
-    /**
-     * Specifies the URL of an image displayed in a card shape.
-     */
-    defaultImageUrl?: string;
-    /**
-     * Specifies the initial text of the shape.
-     */
-    defaultText?: string;
-    /**
-     * Specifies the initial width of the shape.
-     */
-    defaultWidth?: number;
-    /**
-     * Specifies the shape image&apos;s fractional height.
-     */
-    imageHeight?: number;
-    /**
-     * Specifies the shape image&apos;s left offset.
-     */
-    imageLeft?: number;
-    /**
-     * Specifies the shape image&apos;s top offset.
-     */
-    imageTop?: number;
-    /**
-     * Specifies the shape image&apos;s fractional width.
-     */
-    imageWidth?: number;
-    /**
-     * Specifies whether the shape maintains its width-to-height ratio on auto resize.
-     */
-    keepRatioOnAutoSize?: boolean;
-    /**
-     * Specifies the maximum height of the shape.
-     */
-    maxHeight?: number;
-    /**
-     * Specifies the maximum width of the shape.
-     */
-    maxWidth?: number;
-    /**
-     * Specifies the maximum height of the shape.
-     */
-    minHeight?: number;
-    /**
-     * Specifies the minimum width of the shape.
-     */
-    minWidth?: number;
-    /**
-     * Specifies a custom template for the shape.
-     */
-    template?:
-    | DevExpress.core.template
-    | ((
-      container: DevExpress.core.DxElement<SVGElement>,
-      data: DevExpress.ui.dxDiagram.CustomShapeTemplateData
-    ) => any);
-    /**
-     * Specifies the shape template&apos;s fractional height.
-     */
-    templateHeight?: number;
-    /**
-     * Specifies the shape template&apos;s left offset.
-     */
-    templateLeft?: number;
-    /**
-     * Specifies the shape template&apos;s top offset.
-     */
-    templateTop?: number;
-    /**
-     * Specifies the shape template&apos;s fractional width.
-     */
-    templateWidth?: number;
-    /**
-     * Specifies the shape text container&apos;s height.
-     */
-    textHeight?: number;
-    /**
-     * Specifies the shape text&apos;s left offset.
-     */
-    textLeft?: number;
-    /**
-     * Specifies the shape text&apos;s top offset.
-     */
-    textTop?: number;
-    /**
-     * Specifies the shape text container&apos;s width.
-     */
-    textWidth?: number;
-    /**
-     * Specifies the shape&apos;s tooltip in the toolbox panel.
-     */
-    title?: string;
-    /**
-     * Specifies a custom template for the shape in the toolbox.
-     */
-    toolboxTemplate?:
-    | DevExpress.core.template
-    | ((
-      container: DevExpress.core.DxElement<SVGElement>,
-      data: DevExpress.ui.dxDiagram.CustomShapeToolboxTemplateData
-    ) => any);
-    /**
-     * Specifies the aspect ratio of the shape in the toolbox.
-     */
-    toolboxWidthToHeightRatio?: number;
-    /**
-     * Specifies the custom shape&apos;s identifier.
-     */
-    type?: string;
-  };
-
-
-
   /**
    * 
    * @deprecated 
@@ -13472,7 +13114,7 @@ declare module DevExpress.ui {
     /**
      * Specifies how the Diagram UI component automatically zooms the work area.
      */
-    autoZoomMode?: DevExpress.ui.dxDiagram.DiagramAutoZoomMode;
+    autoZoomMode?: DevExpress.ui.dxDiagram.AutoZoomMode;
     /**
      * Configures the context menu&apos;s settings.
      */
@@ -13480,7 +13122,9 @@ declare module DevExpress.ui {
       /**
        * Lists commands in the context menu.
        */
-      commands?: Array<DevExpress.ui.dxDiagram.DiagramCommand>;
+      commands?: Array<
+        DevExpress.ui.dxDiagram.CustomCommand | DevExpress.ui.dxDiagram.Command
+      >;
       /**
        * Specifies whether the context menu is enabled.
        */
@@ -13493,11 +13137,11 @@ declare module DevExpress.ui {
       /**
        * Specifies the category of shapes that are displayed in the context toolbox.
        */
-      category?: DevExpress.ui.dxDiagram.DiagramShapeCategory | string;
+      category?: DevExpress.ui.dxDiagram.ShapeCategory | string;
       /**
        * Specifies how shapes are displayed in the context toolbox.
        */
-      displayMode?: DevExpress.ui.dxDiagram.DiagramToolboxDisplayMode;
+      displayMode?: DevExpress.ui.dxDiagram.ToolboxDisplayMode;
       /**
        * Specifies the context toolbox&apos;s availability.
        */
@@ -13509,7 +13153,7 @@ declare module DevExpress.ui {
       /**
        * Lists the shapes that are displayed in the context toolbox. The built-in shape types are shown in the Shape Types section.
        */
-      shapes?: Array<DevExpress.ui.dxDiagram.DiagramShapeType> | Array<string>;
+      shapes?: Array<DevExpress.ui.dxDiagram.ShapeType> | Array<string>;
       /**
        * Specifies the context toolbox&apos;s width in pixels.
        */
@@ -13523,20 +13167,20 @@ declare module DevExpress.ui {
      * Specifies a custom template for shapes.
      */
     customShapeTemplate?:
-    | DevExpress.core.template
-    | ((
-      container: DevExpress.core.DxElement<SVGElement>,
-      data: DevExpress.ui.dxDiagram.CustomShapeTemplateData
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          container: DevExpress.core.DxElement<SVGElement>,
+          data: DevExpress.ui.dxDiagram.CustomShapeTemplateData
+        ) => any);
     /**
      * Specifies a custom template for shapes in the toolbox.
      */
     customShapeToolboxTemplate?:
-    | DevExpress.core.template
-    | ((
-      container: DevExpress.core.DxElement<SVGElement>,
-      data: DevExpress.ui.dxDiagram.CustomShapeToolboxTemplateData
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          container: DevExpress.core.DxElement<SVGElement>,
+          data: DevExpress.ui.dxDiagram.CustomShapeToolboxTemplateData
+        ) => any);
     /**
      * Provide access to an array of custom shapes.
      */
@@ -13580,7 +13224,7 @@ declare module DevExpress.ui {
       /**
        * Specifies the base shape type for the custom shape. The built-in shape types are shown in the Shape Types section.
        */
-      baseType?: DevExpress.ui.dxDiagram.DiagramShapeType | string;
+      baseType?: DevExpress.ui.dxDiagram.ShapeType | string;
       /**
        * Specifies a category to which the custom shape belongs.
        */
@@ -13654,11 +13298,11 @@ declare module DevExpress.ui {
        * Specifies a custom template for the shape.
        */
       template?:
-      | DevExpress.core.template
-      | ((
-        container: DevExpress.core.DxElement<SVGElement>,
-        data: DevExpress.ui.dxDiagram.CustomShapeTemplateData
-      ) => any);
+        | DevExpress.core.template
+        | ((
+            container: DevExpress.core.DxElement<SVGElement>,
+            data: DevExpress.ui.dxDiagram.CustomShapeTemplateData
+          ) => any);
       /**
        * Specifies the shape template&apos;s fractional height.
        */
@@ -13699,11 +13343,11 @@ declare module DevExpress.ui {
        * Specifies a custom template for the shape in the toolbox.
        */
       toolboxTemplate?:
-      | DevExpress.core.template
-      | ((
-        container: DevExpress.core.DxElement<SVGElement>,
-        data: DevExpress.ui.dxDiagram.CustomShapeToolboxTemplateData
-      ) => any);
+        | DevExpress.core.template
+        | ((
+            container: DevExpress.core.DxElement<SVGElement>,
+            data: DevExpress.ui.dxDiagram.CustomShapeToolboxTemplateData
+          ) => any);
       /**
        * Specifies the aspect ratio of the shape in the toolbox.
        */
@@ -13728,15 +13372,15 @@ declare module DevExpress.ui {
       /**
        * Specifies the default type of a connector.
        */
-      connectorLineType?: DevExpress.ui.dxDiagram.DiagramConnectorLineType;
+      connectorLineType?: DevExpress.ui.dxDiagram.ConnectorLineType;
       /**
        * Specifies the default tip of a connector&apos;s start point.
        */
-      connectorLineStart?: DevExpress.ui.dxDiagram.DiagramConnectorLineEnd;
+      connectorLineStart?: DevExpress.ui.dxDiagram.ConnectorLineEnd;
       /**
        * Specifies the default tip of a connector&apos;s end point.
        */
-      connectorLineEnd?: DevExpress.ui.dxDiagram.DiagramConnectorLineEnd;
+      connectorLineEnd?: DevExpress.ui.dxDiagram.ConnectorLineEnd;
       /**
        * Specifies the default minimum width of a shape.
        */
@@ -13881,17 +13525,17 @@ declare module DevExpress.ui {
      * Specifies the grid pitch.
      */
     gridSize?:
-    | number
-    | {
-      /**
-       * An array that specifies the _Grid Size_ combobox items on &apos;Properties&apos; panel.
-       */
-      items?: Array<number>;
-      /**
-       * Specifies the grid&apos;s pitch.
-       */
-      value?: number;
-    };
+      | number
+      | {
+          /**
+           * An array that specifies the _Grid Size_ combobox items on &apos;Properties&apos; panel.
+           */
+          items?: Array<number>;
+          /**
+           * Specifies the grid&apos;s pitch.
+           */
+          value?: number;
+        };
     /**
      * Allows you to bind the collection of diagram nodes to a data source. For more information, see the Data Binding section.
      */
@@ -13900,17 +13544,17 @@ declare module DevExpress.ui {
        * Specifies an auto-layout algorithm that the UI component uses to build a diagram.
        */
       autoLayout?:
-      | DevExpress.ui.dxDiagram.DiagramDataLayoutType
-      | {
-        /**
-         * Specifies the diagram layout orientation.
-         */
-        orientation?: DevExpress.common.Orientation;
-        /**
-         * Specifies an auto-layout algorithm that is used to automatically arrange shapes.
-         */
-        type?: DevExpress.ui.dxDiagram.DiagramDataLayoutType;
-      };
+        | DevExpress.ui.dxDiagram.DataLayoutType
+        | {
+            /**
+             * Specifies the diagram layout orientation.
+             */
+            orientation?: DevExpress.common.Orientation;
+            /**
+             * Specifies an auto-layout algorithm that is used to automatically arrange shapes.
+             */
+            type?: DevExpress.ui.dxDiagram.DataLayoutType;
+          };
       /**
        * Specifies whether or not a shape size is automatically changed to fit the text when the UI component is bound to a data source.
        */
@@ -14067,7 +13711,10 @@ declare module DevExpress.ui {
         /**
          * Lists commands in a tab.
          */
-        commands?: Array<DevExpress.ui.dxDiagram.DiagramCommand>;
+        commands?: Array<
+          | DevExpress.ui.dxDiagram.CustomCommand
+          | DevExpress.ui.dxDiagram.Command
+        >;
         /**
          * Contains an array of command groups in the tab.
          */
@@ -14075,7 +13722,10 @@ declare module DevExpress.ui {
           /**
            * Lists commands in a group.
            */
-          commands?: Array<DevExpress.ui.dxDiagram.DiagramCommand>;
+          commands?: Array<
+            | DevExpress.ui.dxDiagram.CustomCommand
+            | DevExpress.ui.dxDiagram.Command
+          >;
           /**
            * Specifies a title of the group.
            */
@@ -14089,7 +13739,7 @@ declare module DevExpress.ui {
       /**
        * Specifies the panel&apos;s visibility.
        */
-      visibility?: DevExpress.ui.dxDiagram.DiagramPanelVisibility;
+      visibility?: DevExpress.ui.dxDiagram.PanelVisibility;
     };
     /**
      * Specifies whether the diagram is read-only.
@@ -14118,7 +13768,9 @@ declare module DevExpress.ui {
       /**
        * Lists commands in the toolbar.
        */
-      commands?: Array<DevExpress.ui.dxDiagram.DiagramCommand>;
+      commands?: Array<
+        DevExpress.ui.dxDiagram.CustomCommand | DevExpress.ui.dxDiagram.Command
+      >;
       /**
        * Specifies the toolbar&apos;s visibility.
        */
@@ -14131,7 +13783,9 @@ declare module DevExpress.ui {
       /**
        * Lists commands in the history toolbar.
        */
-      commands?: Array<DevExpress.ui.dxDiagram.DiagramCommand>;
+      commands?: Array<
+        DevExpress.ui.dxDiagram.CustomCommand | DevExpress.ui.dxDiagram.Command
+      >;
       /**
        * Specifies the history toolbar&apos;s visibility.
        */
@@ -14144,7 +13798,9 @@ declare module DevExpress.ui {
       /**
        * Lists commands in the toolbar.
        */
-      commands?: Array<DevExpress.ui.dxDiagram.DiagramCommand>;
+      commands?: Array<
+        DevExpress.ui.dxDiagram.CustomCommand | DevExpress.ui.dxDiagram.Command
+      >;
       /**
        * Specifies the view toolbar&apos;s visibility.
        */
@@ -14158,31 +13814,29 @@ declare module DevExpress.ui {
        * Lists toolbox groups.
        */
       groups?:
-      | Array<{
-        /**
-         * Specifies the category of shapes that are displayed in the group.
-         */
-        category?: DevExpress.ui.dxDiagram.DiagramShapeCategory | string;
-        /**
-         * Specifies how shapes are displayed in the toolbox.
-         */
-        displayMode?: DevExpress.ui.dxDiagram.DiagramToolboxDisplayMode;
-        /**
-         * Specifies whether the group is expanded.
-         */
-        expanded?: boolean;
-        /**
-         * Lists the shapes in the group. The built-in shape types are shown in the Shape Types section.
-         */
-        shapes?:
-        | Array<DevExpress.ui.dxDiagram.DiagramShapeType>
-        | Array<string>;
-        /**
-         * Specifies the group title in the toolbox.
-         */
-        title?: string;
-      }>
-      | Array<DevExpress.ui.dxDiagram.DiagramShapeCategory>;
+        | Array<{
+            /**
+             * Specifies the category of shapes that are displayed in the group.
+             */
+            category?: DevExpress.ui.dxDiagram.ShapeCategory | string;
+            /**
+             * Specifies how shapes are displayed in the toolbox.
+             */
+            displayMode?: DevExpress.ui.dxDiagram.ToolboxDisplayMode;
+            /**
+             * Specifies whether the group is expanded.
+             */
+            expanded?: boolean;
+            /**
+             * Lists the shapes in the group. The built-in shape types are shown in the Shape Types section.
+             */
+            shapes?: Array<DevExpress.ui.dxDiagram.ShapeType> | Array<string>;
+            /**
+             * Specifies the group title in the toolbox.
+             */
+            title?: string;
+          }>
+        | Array<DevExpress.ui.dxDiagram.ShapeCategory>;
       /**
        * Specifies the number of shape icons in a row.
        */
@@ -14194,7 +13848,7 @@ declare module DevExpress.ui {
       /**
        * Specifies the toolbar&apos;s visibility.
        */
-      visibility?: DevExpress.ui.dxDiagram.DiagramPanelVisibility;
+      visibility?: DevExpress.ui.dxDiagram.PanelVisibility;
       /**
        * Specifies the toolbox&apos;s width in pixels.
        */
@@ -14203,26 +13857,26 @@ declare module DevExpress.ui {
     /**
      * Specifies the measurement unit for size properties.
      */
-    units?: DevExpress.ui.dxDiagram.DiagramUnits;
+    units?: DevExpress.ui.dxDiagram.Units;
     /**
      * Specifies the measurement unit that is displayed in user interface elements.
      */
-    viewUnits?: DevExpress.ui.dxDiagram.DiagramUnits;
+    viewUnits?: DevExpress.ui.dxDiagram.Units;
     /**
      * Specifies the zoom level.
      */
     zoomLevel?:
-    | number
-    | {
-      /**
-       * An array that specifies the zoom level items in the _Zoom Level_ combobox on &apos;Properties&apos; panel.
-       */
-      items?: Array<number>;
-      /**
-       * Specifies the zoom level.
-       */
-      value?: number;
-    };
+      | number
+      | {
+          /**
+           * An array that specifies the zoom level items in the _Zoom Level_ combobox on &apos;Properties&apos; panel.
+           */
+          items?: Array<number>;
+          /**
+           * Specifies the zoom level.
+           */
+          value?: number;
+        };
   }
   /**
    * Contains information about the processed shape.
@@ -14272,7 +13926,7 @@ declare module DevExpress.ui {
     /**
      * Specifies the shape type. The built-in shape types are shown in the Shape Types section.
      */
-    type?: DevExpress.ui.dxDiagram.DiagramShapeType | string;
+    type?: DevExpress.ui.dxDiagram.ShapeType | string;
     /**
      * Specifies the position of the top left shape corner relative to the top left corner of the diagram work area.
      */
@@ -14322,7 +13976,7 @@ declare module DevExpress.ui {
    */
   export class dxDraggable
     extends DOMComponent<dxDraggableOptions>
-    implements DraggableBase { }
+    implements DraggableBase {}
   module dxDraggable {
     /**
      * The type of the disposing event handler&apos;s argument.
@@ -14446,11 +14100,11 @@ declare module DevExpress.ui {
      * Specifies custom markup to be shown instead of the item being dragged.
      */
     dragTemplate?:
-    | DevExpress.core.template
-    | ((
-      dragInfo: DevExpress.ui.dxDraggable.DragTemplateData,
-      containerElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          dragInfo: DevExpress.ui.dxDraggable.DragTemplateData,
+          containerElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * A function that is called when a drag gesture is finished.
      */
@@ -14529,12 +14183,12 @@ declare module DevExpress.ui {
      * Specifies whether to close the drawer if a user clicks or taps the view area.
      */
     closeOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * Specifies the drawer&apos;s width or height (depending on the drawer&apos;s position) in the opened state.
      */
@@ -14567,8 +14221,8 @@ declare module DevExpress.ui {
      * Specifies the drawer&apos;s content.
      */
     template?:
-    | DevExpress.core.template
-    | ((Element: DevExpress.core.DxElement) => any);
+      | DevExpress.core.template
+      | ((Element: DevExpress.core.DxElement) => any);
   }
   /**
    * The DropDownBox UI component consists of a text field, which displays the current value, and a drop-down field, which can contain any UI element.
@@ -14672,7 +14326,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxDropDownBox> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     /**
      * The type of the paste event handler&apos;s argument.
      */
@@ -14697,7 +14351,7 @@ declare module DevExpress.ui {
    */
   export interface dxDropDownBoxOptions
     extends DataExpressionMixinOptions<dxDropDownBox>,
-    dxDropDownEditorOptions<dxDropDownBox> {
+      dxDropDownEditorOptions<dxDropDownBox> {
     /**
      * Specifies whether the UI component allows a user to enter a custom value.
      */
@@ -14706,11 +14360,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for the drop-down content.
      */
     contentTemplate?:
-    | DevExpress.core.template
-    | ((
-      templateData: DevExpress.ui.dxDropDownBox.ContentTemplateData,
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          templateData: DevExpress.ui.dxDropDownBox.ContentTemplateData,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Binds the UI component to data.
      */
@@ -14723,11 +14377,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for the text field. Must contain the TextBox UI component.
      */
     fieldTemplate?:
-    | DevExpress.core.template
-    | ((
-      value: any,
-      fieldElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          value: any,
+          fieldElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * An array of items used to synchronize the DropDownBox with an embedded UI component.
      */
@@ -14816,7 +14470,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxDropDownButton> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxDropDownButtonOptions;
     /**
      * The type of the selectionChanged event handler&apos;s argument.
@@ -14842,8 +14496,8 @@ declare module DevExpress.ui {
      * A handler for the click event raised for a certain item in the drop-down field.
      */
     onClick?:
-    | ((e: DevExpress.ui.dxDropDownButton.ItemClickEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxDropDownButton.ItemClickEvent) => void)
+      | string;
   }
   /**
    * 
@@ -14870,11 +14524,11 @@ declare module DevExpress.ui {
      * Specifies custom content for the drop-down field.
      */
     dropDownContentTemplate?:
-    | DevExpress.core.template
-    | ((
-      data: Array<string | number | any> | DevExpress.data.DataSource,
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          data: Array<string | number | any> | DevExpress.data.DataSource,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Configures the drop-down field.
      */
@@ -14895,12 +14549,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for drop-down menu items.
      */
     itemTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Provides drop-down menu items.
      */
@@ -14917,20 +14571,20 @@ declare module DevExpress.ui {
      * A function that is executed when the button is clicked or tapped. If splitButton is true, this function is executed for the action button only.
      */
     onButtonClick?:
-    | ((e: DevExpress.ui.dxDropDownButton.ButtonClickEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxDropDownButton.ButtonClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a drop-down menu item is clicked.
      */
     onItemClick?:
-    | ((e: DevExpress.ui.dxDropDownButton.ItemClickEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxDropDownButton.ItemClickEvent) => void)
+      | string;
     /**
      * A function that is executed when an item is selected or selection is canceled. In effect when useSelectMode is true.
      */
     onSelectionChanged?:
-    | ((e: DevExpress.ui.dxDropDownButton.SelectionChangedEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxDropDownButton.SelectionChangedEvent) => void)
+      | string;
     /**
      * Specifies whether the drop-down menu is opened.
      */
@@ -14955,6 +14609,15 @@ declare module DevExpress.ui {
      * Specifies how the button is styled.
      */
     stylingMode?: DevExpress.common.ButtonStyle;
+    /**
+     * Specifies a custom template for the base button in DropDownButton.
+     */
+    template?:
+      | DevExpress.core.template
+      | ((
+          data: DevExpress.ui.dxButton.TemplateData,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the button&apos;s text. Applies only if useSelectMode is false.
      */
@@ -15030,8 +14693,8 @@ declare module DevExpress.ui {
      * Configures the drop-down field which holds the content.
      */
     dropDownOptions?:
-    | DevExpress.ui.dxPopup.Properties
-    | DevExpress.ui.dxPopover.Properties;
+      | DevExpress.ui.dxPopup.Properties
+      | DevExpress.ui.dxPopover.Properties;
     /**
      * Allows you to add custom buttons to the input text field.
      */
@@ -15047,11 +14710,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for the drop-down button.
      */
     dropDownButtonTemplate?:
-    | DevExpress.core.template
-    | ((
-      buttonData: DevExpress.ui.dxDropDownEditor.DropDownButtonTemplateDataModel,
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          buttonData: DevExpress.ui.dxDropDownEditor.DropDownButtonTemplateDataModel,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * A function that is executed once the drop-down editor is closed.
      */
@@ -15076,8 +14739,8 @@ declare module DevExpress.ui {
      * Specifies the position of a validation message relative to the component. The validation message describes the validation rules that this component&apos;s value does not satisfy.
      */
     validationMessagePosition?:
-    | DevExpress.common.Position
-    | DevExpress.common.Mode;
+      | DevExpress.common.Position
+      | DevExpress.common.Mode;
     /**
      * Specifies the currently selected value.
      */
@@ -15110,7 +14773,7 @@ declare module DevExpress.ui {
    */
   export interface dxDropDownListOptions<TComponent>
     extends DataExpressionMixinOptions<TComponent>,
-    dxDropDownEditorOptions<TComponent> {
+      dxDropDownEditorOptions<TComponent> {
     /**
      * Returns the value currently displayed by the UI component.
      */
@@ -15119,12 +14782,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for group captions.
      */
     groupTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies whether data items should be grouped.
      */
@@ -15323,16 +14986,16 @@ declare module DevExpress.ui {
      */
     export type DirectoryCreatingEvent =
       DevExpress.events.EventInfo<dxFileManager> &
-      ActionEventInfo & {
-        /**
-         * 
-         */
-        readonly parentDirectory: DevExpress.fileManagement.FileSystemItem;
-        /**
-         * 
-         */
-        readonly name: string;
-      };
+        ActionEventInfo & {
+          /**
+           * 
+           */
+          readonly parentDirectory: DevExpress.fileManagement.FileSystemItem;
+          /**
+           * 
+           */
+          readonly name: string;
+        };
     /**
      * The type of the disposing event handler&apos;s argument.
      */
@@ -15404,16 +15067,16 @@ declare module DevExpress.ui {
      */
     export type FileUploadingEvent =
       DevExpress.events.EventInfo<dxFileManager> &
-      ActionEventInfo & {
-        /**
-         * 
-         */
-        readonly fileData: File;
-        /**
-         * 
-         */
-        readonly destinationDirectory: DevExpress.fileManagement.FileSystemItem;
-      };
+        ActionEventInfo & {
+          /**
+           * 
+           */
+          readonly fileData: File;
+          /**
+           * 
+           */
+          readonly destinationDirectory: DevExpress.fileManagement.FileSystemItem;
+        };
     /**
      * The type of the focusedItemChanged event handler&apos;s argument.
      */
@@ -15493,12 +15156,12 @@ declare module DevExpress.ui {
      */
     export type ItemDownloadingEvent =
       DevExpress.events.EventInfo<dxFileManager> &
-      ActionEventInfo & {
-        /**
-         * 
-         */
-        readonly item: DevExpress.fileManagement.FileSystemItem;
-      };
+        ActionEventInfo & {
+          /**
+           * 
+           */
+          readonly item: DevExpress.fileManagement.FileSystemItem;
+        };
     /**
      * The type of the itemMoved event handler&apos;s argument.
      */
@@ -15567,7 +15230,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxFileManager> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxFileManagerOptions;
     /**
      * The type of the selectedFileOpened event handler&apos;s argument.
@@ -15649,8 +15312,8 @@ declare module DevExpress.ui {
      * Specifies the context menu item&apos;s name.
      */
     name?:
-    | DevExpress.ui.dxFileManager.FileManagerPredefinedContextMenuItem
-    | string;
+      | DevExpress.ui.dxFileManager.FileManagerPredefinedContextMenuItem
+      | string;
     /**
      * Specifies the context menu item&apos;s visibility.
      */
@@ -15659,8 +15322,8 @@ declare module DevExpress.ui {
      * 
      */
     template?:
-    | DevExpress.core.template
-    | (() => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | (() => string | DevExpress.core.UserDefinedElement);
   }
   /**
    * Configures the column.
@@ -16002,8 +15665,8 @@ declare module DevExpress.ui {
      * Specifies the toolbar item&apos;s name.
      */
     name?:
-    | DevExpress.ui.dxFileManager.FileManagerPredefinedToolbarItem
-    | string;
+      | DevExpress.ui.dxFileManager.FileManagerPredefinedToolbarItem
+      | string;
     /**
      * Specifies the toolbar item&apos;s visibility.
      */
@@ -16016,14 +15679,14 @@ declare module DevExpress.ui {
      * 
      */
     template?:
-    | DevExpress.core.template
-    | (() => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | (() => string | DevExpress.core.UserDefinedElement);
     /**
      * 
      */
     menuItemTemplate?:
-    | DevExpress.core.template
-    | (() => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | (() => string | DevExpress.core.UserDefinedElement);
   }
   /**
    * The FileUploader UI component enables an end user to upload files to the server. An end user can select files in the file explorer or drag and drop files to the FileUploader area on the page.
@@ -16133,7 +15796,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxFileUploader> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     /**
      * The type of the progress event handler&apos;s argument.
      */
@@ -16623,7 +16286,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxFilterBuilder> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxFilterBuilderOptions;
     /**
      * The type of the valueChanged event handler&apos;s argument.
@@ -16672,11 +16335,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for the UI component used to edit the field value.
      */
     editorTemplate?:
-    | DevExpress.core.template
-    | ((
-      conditionInfo: DevExpress.ui.dxFilterBuilder.CustomOperationEditorTemplate,
-      container: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          conditionInfo: DevExpress.ui.dxFilterBuilder.CustomOperationEditorTemplate,
+          container: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies whether the operation can have a value. If it can, the editor is displayed.
      */
@@ -16729,11 +16392,11 @@ declare module DevExpress.ui {
      * Specifies the editor&apos;s custom template.
      */
     editorTemplate?:
-    | DevExpress.core.template
-    | ((
-      conditionInfo: DevExpress.ui.dxFilterBuilder.FieldEditorTemplate,
-      container: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          conditionInfo: DevExpress.ui.dxFilterBuilder.FieldEditorTemplate,
+          container: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the false value text. Applies only if dataType is &apos;boolean&apos;.
      */
@@ -17017,6 +16680,11 @@ declare module DevExpress.ui {
       | 'tabbed'
       | 'button';
     export type FormLabelMode = 'static' | 'floating' | 'hidden' | 'outside';
+    export type GroupCaptionTemplateData = {
+      readonly caption?: string;
+      readonly component: dxForm;
+      readonly name?: string;
+    };
     export type GroupItemTemplateData = {
       readonly component: dxForm;
       readonly formData?: any;
@@ -17130,6 +16798,15 @@ declare module DevExpress.ui {
      */
     caption?: string;
     /**
+     * Specifies a template that can be used to replace group captions with custom content.
+     */
+    captionTemplate?:
+      | DevExpress.core.template
+      | ((
+          data: DevExpress.ui.dxForm.GroupCaptionTemplateData,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
+    /**
      * The count of columns in the group layout.
      */
     colCount?: number;
@@ -17161,11 +16838,11 @@ declare module DevExpress.ui {
      * A template to be used for rendering a group item.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      data: DevExpress.ui.dxForm.GroupItemTemplateData,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          data: DevExpress.ui.dxForm.GroupItemTemplateData,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies whether or not the current form item is visible.
      */
@@ -17337,11 +17014,11 @@ declare module DevExpress.ui {
        * A template that can be used to replace the label with custom content. Applies only to labels outside their editors (see labelMode).
        */
       template?:
-      | DevExpress.core.template
-      | ((
-        itemData: DevExpress.ui.dxForm.SimpleItemLabelTemplateData,
-        itemElement: DevExpress.core.DxElement
-      ) => string | DevExpress.core.UserDefinedElement);
+        | DevExpress.core.template
+        | ((
+            itemData: DevExpress.ui.dxForm.SimpleItemLabelTemplateData,
+            itemElement: DevExpress.core.DxElement
+          ) => string | DevExpress.core.UserDefinedElement);
       /**
        * Specifies the label text.
        */
@@ -17359,11 +17036,11 @@ declare module DevExpress.ui {
      * A template that can be used to replace the default editor with custom content.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      data: DevExpress.ui.dxForm.SimpleItemTemplateData,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          data: DevExpress.ui.dxForm.SimpleItemTemplateData,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * An array of validation rules to be checked for the form item editor.
      */
@@ -17448,22 +17125,22 @@ declare module DevExpress.ui {
        * The template to be used for rendering the tab.
        */
       tabTemplate?:
-      | DevExpress.core.template
-      | ((
-        tabData: any,
-        tabIndex: number,
-        tabElement: DevExpress.core.DxElement
-      ) => any);
+        | DevExpress.core.template
+        | ((
+            tabData: any,
+            tabIndex: number,
+            tabElement: DevExpress.core.DxElement
+          ) => any);
       /**
        * The template to be used for rendering the tab content.
        */
       template?:
-      | DevExpress.core.template
-      | ((
-        tabData: any,
-        tabIndex: number,
-        tabElement: DevExpress.core.DxElement
-      ) => any);
+        | DevExpress.core.template
+        | ((
+            tabData: any,
+            tabIndex: number,
+            tabElement: DevExpress.core.DxElement
+          ) => any);
       /**
        * Specifies the tab title.
        */
@@ -18103,12 +17780,12 @@ declare module DevExpress.ui {
      */
     export type ResourceManagerDialogShowingEvent =
       DevExpress.events.Cancelable &
-      DevExpress.events.EventInfo<dxGantt> & {
-        /**
-         * 
-         */
-        readonly values: Array<any>;
-      };
+        DevExpress.events.EventInfo<dxGantt> & {
+          /**
+           * 
+           */
+          readonly values: Array<any>;
+        };
     /**
      * The type of the resourceUnassigned event handler&apos;s argument.
      */
@@ -19039,38 +18716,38 @@ declare module DevExpress.ui {
      * Specifies custom content for the task tooltip.
      */
     taskTooltipContentTemplate?:
-    | DevExpress.core.template
-    | ((
-      container: DevExpress.core.DxElement,
-      task: any
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          container: DevExpress.core.DxElement,
+          task: any
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies custom content for the tooltip that displays the task&apos;s start and end time while the task is resized in the UI.
      */
     taskTimeTooltipContentTemplate?:
-    | DevExpress.core.template
-    | ((
-      container: DevExpress.core.DxElement,
-      item: DevExpress.ui.dxGantt.TimeTooltipTemplateData
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          container: DevExpress.core.DxElement,
+          item: DevExpress.ui.dxGantt.TimeTooltipTemplateData
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies custom content for the tooltip that displays the task&apos;s progress while the progress handler is resized in the UI.
      */
     taskProgressTooltipContentTemplate?:
-    | DevExpress.core.template
-    | ((
-      container: DevExpress.core.DxElement,
-      item: DevExpress.ui.dxGantt.ProgressTooltipTemplateData
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          container: DevExpress.core.DxElement,
+          item: DevExpress.ui.dxGantt.ProgressTooltipTemplateData
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies custom content for the task.
      */
     taskContentTemplate?:
-    | DevExpress.core.template
-    | ((
-      container: DevExpress.core.DxElement,
-      item: DevExpress.ui.dxGantt.TaskContentTemplateData
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          container: DevExpress.core.DxElement,
+          item: DevExpress.ui.dxGantt.TaskContentTemplateData
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the root task&apos;s identifier.
      */
@@ -19497,12 +19174,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for suggestion list items.
      */
     itemTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the prefix that a user enters to activate mentions. You can use different prefixes with different dataSources.
      */
@@ -19523,11 +19200,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for mentions.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      mentionData: DevExpress.ui.dxHtmlEditor.MentionTemplateData,
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          mentionData: DevExpress.ui.dxHtmlEditor.MentionTemplateData,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies which data field provides unique values to the template&apos;s `id` parameter.
      */
@@ -19693,8 +19370,8 @@ declare module DevExpress.ui {
      * @deprecated Use name instead.
      */
     formatName?:
-    | DevExpress.ui.dxHtmlEditor.HtmlEditorPredefinedToolbarItem
-    | string;
+      | DevExpress.ui.dxHtmlEditor.HtmlEditorPredefinedToolbarItem
+      | string;
     /**
      * Specifies values for a format with multiple choices. Should be used with the name.
      */
@@ -20131,7 +19808,7 @@ declare module DevExpress.ui {
     TItem extends DevExpress.ui.dxList.ItemLike = any,
     TKey = any
   > extends CollectionWidgetOptions<dxList<TItem, TKey>, TItem, TKey>,
-    SearchBoxMixinOptions {
+      SearchBoxMixinOptions {
     /**
      * Specifies whether the UI component changes its visual state as a result of user interaction.
      */
@@ -20164,12 +19841,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for group captions.
      */
     groupTemplate?:
-    | DevExpress.core.template
-    | ((
-      groupData: any,
-      groupIndex: number,
-      groupElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          groupData: any,
+          groupIndex: number,
+          groupElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies whether data items should be grouped.
      */
@@ -20225,8 +19902,8 @@ declare module DevExpress.ui {
      * A function that is executed when a collection item is clicked or tapped.
      */
     onItemClick?:
-    | ((e: DevExpress.ui.dxList.ItemClickEvent<TItem, TKey>) => void)
-    | string;
+      | ((e: DevExpress.ui.dxList.ItemClickEvent<TItem, TKey>) => void)
+      | string;
     /**
      * A function that is executed when a collection item is right-clicked or pressed.
      */
@@ -20353,7 +20030,7 @@ declare module DevExpress.ui {
   /**
    * The LoadIndicator is a UI element notifying the viewer that a process is in progress.
    */
-  export class dxLoadIndicator extends Widget<dxLoadIndicatorOptions> { }
+  export class dxLoadIndicator extends Widget<dxLoadIndicatorOptions> {}
   module dxLoadIndicator {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -20374,7 +20051,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxLoadIndicator> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxLoadIndicatorOptions;
   }
   /**
@@ -20392,7 +20069,7 @@ declare module DevExpress.ui {
   /**
    * The LoadPanel is an overlay UI component notifying the viewer that loading is in progress.
    */
-  export class dxLoadPanel extends dxOverlay<dxLoadPanelOptions> { }
+  export class dxLoadPanel extends dxOverlay<dxLoadPanelOptions> {}
   module dxLoadPanel {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -20512,7 +20189,7 @@ declare module DevExpress.ui {
   /**
    * The Lookup is a UI component that allows an end user to search for an item in a collection shown in a drop-down menu.
    */
-  export class dxLookup extends dxDropDownList<dxLookupOptions> { }
+  export class dxLookup extends dxDropDownList<dxLookupOptions> {}
   module dxLookup {
     /**
      * The type of the closed event handler&apos;s argument.
@@ -20611,11 +20288,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for the input field.
      */
     fieldTemplate?:
-    | DevExpress.core.template
-    | ((
-      selectedItem: any,
-      fieldElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          selectedItem: any,
+          fieldElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies whether the UI component can be focused using keyboard navigation.
      */
@@ -20629,12 +20306,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for group captions.
      */
     groupTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies whether data items should be grouped.
      */
@@ -20846,21 +20523,21 @@ declare module DevExpress.ui {
      * Keys to authenticate the component within map providers.
      */
     apiKey?:
-    | string
-    | {
-      /**
-       * A key used to authenticate the component within Bing Maps.
-       */
-      bing?: string;
-      /**
-       * A key used to authenticate the component within Google Maps.
-       */
-      google?: string;
-      /**
-       * A key used to authenticate the component within Google Maps Static.
-       */
-      googleStatic?: string;
-    };
+      | string
+      | {
+          /**
+           * A key used to authenticate the component within Bing Maps.
+           */
+          bing?: string;
+          /**
+           * A key used to authenticate the component within Google Maps.
+           */
+          google?: string;
+          /**
+           * A key used to authenticate the component within Google Maps Static.
+           */
+          googleStatic?: string;
+        };
     /**
      * Specifies whether the UI component automatically adjusts center and zoom property values when adding a new marker or route, or if a new UI component contains markers or routes by default.
      */
@@ -20905,17 +20582,17 @@ declare module DevExpress.ui {
        * A tooltip to be used for the marker.
        */
       tooltip?:
-      | string
-      | {
-        /**
-         * Specifies whether a tooltip is visible by default or not.
-         */
-        isShown?: boolean;
-        /**
-         * Specifies the text or HTML markup displayed in the tooltip.
-         */
-        text?: string;
-      };
+        | string
+        | {
+            /**
+             * Specifies whether a tooltip is visible by default or not.
+             */
+            isShown?: boolean;
+            /**
+             * Specifies the text or HTML markup displayed in the tooltip.
+             */
+            text?: string;
+          };
     }>;
     /**
      * A function that is executed when any location on the map is clicked or tapped.
@@ -20990,7 +20667,7 @@ declare module DevExpress.ui {
     dxMenuOptions<TKey>,
     dxMenuItem,
     TKey
-  > { }
+  > {}
   module dxMenu {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -21040,7 +20717,7 @@ declare module DevExpress.ui {
         dxMenu<TKey>,
         MouseEvent | PointerEvent | TouchEvent
       > &
-      DevExpress.events.ItemInfo<Item>;
+        DevExpress.events.ItemInfo<Item>;
     /**
      * The type of the itemRendered event handler&apos;s argument.
      */
@@ -21110,7 +20787,15 @@ declare module DevExpress.ui {
       /**
        * 
        */
+      readonly itemData?: Item;
+      /**
+       * 
+       */
       readonly rootItem?: DevExpress.core.DxElement;
+      /**
+       * 
+       */
+      readonly submenuContainer?: DevExpress.core.DxElement;
     };
     /**
      * The type of the submenuHiding event handler&apos;s argument.
@@ -21120,7 +20805,15 @@ declare module DevExpress.ui {
         /**
          * 
          */
+        readonly itemData?: Item;
+        /**
+         * 
+         */
         readonly rootItem?: DevExpress.core.DxElement;
+        /**
+         * 
+         */
+        readonly submenuContainer?: DevExpress.core.DxElement;
       };
     /**
      * The type of the submenuShowing event handler&apos;s argument.
@@ -21131,7 +20824,15 @@ declare module DevExpress.ui {
       /**
        * 
        */
+      readonly itemData?: Item;
+      /**
+       * 
+       */
       readonly rootItem?: DevExpress.core.DxElement;
+      /**
+       * 
+       */
+      readonly submenuContainer?: DevExpress.core.DxElement;
     };
     /**
      * The type of the submenuShown event handler&apos;s argument.
@@ -21142,7 +20843,15 @@ declare module DevExpress.ui {
       /**
        * 
        */
+      readonly itemData?: Item;
+      /**
+       * 
+       */
       readonly rootItem?: DevExpress.core.DxElement;
+      /**
+       * 
+       */
+      readonly submenuContainer?: DevExpress.core.DxElement;
     };
   }
   /**
@@ -21183,9 +20892,9 @@ declare module DevExpress.ui {
     TItem extends dxMenuBaseItem = dxMenuBaseItem,
     TKey = any
   > extends Omit<
-    HierarchicalCollectionWidgetOptions<TComponent, TItem, TKey>,
-    'dataSource'
-  > {
+      HierarchicalCollectionWidgetOptions<TComponent, TItem, TKey>,
+      'dataSource'
+    > {
     /**
      * Specifies whether the UI component changes its visual state as a result of user interaction.
      */
@@ -21227,28 +20936,28 @@ declare module DevExpress.ui {
      * Specifies properties of submenu showing and hiding.
      */
     showSubmenuMode?:
-    | {
-      /**
-       * Specifies the delay of submenu show and hiding.
-       */
-      delay?:
       | {
-        /**
-         * The time span after which the submenu is hidden.
-         */
-        hide?: number;
-        /**
-         * The time span after which the submenu is shown.
-         */
-        show?: number;
-      }
-      | number;
-      /**
-       * Specifies the mode name.
-       */
-      name?: DevExpress.common.SubmenuShowMode;
-    }
-    | DevExpress.common.SubmenuShowMode;
+          /**
+           * Specifies the delay of submenu show and hiding.
+           */
+          delay?:
+            | {
+                /**
+                 * The time span after which the submenu is hidden.
+                 */
+                hide?: number;
+                /**
+                 * The time span after which the submenu is shown.
+                 */
+                show?: number;
+              }
+            | number;
+          /**
+           * Specifies the mode name.
+           */
+          name?: DevExpress.common.SubmenuShowMode;
+        }
+      | DevExpress.common.SubmenuShowMode;
   }
   /**
    * @deprecated Use DevExpress.ui.dxMenu.Item instead
@@ -21323,28 +21032,28 @@ declare module DevExpress.ui {
      * Specifies properties for showing and hiding the first level submenu.
      */
     showFirstSubmenuMode?:
-    | {
-      /**
-       * Specifies the delay in submenu showing and hiding.
-       */
-      delay?:
       | {
-        /**
-         * The time span after which the submenu is hidden.
-         */
-        hide?: number;
-        /**
-         * The time span after which the submenu is shown.
-         */
-        show?: number;
-      }
-      | number;
-      /**
-       * Specifies the mode name.
-       */
-      name?: DevExpress.common.SubmenuShowMode;
-    }
-    | DevExpress.common.SubmenuShowMode;
+          /**
+           * Specifies the delay in submenu showing and hiding.
+           */
+          delay?:
+            | {
+                /**
+                 * The time span after which the submenu is hidden.
+                 */
+                hide?: number;
+                /**
+                 * The time span after which the submenu is shown.
+                 */
+                show?: number;
+              }
+            | number;
+          /**
+           * Specifies the mode name.
+           */
+          name?: DevExpress.common.SubmenuShowMode;
+        }
+      | DevExpress.common.SubmenuShowMode;
     /**
      * Specifies the direction at which the submenus are displayed.
      */
@@ -21360,7 +21069,7 @@ declare module DevExpress.ui {
     DevExpress.ui.dxMultiView.Properties<TItem, TKey>,
     TItem,
     TKey
-  > { }
+  > {}
   module dxMultiView {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -21508,7 +21217,7 @@ declare module DevExpress.ui {
    * @deprecated Use Item instead
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface dxMultiViewItem extends CollectionWidgetItem { }
+  export interface dxMultiViewItem extends CollectionWidgetItem {}
   /**
    * 
    * @deprecated 
@@ -21516,7 +21225,7 @@ declare module DevExpress.ui {
   export interface dxMultiViewOptions<
     TItem extends DevExpress.ui.dxMultiView.ItemLike = any,
     TKey = any
-  > extends dxMultiViewBaseOptions<dxMultiView<TItem, TKey>, TItem, TKey> { }
+  > extends dxMultiViewBaseOptions<dxMultiView<TItem, TKey>, TItem, TKey> {}
   /**
    * The NumberBox is a UI component that displays a numeric value and allows a user to modify it by typing in a value, and incrementing or decrementing it using the keyboard or mouse.
    */
@@ -21736,44 +21445,39 @@ declare module DevExpress.ui {
      * @deprecated Use the hideOnOutsideClick option instead.
      */
     closeOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * Specifies a custom template for the UI component content.
      */
     contentTemplate?:
-    | DevExpress.core.template
-    | ((
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
-    /**
-     * Copies your custom CSS classes from the root element to the wrapper element.
-     * @deprecated Use the wrapperAttr property instead.
-     */
-    copyRootClassesToWrapper?: boolean;
+      | DevExpress.core.template
+      | ((
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies whether to render the UI component&apos;s content when it is displayed. If false, the content is rendered immediately.
      */
     deferRendering?: boolean;
     /**
      * Specifies the global attributes to be attached to the UI component&apos;s container element.
-     * @deprecated Use the wrapperAttr option instead.
+     * @deprecated 
      */
     elementAttr?: any;
     /**
      * Specifies whether to hide the UI component if a user clicks outside it.
      */
     hideOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * Specifies whether to hide the widget when users scroll one of its parent elements.
      */
@@ -22089,7 +21793,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxPivotGridFieldChooser> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxPivotGridFieldChooserOptions;
   }
   /**
@@ -22245,10 +21949,10 @@ declare module DevExpress.ui {
      * Binds the UI component to data.
      */
     dataSource?:
-    | Array<any>
-    | DevExpress.data.PivotGridDataSource
-    | DevExpress.data.PivotGridDataSource.Options
-    | null;
+      | Array<any>
+      | DevExpress.data.PivotGridDataSource
+      | DevExpress.data.PivotGridDataSource.Options
+      | null;
     /**
      * Specifies whether HTML tags are displayed as plain text or applied to cell values.
      */
@@ -22785,7 +22489,7 @@ declare module DevExpress.ui {
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
-    interface PopoverInstance extends dxPopover<Properties> { }
+    interface PopoverInstance extends dxPopover<Properties> {}
     export type Properties = dxPopoverOptions<PopoverInstance>;
     /**
      * The type of the showing event handler&apos;s argument.
@@ -22832,12 +22536,12 @@ declare module DevExpress.ui {
      * @deprecated Use the hideOnOutsideClick option instead.
      */
     closeOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * Specifies the UI component&apos;s height.
      */
@@ -22846,27 +22550,27 @@ declare module DevExpress.ui {
      * Specifies properties of popover hiding. Ignored if the shading property is set to true.
      */
     hideEvent?:
-    | {
-      /**
-       * The delay in milliseconds after which the UI component is hidden.
-       */
-      delay?: number;
-      /**
-       * Specifies the event names on which the UI component is hidden.
-       */
-      name?: string;
-    }
-    | string;
+      | {
+          /**
+           * The delay in milliseconds after which the UI component is hidden.
+           */
+          delay?: number;
+          /**
+           * Specifies the event names on which the UI component is hidden.
+           */
+          name?: string;
+        }
+      | string;
     /**
      * Specifies whether to hide the UI component if a user clicks outside the popover window or outside the target element.
      */
     hideOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * Specifies whether to hide the widget when users scroll one of its parent elements.
      */
@@ -22883,17 +22587,17 @@ declare module DevExpress.ui {
      * Specifies properties for displaying the UI component.
      */
     showEvent?:
-    | {
-      /**
-       * The delay in milliseconds after which the UI component is displayed.
-       */
-      delay?: number;
-      /**
-       * Specifies the event names on which the UI component is shown.
-       */
-      name?: string;
-    }
-    | string;
+      | {
+          /**
+           * The delay in milliseconds after which the UI component is displayed.
+           */
+          delay?: number;
+          /**
+           * Specifies the event names on which the UI component is shown.
+           */
+          name?: string;
+        }
+      | string;
     /**
      * A Boolean value specifying whether or not to display the title in the overlay window.
      */
@@ -22912,7 +22616,7 @@ declare module DevExpress.ui {
    */
   export class dxPopup<
     TProperties = DevExpress.ui.dxPopup.Properties
-  > extends dxOverlay<TProperties> { }
+  > extends dxOverlay<TProperties> {}
   module dxPopup {
     export type ContentReadyEvent = DevExpress.events.EventInfo<dxPopup>;
     export type DisposingEvent = DevExpress.events.EventInfo<dxPopup>;
@@ -22926,7 +22630,7 @@ declare module DevExpress.ui {
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
-    interface PopupInstance extends dxPopup<Properties> { }
+    interface PopupInstance extends dxPopup<Properties> {}
     export type Properties = dxPopupOptions<PopupInstance>;
     export type ResizeEndEvent = DevExpress.events.NativeEventInfo<
       dxPopup,
@@ -23061,10 +22765,10 @@ declare module DevExpress.ui {
      * Specifies a custom template for the UI component title. Does not apply if the title is defined.
      */
     titleTemplate?:
-    | DevExpress.core.template
-    | ((
-      titleElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          titleElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Configures toolbar items.
      */
@@ -23107,14 +22811,14 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxProgressBar> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxProgressBarOptions;
     /**
      * The type of the valueChanged event handler&apos;s argument.
      */
     export type ValueChangedEvent =
       DevExpress.events.NativeEventInfo<dxProgressBar> &
-      DevExpress.ui.Editor.ValueChangedInfo;
+        DevExpress.ui.Editor.ValueChangedInfo;
   }
   /**
    * 
@@ -23182,7 +22886,7 @@ declare module DevExpress.ui {
    */
   export interface dxRadioGroupOptions
     extends EditorOptions<dxRadioGroup>,
-    DataExpressionMixinOptions<dxRadioGroup> {
+      DataExpressionMixinOptions<dxRadioGroup> {
     /**
      * Specifies whether the UI component changes its visual state as a result of user interaction.
      */
@@ -23236,7 +22940,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxRangeSlider> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxRangeSliderOptions;
     /**
      * The type of the valueChanged event handler&apos;s argument.
@@ -23295,7 +22999,7 @@ declare module DevExpress.ui {
   /**
    * A base class for editors.
    */
-  export class dxRecurrenceEditor extends Editor<dxRecurrenceEditorOptions> { }
+  export class dxRecurrenceEditor extends Editor<dxRecurrenceEditorOptions> {}
   module dxRecurrenceEditor {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -23317,7 +23021,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxRecurrenceEditor> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
@@ -23345,7 +23049,7 @@ declare module DevExpress.ui {
   /**
    * The Resizable UI component enables its content to be resizable in the UI.
    */
-  export class dxResizable extends DOMComponent<dxResizableOptions> { }
+  export class dxResizable extends DOMComponent<dxResizableOptions> {}
   module dxResizable {
     /**
      * The type of the disposing event handler&apos;s argument.
@@ -23467,7 +23171,7 @@ declare module DevExpress.ui {
     dxResponsiveBoxOptions<TItem, TKey>,
     TItem,
     TKey
-  > { }
+  > {}
   module dxResponsiveBox {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -23568,35 +23272,35 @@ declare module DevExpress.ui {
      * Specifies the item location and size against the UI component grid.
      */
     location?:
-    | {
-      /**
-       * Specifies which column the element should occupy. Accepts an index from the cols array.
-       */
-      col?: number;
-      /**
-       * Specifies how many columns the element should span.
-       */
-      colspan?: number;
-      /**
-       * Specifies which row the element should occupy. Accepts an index from the rows array.
-       */
-      row?: number;
-      /**
-       * Specifies how many rows the element should span.
-       */
-      rowspan?: number;
-      /**
-       * Decides on which screens the current location settings should be applied to the element.
-       */
-      screen?: string;
-    }
-    | Array<{
-      col?: number;
-      colspan?: number;
-      row?: number;
-      rowspan?: number;
-      screen?: string;
-    }>;
+      | {
+          /**
+           * Specifies which column the element should occupy. Accepts an index from the cols array.
+           */
+          col?: number;
+          /**
+           * Specifies how many columns the element should span.
+           */
+          colspan?: number;
+          /**
+           * Specifies which row the element should occupy. Accepts an index from the rows array.
+           */
+          row?: number;
+          /**
+           * Specifies how many rows the element should span.
+           */
+          rowspan?: number;
+          /**
+           * Decides on which screens the current location settings should be applied to the element.
+           */
+          screen?: string;
+        }
+      | Array<{
+          col?: number;
+          colspan?: number;
+          row?: number;
+          rowspan?: number;
+          screen?: string;
+        }>;
   }
   /**
    * 
@@ -23876,7 +23580,9 @@ declare module DevExpress.ui {
       readonly toComponent?: dxSortable | dxDraggable;
     };
     export type AppointmentDraggingStartEvent = DevExpress.events.Cancelable &
-      AppointmentDraggingEvent;
+      Omit<AppointmentDraggingEvent, 'itemData'> & {
+        itemData?: any;
+      };
     /**
      * The type of the appointmentFormOpening event handler&apos;s argument.
      */
@@ -23900,12 +23606,12 @@ declare module DevExpress.ui {
      */
     export type AppointmentRenderedEvent =
       DevExpress.events.EventInfo<dxScheduler> &
-      TargetedAppointmentInfo & {
-        /**
-         * 
-         */
-        readonly appointmentElement: DevExpress.core.DxElement;
-      };
+        TargetedAppointmentInfo & {
+          /**
+           * 
+           */
+          readonly appointmentElement: DevExpress.core.DxElement;
+        };
     /**
      * 
      */
@@ -24133,11 +23839,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for cell overflow indicators.
      */
     appointmentCollectorTemplate?:
-    | DevExpress.core.template
-    | ((
-      data: DevExpress.ui.dxScheduler.AppointmentCollectorTemplateData,
-      collectorElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          data: DevExpress.ui.dxScheduler.AppointmentCollectorTemplateData,
+          collectorElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Configures appointment reordering using drag and drop gestures.
      */
@@ -24197,22 +23903,22 @@ declare module DevExpress.ui {
      * Specifies a custom template for appointments.
      */
     appointmentTemplate?:
-    | DevExpress.core.template
-    | ((
-      model: DevExpress.ui.dxScheduler.AppointmentTemplateData,
-      itemIndex: number,
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          model: DevExpress.ui.dxScheduler.AppointmentTemplateData,
+          itemIndex: number,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies a custom template for tooltips displayed when users click an appointment or cell overflow indicator.
      */
     appointmentTooltipTemplate?:
-    | DevExpress.core.template
-    | ((
-      model: DevExpress.ui.dxScheduler.AppointmentTooltipTemplateData,
-      itemIndex: number,
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          model: DevExpress.ui.dxScheduler.AppointmentTooltipTemplateData,
+          itemIndex: number,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies cell duration in minutes. This property&apos;s value should divide the interval between startDayHour and endDayHour into even parts.
      */
@@ -24239,12 +23945,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for table cells.
      */
     dataCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Binds the UI component to data.
      */
@@ -24253,12 +23959,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for day scale items.
      */
     dateCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the format in which date-time values should be sent to the server.
      */
@@ -24272,43 +23978,43 @@ declare module DevExpress.ui {
      * @deprecated Use the appointmentTooltipTemplate option instead.
      */
     dropDownAppointmentTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      contentElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          contentElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies which editing operations a user can perform on appointments.
      */
     editing?:
-    | boolean
-    | {
-      /**
-       * Specifies whether or not an end user can add appointments.
-       */
-      allowAdding?: boolean;
-      /**
-       * Specifies whether or not an end user can delete appointments.
-       */
-      allowDeleting?: boolean;
-      /**
-       * Specifies whether users can drag and drop appointments.
-       */
-      allowDragging?: boolean;
-      /**
-       * Specifies whether or not an end user can change an appointment duration.
-       */
-      allowResizing?: boolean;
-      /**
-       * Specifies whether users can edit appointment time zones.
-       */
-      allowTimeZoneEditing?: boolean;
-      /**
-       * Specifies whether or not an end user can change appointment properties.
-       */
-      allowUpdating?: boolean;
-    };
+      | boolean
+      | {
+          /**
+           * Specifies whether or not an end user can add appointments.
+           */
+          allowAdding?: boolean;
+          /**
+           * Specifies whether or not an end user can delete appointments.
+           */
+          allowDeleting?: boolean;
+          /**
+           * Specifies whether users can drag and drop appointments.
+           */
+          allowDragging?: boolean;
+          /**
+           * Specifies whether or not an end user can change an appointment duration.
+           */
+          allowResizing?: boolean;
+          /**
+           * Specifies whether users can edit appointment time zones.
+           */
+          allowTimeZoneEditing?: boolean;
+          /**
+           * Specifies whether or not an end user can change appointment properties.
+           */
+          allowUpdating?: boolean;
+        };
     /**
      * Specifies the name of the data source item field that defines the ending of an appointment.
      */
@@ -24349,8 +24055,8 @@ declare module DevExpress.ui {
      * Specifies the limit of full-sized appointments displayed per cell. Applies to all views except &apos;agenda&apos;.
      */
     maxAppointmentsPerCell?:
-    | number
-    | DevExpress.ui.dxScheduler.CellAppointmentsLimit;
+      | number
+      | DevExpress.ui.dxScheduler.CellAppointmentsLimit;
     /**
      * The earliest date the UI component allows you to select.
      */
@@ -24375,20 +24081,20 @@ declare module DevExpress.ui {
      * A function that is executed when an appointment is clicked or tapped.
      */
     onAppointmentClick?:
-    | ((e: DevExpress.ui.dxScheduler.AppointmentClickEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxScheduler.AppointmentClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a user attempts to open the browser&apos;s context menu for an appointment. Allows you to replace this context menu with a custom context menu.
      */
     onAppointmentContextMenu?:
-    | ((e: DevExpress.ui.dxScheduler.AppointmentContextMenuEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxScheduler.AppointmentContextMenuEvent) => void)
+      | string;
     /**
      * A function that is executed when an appointment is double-clicked or double-tapped.
      */
     onAppointmentDblClick?:
-    | ((e: DevExpress.ui.dxScheduler.AppointmentDblClickEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxScheduler.AppointmentDblClickEvent) => void)
+      | string;
     /**
      * A function that is executed after an appointment is deleted from the data source.
      */
@@ -24436,14 +24142,14 @@ declare module DevExpress.ui {
      * A function that is executed when a view cell is clicked.
      */
     onCellClick?:
-    | ((e: DevExpress.ui.dxScheduler.CellClickEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxScheduler.CellClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a user attempts to open the browser&apos;s context menu for a cell. Allows you to replace this context menu with a custom context menu.
      */
     onCellContextMenu?:
-    | ((e: DevExpress.ui.dxScheduler.CellContextMenuEvent) => void)
-    | string;
+      | ((e: DevExpress.ui.dxScheduler.CellContextMenuEvent) => void)
+      | string;
     /**
      * Specifies the edit mode for recurring appointments.
      */
@@ -24464,12 +24170,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for resource headers.
      */
     resourceCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies an array of resources available in the scheduler.
      */
@@ -24547,12 +24253,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for time scale items.
      */
     timeCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the time zone for the Scheduler&apos;s grid. Accepts values from the IANA time zone database.
      */
@@ -24583,153 +24289,153 @@ declare module DevExpress.ui {
       | 'timelineMonth'
       | 'agenda'
       | {
-        /**
-         * Specifies the number of dates that can be shown at a time in the agenda view.
-         */
-        agendaDuration?: number;
-        /**
-         * Specifies a custom template for cell overflow indicators in this view.
-         */
-        appointmentCollectorTemplate?:
-        | DevExpress.core.template
-        | ((
-          data: DevExpress.ui.dxScheduler.AppointmentCollectorTemplateData,
-          collectorElement: DevExpress.core.DxElement
-        ) => string | DevExpress.core.UserDefinedElement);
-        /**
-         * Specifies a custom template for appointments.
-         */
-        appointmentTemplate?:
-        | DevExpress.core.template
-        | ((
-          model: DevExpress.ui.dxScheduler.AppointmentTemplateData,
-          itemIndex: number,
-          contentElement: DevExpress.core.DxElement
-        ) => string | DevExpress.core.UserDefinedElement);
-        /**
-         * Specifies a custom template for tooltips displayed when users click an appointment or cell overflow indicator in this view.
-         */
-        appointmentTooltipTemplate?:
-        | DevExpress.core.template
-        | ((
-          model: DevExpress.ui.dxScheduler.AppointmentTooltipTemplateData,
-          itemIndex: number,
-          contentElement: DevExpress.core.DxElement
-        ) => string | DevExpress.core.UserDefinedElement);
-        /**
-         * Specifies a custom template for tooltips displayed when users click a cell overflow indicator in this view.
-         * @deprecated Use the views.appointmentTooltipTemplate option instead.
-         */
-        dropDownAppointmentTemplate?:
-        | DevExpress.core.template
-        | ((
-          itemData: any,
-          itemIndex: number,
-          contentElement: DevExpress.core.DxElement
-        ) => string | DevExpress.core.UserDefinedElement);
-        /**
-         * The cell duration in minutes.
-         */
-        cellDuration?: number;
-        /**
-         * Specifies a custom template for table cells.
-         */
-        dataCellTemplate?:
-        | DevExpress.core.template
-        | ((
-          itemData: any,
-          itemIndex: number,
-          itemElement: DevExpress.core.DxElement
-        ) => string | DevExpress.core.UserDefinedElement);
-        /**
-         * Specifies a custom template for date scale items.
-         */
-        dateCellTemplate?:
-        | DevExpress.core.template
-        | ((
-          itemData: any,
-          itemIndex: number,
-          itemElement: DevExpress.core.DxElement
-        ) => string | DevExpress.core.UserDefinedElement);
-        /**
-         * Specifies the last hour on the view&apos;s time scale. Accepts integer values from 0 to 24.
-         */
-        endDayHour?: number;
-        /**
-         * The first day of a week. Does not apply to the agenda view.
-         */
-        firstDayOfWeek?: DevExpress.common.FirstDayOfWeek;
-        /**
-         * If true, appointments are grouped by date first and then by resource; opposite if false. Applies only if appointments are grouped and groupOrientation is &apos;horizontal&apos;.
-         */
-        groupByDate?: boolean;
-        /**
-         * Arranges resource headers vertically (in a column) or horizontally (in a row).
-         */
-        groupOrientation?: DevExpress.common.Orientation;
-        /**
-         * The resource kinds by which appointments are grouped.
-         */
-        groups?: Array<string>;
-        /**
-         * Multiplies the default view interval. Applies to all view types except &apos;agenda&apos;.
-         */
-        intervalCount?: number;
-        /**
-         * Specifies the limit of full-sized appointments displayed per cell. Applies to all views except &apos;agenda&apos;.
-         */
-        maxAppointmentsPerCell?:
-        | number
-        | DevExpress.ui.dxScheduler.CellAppointmentsLimit;
-        /**
-         * A custom view name displayed in the view switcher.
-         */
-        name?: string;
-        /**
-         * Specifies a custom template for resource headers.
-         */
-        resourceCellTemplate?:
-        | DevExpress.core.template
-        | ((
-          itemData: any,
-          itemIndex: number,
-          itemElement: DevExpress.core.DxElement
-        ) => string | DevExpress.core.UserDefinedElement);
-        /**
-         * Specifies the date from which to start counting the view interval. Applies to all view types except &apos;agenda&apos;.
-         */
-        startDate?: Date | number | string;
-        /**
-         * Specifies the first hour on the view&apos;s time scale. Accepts integer values from 0 to 24.
-         */
-        startDayHour?: number;
-        /**
-         * Specifies a custom template for time scale items.
-         */
-        timeCellTemplate?:
-        | DevExpress.core.template
-        | ((
-          itemData: any,
-          itemIndex: number,
-          itemElement: DevExpress.core.DxElement
-        ) => string | DevExpress.core.UserDefinedElement);
-        /**
-         * The type of the view.
-         */
-        type?: DevExpress.ui.dxScheduler.ViewType;
-        /**
-         * Configures scrolling for a view.
-         */
-        scrolling?: dxSchedulerScrolling;
-        /**
-         * Specifies the display mode for the All day panel.
-         */
-        allDayPanelMode?: DevExpress.ui.dxScheduler.AllDayPanelMode;
-        /**
-         * Specifies the minute offset within the view indicating the starting point of a day.
-         */
-        offset?: number;
-      }
+          /**
+           * Specifies the number of dates that can be shown at a time in the agenda view.
+           */
+          agendaDuration?: number;
+          /**
+           * Specifies a custom template for cell overflow indicators in this view.
+           */
+          appointmentCollectorTemplate?:
+            | DevExpress.core.template
+            | ((
+                data: DevExpress.ui.dxScheduler.AppointmentCollectorTemplateData,
+                collectorElement: DevExpress.core.DxElement
+              ) => string | DevExpress.core.UserDefinedElement);
+          /**
+           * Specifies a custom template for appointments.
+           */
+          appointmentTemplate?:
+            | DevExpress.core.template
+            | ((
+                model: DevExpress.ui.dxScheduler.AppointmentTemplateData,
+                itemIndex: number,
+                contentElement: DevExpress.core.DxElement
+              ) => string | DevExpress.core.UserDefinedElement);
+          /**
+           * Specifies a custom template for tooltips displayed when users click an appointment or cell overflow indicator in this view.
+           */
+          appointmentTooltipTemplate?:
+            | DevExpress.core.template
+            | ((
+                model: DevExpress.ui.dxScheduler.AppointmentTooltipTemplateData,
+                itemIndex: number,
+                contentElement: DevExpress.core.DxElement
+              ) => string | DevExpress.core.UserDefinedElement);
+          /**
+           * Specifies a custom template for tooltips displayed when users click a cell overflow indicator in this view.
+           * @deprecated Use the views.appointmentTooltipTemplate option instead.
+           */
+          dropDownAppointmentTemplate?:
+            | DevExpress.core.template
+            | ((
+                itemData: any,
+                itemIndex: number,
+                contentElement: DevExpress.core.DxElement
+              ) => string | DevExpress.core.UserDefinedElement);
+          /**
+           * The cell duration in minutes.
+           */
+          cellDuration?: number;
+          /**
+           * Specifies a custom template for table cells.
+           */
+          dataCellTemplate?:
+            | DevExpress.core.template
+            | ((
+                itemData: any,
+                itemIndex: number,
+                itemElement: DevExpress.core.DxElement
+              ) => string | DevExpress.core.UserDefinedElement);
+          /**
+           * Specifies a custom template for date scale items.
+           */
+          dateCellTemplate?:
+            | DevExpress.core.template
+            | ((
+                itemData: any,
+                itemIndex: number,
+                itemElement: DevExpress.core.DxElement
+              ) => string | DevExpress.core.UserDefinedElement);
+          /**
+           * Specifies the last hour on the view&apos;s time scale. Accepts integer values from 0 to 24.
+           */
+          endDayHour?: number;
+          /**
+           * The first day of a week. Does not apply to the agenda view.
+           */
+          firstDayOfWeek?: DevExpress.common.FirstDayOfWeek;
+          /**
+           * If true, appointments are grouped by date first and then by resource; opposite if false. Applies only if appointments are grouped and groupOrientation is &apos;horizontal&apos;.
+           */
+          groupByDate?: boolean;
+          /**
+           * Arranges resource headers vertically (in a column) or horizontally (in a row).
+           */
+          groupOrientation?: DevExpress.common.Orientation;
+          /**
+           * The resource kinds by which appointments are grouped.
+           */
+          groups?: Array<string>;
+          /**
+           * Multiplies the default view interval. Applies to all view types except &apos;agenda&apos;.
+           */
+          intervalCount?: number;
+          /**
+           * Specifies the limit of full-sized appointments displayed per cell. Applies to all views except &apos;agenda&apos;.
+           */
+          maxAppointmentsPerCell?:
+            | number
+            | DevExpress.ui.dxScheduler.CellAppointmentsLimit;
+          /**
+           * A custom view name displayed in the view switcher.
+           */
+          name?: string;
+          /**
+           * Specifies a custom template for resource headers.
+           */
+          resourceCellTemplate?:
+            | DevExpress.core.template
+            | ((
+                itemData: any,
+                itemIndex: number,
+                itemElement: DevExpress.core.DxElement
+              ) => string | DevExpress.core.UserDefinedElement);
+          /**
+           * Specifies the date from which to start counting the view interval. Applies to all view types except &apos;agenda&apos;.
+           */
+          startDate?: Date | number | string;
+          /**
+           * Specifies the first hour on the view&apos;s time scale. Accepts integer values from 0 to 24.
+           */
+          startDayHour?: number;
+          /**
+           * Specifies a custom template for time scale items.
+           */
+          timeCellTemplate?:
+            | DevExpress.core.template
+            | ((
+                itemData: any,
+                itemIndex: number,
+                itemElement: DevExpress.core.DxElement
+              ) => string | DevExpress.core.UserDefinedElement);
+          /**
+           * The type of the view.
+           */
+          type?: DevExpress.ui.dxScheduler.ViewType;
+          /**
+           * Configures scrolling for a view.
+           */
+          scrolling?: dxSchedulerScrolling;
+          /**
+           * Specifies the display mode for the All day panel.
+           */
+          allDayPanelMode?: DevExpress.ui.dxScheduler.AllDayPanelMode;
+          /**
+           * Specifies the minute offset within the view indicating the starting point of a day.
+           */
+          offset?: number;
+        }
     >;
   }
   /**
@@ -24805,7 +24511,7 @@ declare module DevExpress.ui {
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
-    interface ScrollableInstance extends dxScrollable<Properties> { }
+    interface ScrollableInstance extends dxScrollable<Properties> {}
     /**
      * 
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -24971,7 +24677,7 @@ declare module DevExpress.ui {
    */
   export class dxSelectBox<
     TProperties = DevExpress.ui.dxSelectBox.Properties
-  > extends dxDropDownList<TProperties> { }
+  > extends dxDropDownList<TProperties> {}
   module dxSelectBox {
     /**
      * The type of the change event handler&apos;s argument.
@@ -25106,13 +24812,13 @@ declare module DevExpress.ui {
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
-    interface SelectBoxInstance extends dxSelectBox<Properties> { }
+    interface SelectBoxInstance extends dxSelectBox<Properties> {}
     /**
      * The type of the selectionChanged event handler&apos;s argument.
      */
     export type SelectionChangedEvent =
       DevExpress.events.EventInfo<dxSelectBox> &
-      DevExpress.ui.dxDropDownList.SelectionChangedInfo;
+        DevExpress.ui.dxDropDownList.SelectionChangedInfo;
     /**
      * The type of the valueChanged event handler&apos;s argument.
      */
@@ -25137,11 +24843,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for the text field. Must contain the TextBox UI component.
      */
     fieldTemplate?:
-    | DevExpress.core.template
-    | ((
-      selectedItem: any,
-      fieldElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          selectedItem: any,
+          fieldElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * A function that is executed when a user adds a custom item. Requires acceptCustomValue to be set to true.
      */
@@ -25223,7 +24929,7 @@ declare module DevExpress.ui {
    * A base class for track bar UI components.
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface dxSliderBase { }
+  export interface dxSliderBase {}
   /**
    * 
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -25317,7 +25023,8 @@ declare module DevExpress.ui {
    */
   export class dxSortable
     extends DOMComponent<dxSortableOptions>
-    implements DraggableBase {
+    implements DraggableBase
+  {
     /**
      * Updates Sortable&apos;s dimensions. Call this method after items are added or their dimensions are changed during dragging.
      */
@@ -25670,11 +25377,11 @@ declare module DevExpress.ui {
      * Specifies custom markup to be shown instead of the item being dragged.
      */
     dragTemplate?:
-    | DevExpress.core.template
-    | ((
-      dragInfo: DevExpress.ui.dxSortable.DragTemplateData,
-      containerElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          dragInfo: DevExpress.ui.dxSortable.DragTemplateData,
+          containerElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies how to highlight the item&apos;s drop position.
      */
@@ -25723,7 +25430,7 @@ declare module DevExpress.ui {
   /**
    * The SpeedDialAction is a button that performs a custom action. It can be represented by a Floating Action Button (FAB) or a button in a speed dial menu opened with the FAB.
    */
-  export class dxSpeedDialAction extends Widget<dxSpeedDialActionOptions> { }
+  export class dxSpeedDialAction extends Widget<dxSpeedDialActionOptions> {}
   module dxSpeedDialAction {
     /**
      * The type of the click event handler&apos;s argument.
@@ -25761,7 +25468,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxSpeedDialAction> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxSpeedDialActionOptions;
   }
   /**
@@ -25797,6 +25504,242 @@ declare module DevExpress.ui {
      * Allows you to hide the FAB from the view or the action from the speed dial menu.
      */
     visible?: boolean;
+  }
+  /**
+   * Splitter is a UI component that allows you to divide a page or section into multiple adjustable panes.
+   */
+  export class dxSplitter<
+    TItem extends DevExpress.ui.dxSplitter.ItemLike<TKey> = any,
+    TKey = any
+  > extends CollectionWidget<
+    DevExpress.ui.dxSplitter.Properties<TItem, TKey>,
+    TItem,
+    TKey
+  > {}
+  module dxSplitter {
+    /**
+     * The type of the contentReady event handler&apos;s argument.
+     */
+    export type ContentReadyEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.EventInfo<dxSplitter<TItem, TKey>>;
+    /**
+     * The type of the disposing event handler&apos;s argument.
+     */
+    export type DisposingEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.EventInfo<dxSplitter<TItem, TKey>>;
+    export type ExplicitTypes<TItem extends ItemLike<TKey>, TKey> = {
+      Properties: Properties<TItem, TKey>;
+      ContentReadyEvent: ContentReadyEvent<TItem, TKey>;
+      DisposingEvent: DisposingEvent<TItem, TKey>;
+      InitializedEvent: InitializedEvent<TItem, TKey>;
+      ItemClickEvent: ItemClickEvent<TItem, TKey>;
+      ItemContextMenuEvent: ItemContextMenuEvent<TItem, TKey>;
+      ItemRenderedEvent: ItemRenderedEvent<TItem, TKey>;
+      OptionChangedEvent: OptionChangedEvent<TItem, TKey>;
+    };
+    /**
+     * The type of the initialized event handler&apos;s argument.
+     */
+    export type InitializedEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.InitializedEventInfo<dxSplitter<TItem, TKey>>;
+    /**
+     * The type of the itemClick event handler&apos;s argument.
+     */
+    export type ItemClickEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.NativeEventInfo<
+      dxSplitter<TItem, TKey>,
+      MouseEvent | PointerEvent
+    > &
+      DevExpress.events.ItemInfo<TItem>;
+    /**
+     * The type of the itemCollapsed event handler&apos;s argument.
+     */
+    export type ItemCollapsedEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.NativeEventInfo<
+      dxSplitter<TKey>,
+      KeyboardEvent | PointerEvent | MouseEvent | TouchEvent
+    > &
+      DevExpress.events.ItemInfo<TKey>;
+    /**
+     * The type of the itemContextMenu event handler&apos;s argument.
+     */
+    export type ItemContextMenuEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.NativeEventInfo<
+      dxSplitter<TItem, TKey>,
+      MouseEvent | PointerEvent | TouchEvent
+    > &
+      DevExpress.events.ItemInfo<TItem>;
+    /**
+     * The type of the itemExpanded event handler&apos;s argument.
+     */
+    export type ItemExpandedEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.NativeEventInfo<
+      dxSplitter<TKey>,
+      KeyboardEvent | PointerEvent | MouseEvent | TouchEvent
+    > &
+      DevExpress.events.ItemInfo<TKey>;
+    /**
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     */
+    type ItemLike<TKey> = string | Item<TKey> | any;
+    /**
+     * The type of the itemRendered event handler&apos;s argument.
+     */
+    export type ItemRenderedEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.EventInfo<dxSplitter<TItem, TKey>> &
+      DevExpress.events.ItemInfo<TItem>;
+    /**
+     * The type of the optionChanged event handler&apos;s argument.
+     */
+    export type OptionChangedEvent<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = DevExpress.events.EventInfo<dxSplitter<TItem, TKey>> &
+      DevExpress.events.ChangedOptionInfo;
+    export type Properties<
+      TItem extends ItemLike<TKey> = any,
+      TKey = any
+    > = dxSplitterOptions<TItem, TKey>;
+    /**
+     * The type of the resizeEnd event handler&apos;s argument.
+     */
+    export type ResizeEndEvent<TKey = any> = DevExpress.events.Cancelable &
+      DevExpress.events.NativeEventInfo<
+        dxSplitter<TKey>,
+        KeyboardEvent | PointerEvent | MouseEvent | TouchEvent
+      > &
+      ResizeInfo;
+    /**
+     * The type of the resize event handler&apos;s argument.
+     */
+    export type ResizeEvent<TKey = any> = DevExpress.events.Cancelable &
+      DevExpress.events.NativeEventInfo<
+        dxSplitter<TKey>,
+        KeyboardEvent | PointerEvent | MouseEvent | TouchEvent
+      > &
+      ResizeInfo;
+    /**
+     * 
+     * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+     */
+    export interface ResizeInfo {
+      /**
+       * A resize handle element.
+       */
+      readonly handleElement?: DevExpress.core.DxElement;
+    }
+    /**
+     * The type of the resizeStart event handler&apos;s argument.
+     */
+    export type ResizeStartEvent<TKey = any> = DevExpress.events.Cancelable &
+      DevExpress.events.NativeEventInfo<
+        dxSplitter<TKey>,
+        KeyboardEvent | PointerEvent | MouseEvent | TouchEvent
+      > &
+      ResizeInfo;
+  }
+  /**
+   * @deprecated Use Item instead
+   * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
+   */
+  export interface dxSplitterItem<TKey = any> extends CollectionWidgetItem {
+    /**
+     * Specifies a splitter inside an item (pane).
+     */
+    splitter?: DevExpress.ui.dxSplitter.Properties<any, TKey>;
+    /**
+     * Specifies the size of an item (pane) in pixels or as a percentage.
+     */
+    size?: number | string;
+    /**
+     * Specifies the maximum size of an item (pane) in pixels or as a percentage.
+     */
+    maxSize?: number | string;
+    /**
+     * Specifies the minimum size of an item (pane) in pixels or as a percentage.
+     */
+    minSize?: number | string;
+    /**
+     * Specifies the size of a collapsible item (pane) when collapsed in pixels or as a percentage.
+     */
+    collapsedSize?: number | string;
+    /**
+     * Specifies whether an item (pane) is initially collapsed.
+     */
+    collapsed?: boolean;
+    /**
+     * Specifies whether an item (pane) is collapsible.
+     */
+    collapsible?: boolean;
+    /**
+     * Specifies whether an item (pane) is resizable.
+     */
+    resizable?: boolean;
+  }
+  /**
+   * 
+   * @deprecated 
+   */
+  export interface dxSplitterOptions<
+    TItem extends DevExpress.ui.dxSplitter.ItemLike<TKey> = any,
+    TKey = any
+  > extends CollectionWidgetOptions<dxSplitter<TItem, TKey>, TItem, TKey> {
+    /**
+     * Binds the UI component to data.
+     */
+    dataSource?: DevExpress.data.DataSource.DataSourceLike<TItem, TKey> | null;
+    /**
+     * Specifies item orientation (layout).
+     */
+    orientation?: DevExpress.common.Orientation;
+    /**
+     * An array of items (panes) displayed by the UI component.
+     */
+    items?: Array<TItem>;
+    /**
+     * Specifies whether to allow the Splitter to take focus and allow keyboard navigation.
+     */
+    allowKeyboardNavigation?: boolean;
+    /**
+     * Specifies the size of a separator bar in pixels.
+     */
+    separatorSize?: number;
+    /**
+     * A function that is executed each time an item (pane) is resized by one pixel.
+     */
+    onResize?: (e: DevExpress.ui.dxSplitter.ResizeEvent) => void;
+    /**
+     * A function that is called when resizing ends.
+     */
+    onResizeEnd?: (e: DevExpress.ui.dxSplitter.ResizeEndEvent) => void;
+    /**
+     * A function that is called when resizing starts.
+     */
+    onResizeStart?: (e: DevExpress.ui.dxSplitter.ResizeStartEvent) => void;
+    /**
+     * A function that is executed after an item (pane) is expanded.
+     */
+    onItemExpanded?: (e: DevExpress.ui.dxSplitter.ItemExpandedEvent) => void;
+    /**
+     * A function that is executed after an item (pane) is collapsed.
+     */
+    onItemCollapsed?: (e: DevExpress.ui.dxSplitter.ItemCollapsedEvent) => void;
   }
   /**
    * The Switch is a UI component that can be in two states: &apos;On&apos; and &apos;Off&apos;.
@@ -25881,7 +25824,7 @@ declare module DevExpress.ui {
     DevExpress.ui.dxTabPanel.Properties<TItem, TKey>,
     TItem,
     TKey
-  > { }
+  > {}
   module dxTabPanel {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -26033,7 +25976,8 @@ declare module DevExpress.ui {
    * @deprecated Use Item instead
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface dxTabPanelItem extends DevExpress.ui.dxMultiView.Item {
+  export interface dxTabPanelItem
+    extends Omit<DevExpress.ui.dxMultiView.Item, 'visible'> {
     /**
      * Specifies a badge text for the tab.
      */
@@ -26046,8 +25990,8 @@ declare module DevExpress.ui {
      * Specifies a template that should be used to render the tab for this item only.
      */
     tabTemplate?:
-    | DevExpress.core.template
-    | (() => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | (() => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the item title text displayed on a corresponding tab.
      */
@@ -26077,12 +26021,12 @@ declare module DevExpress.ui {
      * Specifies a custom template for item titles.
      */
     itemTitleTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: TItem,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: TItem,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies icon position relative to the text inside the tab.
      */
@@ -26095,8 +26039,8 @@ declare module DevExpress.ui {
      * A function that is executed when a tab is clicked or tapped.
      */
     onTitleClick?:
-    | ((e: DevExpress.ui.dxTabPanel.TitleClickEvent<TItem, TKey>) => void)
-    | string;
+      | ((e: DevExpress.ui.dxTabPanel.TitleClickEvent<TItem, TKey>) => void)
+      | string;
     /**
      * A function that is executed when a tab has been held for a specified period.
      */
@@ -26148,7 +26092,7 @@ declare module DevExpress.ui {
     DevExpress.ui.dxTabs.Properties<TItem, TKey>,
     TItem,
     TKey
-  > { }
+  > {}
   module dxTabs {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -26329,11 +26273,11 @@ declare module DevExpress.ui {
   export interface dxTabsOptions<
     TItem extends DevExpress.ui.dxTabs.ItemLike = any,
     TKey = any
-  > extends DevExpress.ui.dxTabs.Properties<TItem, TKey> { }
+  > extends DevExpress.ui.dxTabs.Properties<TItem, TKey> {}
   /**
    * The TagBox UI component is an editor that allows an end user to select multiple items from a drop-down list.
    */
-  export class dxTagBox extends dxSelectBox<dxTagBoxOptions> { }
+  export class dxTagBox extends dxSelectBox<dxTagBoxOptions> {}
   module dxTagBox {
     /**
      * The type of the change event handler&apos;s argument.
@@ -26355,7 +26299,7 @@ declare module DevExpress.ui {
      */
     export type CustomItemCreatingEvent =
       DevExpress.events.EventInfo<dxTagBox> &
-      DevExpress.ui.dxSelectBox.CustomItemCreatingInfo;
+        DevExpress.ui.dxSelectBox.CustomItemCreatingInfo;
     /**
      * The type of the disposing event handler&apos;s argument.
      */
@@ -26544,11 +26488,11 @@ declare module DevExpress.ui {
      * Specifies a custom template for tags.
      */
     tagTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: any,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: any,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the selected items.
      */
@@ -26557,7 +26501,7 @@ declare module DevExpress.ui {
   /**
    * The TextArea is a UI component that enables a user to enter and edit a multi-line text.
    */
-  export class dxTextArea extends dxTextBox<dxTextAreaOptions> { }
+  export class dxTextArea extends dxTextBox<dxTextAreaOptions> {}
   module dxTextArea {
     /**
      * The type of the change event handler&apos;s argument.
@@ -26792,7 +26736,7 @@ declare module DevExpress.ui {
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
-    interface TextBoxInstance extends dxTextBox<Properties> { }
+    interface TextBoxInstance extends dxTextBox<Properties> {}
     export type TextBoxType =
       | 'email'
       | 'password'
@@ -26857,7 +26801,7 @@ declare module DevExpress.ui {
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
-    interface TextEditorInstance extends dxTextEditor<Properties> { }
+    interface TextEditorInstance extends dxTextEditor<Properties> {}
   }
   /**
    * 
@@ -27183,7 +27127,7 @@ declare module DevExpress.ui {
   /**
    * The Toast is a UI component that provides pop-up notifications.
    */
-  export class dxToast extends dxOverlay<dxToastOptions> { }
+  export class dxToast extends dxOverlay<dxToastOptions> {}
   module dxToast {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -27257,12 +27201,12 @@ declare module DevExpress.ui {
      * @deprecated Use the hideOnOutsideClick option instead.
      */
     closeOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * A Boolean value specifying whether or not the toast is closed if a user swipes it out of the screen boundaries.
      */
@@ -27275,12 +27219,12 @@ declare module DevExpress.ui {
      * Specifies whether to hide the UI component if a user clicks outside it.
      */
     hideOnOutsideClick?:
-    | boolean
-    | ((
-      event: DevExpress.events.DxEvent<
-        MouseEvent | PointerEvent | TouchEvent
-      >
-    ) => boolean);
+      | boolean
+      | ((
+          event: DevExpress.events.DxEvent<
+            MouseEvent | PointerEvent | TouchEvent
+          >
+        ) => boolean);
     /**
      * Specifies the UI component&apos;s height.
      */
@@ -27320,7 +27264,7 @@ declare module DevExpress.ui {
   export class dxToolbar<
     TItem extends DevExpress.ui.dxToolbar.ItemLike = any,
     TKey = any
-  > extends CollectionWidget<dxToolbarOptions<TItem, TKey>, TItem, TKey> { }
+  > extends CollectionWidget<dxToolbarOptions<TItem, TKey>, TItem, TKey> {}
   module dxToolbar {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -27435,8 +27379,8 @@ declare module DevExpress.ui {
      * Specifies a template that should be used to render a menu item.
      */
     menuItemTemplate?:
-    | DevExpress.core.template
-    | (() => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | (() => string | DevExpress.core.UserDefinedElement);
     /**
      * Configures the DevExtreme UI component used as a toolbar item.
      */
@@ -27474,17 +27418,17 @@ declare module DevExpress.ui {
      * Specifies a custom template for menu items.
      */
     menuItemTemplate?:
-    | DevExpress.core.template
-    | ((
-      itemData: TItem,
-      itemIndex: number,
-      itemElement: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          itemData: TItem,
+          itemIndex: number,
+          itemElement: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
   }
   /**
    * The Tooltip UI component displays a tooltip for a specified element on the page.
    */
-  export class dxTooltip extends dxPopover<dxTooltipOptions> { }
+  export class dxTooltip extends dxPopover<dxTooltipOptions> {}
   module dxTooltip {
     /**
      * The type of the contentReady event handler&apos;s argument.
@@ -27529,12 +27473,12 @@ declare module DevExpress.ui {
    * @deprecated 
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface dxTooltipOptions extends dxPopoverOptions<dxTooltip> { }
+  export interface dxTooltipOptions extends dxPopoverOptions<dxTooltip> {}
   /**
    * A base class for track bar UI components.
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export class dxTrackBar<TProperties> extends Editor<TProperties> { }
+  export class dxTrackBar<TProperties> extends Editor<TProperties> {}
   /**
    * 
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -27555,7 +27499,8 @@ declare module DevExpress.ui {
    */
   export class dxTreeList<TRowData = any, TKey = any>
     extends Widget<dxTreeListOptions<TRowData, TKey>>
-    implements DevExpress.common.grids.GridBase<TRowData, TKey> {
+    implements DevExpress.common.grids.GridBase<TRowData, TKey>
+  {
     /**
      * Adds a new column.
      */
@@ -28012,29 +27957,29 @@ declare module DevExpress.ui {
        * Specifies whether a user can add new rows. It is called for each data row when defined as a function.
        */
       allowAdding?:
-      | boolean
-      | ((options: {
-        readonly component: dxTreeList<TRowData, TKey>;
-        readonly row?: Row<TRowData, TKey>;
-      }) => boolean);
+        | boolean
+        | ((options: {
+            readonly component: dxTreeList<TRowData, TKey>;
+            readonly row?: Row<TRowData, TKey>;
+          }) => boolean);
       /**
        * Specifies whether a user can delete rows. It is called for each data row when defined as a function.
        */
       allowDeleting?:
-      | boolean
-      | ((options: {
-        readonly component: dxTreeList<TRowData, TKey>;
-        readonly row?: Row<TRowData, TKey>;
-      }) => boolean);
+        | boolean
+        | ((options: {
+            readonly component: dxTreeList<TRowData, TKey>;
+            readonly row?: Row<TRowData, TKey>;
+          }) => boolean);
       /**
        * Specifies whether a user can update rows. It is called for each data row when defined as a function
        */
       allowUpdating?:
-      | boolean
-      | ((options: {
-        readonly component: dxTreeList<TRowData, TKey>;
-        readonly row?: Row<TRowData, TKey>;
-      }) => boolean);
+        | boolean
+        | ((options: {
+            readonly component: dxTreeList<TRowData, TKey>;
+            readonly row?: Row<TRowData, TKey>;
+          }) => boolean);
       /**
        * Contains properties that specify texts for editing-related UI elements.
        */
@@ -28947,14 +28892,14 @@ declare module DevExpress.ui {
      * Specifies a custom template for data cells.
      */
     cellTemplate?:
-    | DevExpress.core.template
-    | ((
-      cellElement: DevExpress.core.DxElement,
-      cellInfo: DevExpress.ui.dxTreeList.ColumnCellTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          cellElement: DevExpress.core.DxElement,
+          cellInfo: DevExpress.ui.dxTreeList.ColumnCellTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => any);
     /**
      * Configures columns.
      */
@@ -28963,26 +28908,26 @@ declare module DevExpress.ui {
      * Specifies a custom template for data cells in editing state.
      */
     editCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      cellElement: DevExpress.core.DxElement,
-      cellInfo: DevExpress.ui.dxTreeList.ColumnEditCellTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          cellElement: DevExpress.core.DxElement,
+          cellInfo: DevExpress.ui.dxTreeList.ColumnEditCellTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => any);
     /**
      * Specifies a custom template for column headers.
      */
     headerCellTemplate?:
-    | DevExpress.core.template
-    | ((
-      columnHeader: DevExpress.core.DxElement,
-      headerInfo: DevExpress.ui.dxTreeList.ColumnHeaderCellTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => any);
+      | DevExpress.core.template
+      | ((
+          columnHeader: DevExpress.core.DxElement,
+          headerInfo: DevExpress.ui.dxTreeList.ColumnHeaderCellTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => any);
     /**
      * Specifies the command column that this object customizes.
      */
@@ -29008,34 +28953,34 @@ declare module DevExpress.ui {
      * Specifies a custom button template.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      cellElement: DevExpress.core.DxElement,
-      cellInfo: DevExpress.ui.dxTreeList.ColumnButtonTemplateData<
-        TRowData,
-        TKey
-      >
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          cellElement: DevExpress.core.DxElement,
+          cellInfo: DevExpress.ui.dxTreeList.ColumnButtonTemplateData<
+            TRowData,
+            TKey
+          >
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Specifies the button&apos;s visibility.
      */
     visible?:
-    | boolean
-    | ((options: {
-      readonly component: dxTreeList<TRowData, TKey>;
-      readonly row?: DevExpress.ui.dxTreeList.Row<TRowData, TKey>;
-      readonly column: DevExpress.ui.dxTreeList.Column<TRowData, TKey>;
-    }) => boolean);
+      | boolean
+      | ((options: {
+          readonly component: dxTreeList<TRowData, TKey>;
+          readonly row?: DevExpress.ui.dxTreeList.Row<TRowData, TKey>;
+          readonly column: DevExpress.ui.dxTreeList.Column<TRowData, TKey>;
+        }) => boolean);
     /**
      * Specifies whether the button is disabled.
      */
     disabled?:
-    | boolean
-    | ((options: {
-      readonly component: dxTreeList<TRowData, TKey>;
-      readonly row?: DevExpress.ui.dxTreeList.Row<TRowData, TKey>;
-      readonly column: DevExpress.ui.dxTreeList.Column<TRowData, TKey>;
-    }) => boolean);
+      | boolean
+      | ((options: {
+          readonly component: dxTreeList<TRowData, TKey>;
+          readonly row?: DevExpress.ui.dxTreeList.Row<TRowData, TKey>;
+          readonly column: DevExpress.ui.dxTreeList.Column<TRowData, TKey>;
+        }) => boolean);
   }
   /**
    * @deprecated Use DevExpress.ui.dxTreeList.Node instead
@@ -29211,21 +29156,21 @@ declare module DevExpress.ui {
      * Notifies the TreeList of the server&apos;s data processing operations. Applies only if data has a plain structure.
      */
     remoteOperations?:
-    | {
-      /**
-       * Specifies whether filtering should be performed on the server.
-       */
-      filtering?: boolean;
-      /**
-       * Specifies whether grouping should be performed on the server.
-       */
-      grouping?: boolean;
-      /**
-       * Specifies whether sorting should be performed on the server.
-       */
-      sorting?: boolean;
-    }
-    | DevExpress.common.Mode;
+      | {
+          /**
+           * Specifies whether filtering should be performed on the server.
+           */
+          filtering?: boolean;
+          /**
+           * Specifies whether grouping should be performed on the server.
+           */
+          grouping?: boolean;
+          /**
+           * Specifies whether sorting should be performed on the server.
+           */
+          sorting?: boolean;
+        }
+      | DevExpress.common.Mode;
     /**
      * Specifies the root node&apos;s identifier. Applies if dataStructure is &apos;plain&apos;.
      */
@@ -29413,7 +29358,7 @@ declare module DevExpress.ui {
         dxTreeView<TKey>,
         MouseEvent | PointerEvent
       > &
-      ItemInfo<TKey>;
+        ItemInfo<TKey>;
     /**
      * The type of the itemContextMenu event handler&apos;s argument.
      */
@@ -29422,7 +29367,7 @@ declare module DevExpress.ui {
         dxTreeView<TKey>,
         MouseEvent | PointerEvent | TouchEvent
       > &
-      ItemInfo<TKey>;
+        ItemInfo<TKey>;
     /**
      * The type of the itemExpanded event handler&apos;s argument.
      */
@@ -29431,7 +29376,7 @@ declare module DevExpress.ui {
         dxTreeView<TKey>,
         MouseEvent | PointerEvent
       > &
-      ItemInfo<TKey>;
+        ItemInfo<TKey>;
     /**
      * The type of the itemHold event handler&apos;s argument.
      */
@@ -29596,14 +29541,14 @@ declare module DevExpress.ui {
    */
   export interface dxTreeViewOptions<TKey = any>
     extends Omit<
-      HierarchicalCollectionWidgetOptions<
-        dxTreeView<TKey>,
-        dxTreeViewItem,
-        TKey
+        HierarchicalCollectionWidgetOptions<
+          dxTreeView<TKey>,
+          dxTreeViewItem,
+          TKey
+        >,
+        'dataSource'
       >,
-      'dataSource'
-    >,
-    SearchBoxMixinOptions {
+      SearchBoxMixinOptions {
     /**
      * Specifies whether or not to animate item collapsing and expanding.
      */
@@ -29776,7 +29721,7 @@ declare module DevExpress.ui {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxValidationGroup> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxValidationGroupOptions;
     export type ValidationResult = dxValidationGroupResult;
   }
@@ -29786,7 +29731,7 @@ declare module DevExpress.ui {
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
   export interface dxValidationGroupOptions
-    extends DOMComponentOptions<dxValidationGroup> { }
+    extends DOMComponentOptions<dxValidationGroup> {}
   /**
    * A group validation result.
    * @deprecated 
@@ -29827,7 +29772,7 @@ declare module DevExpress.ui {
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export class dxValidationMessage extends dxOverlay<dxValidationMessageOptions> { }
+  export class dxValidationMessage extends dxOverlay<dxValidationMessageOptions> {}
   module dxValidationMessage {
     export type Properties = dxValidationMessageOptions;
   }
@@ -29929,10 +29874,10 @@ declare module DevExpress.ui {
     TItem extends DevExpress.ui.CollectionWidget.ItemLike = any,
     TKey = any
   > extends CollectionWidgetOptions<
-    dxValidationSummary<TItem, TKey>,
-    TItem,
-    TKey
-  > {
+      dxValidationSummary<TItem, TKey>,
+      TItem,
+      TKey
+    > {
     /**
      * Specifies the validation group for which summary should be generated.
      */
@@ -30087,7 +30032,7 @@ declare module DevExpress.ui {
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
-    interface EditorInstance extends Editor<Properties> { }
+    interface EditorInstance extends Editor<Properties> {}
     /**
      * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
      */
@@ -30188,7 +30133,7 @@ declare module DevExpress.ui {
     TProperties extends HierarchicalCollectionWidgetOptions<any, TItem, TKey>,
     TItem extends DevExpress.ui.CollectionWidget.ItemLike = any,
     TKey = any
-  > extends CollectionWidget<TProperties, TItem, TKey> { }
+  > extends CollectionWidget<TProperties, TItem, TKey> {}
   /**
    * 
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -30307,45 +30252,45 @@ declare module DevExpress.ui {
      * 
      */
     position?:
-    | 'top left'
-    | 'top right'
-    | 'bottom left'
-    | 'bottom right'
-    | 'top center'
-    | 'bottom center'
-    | 'left center'
-    | 'right center'
-    | 'center'
-    | {
-      /**
-       * 
-       */
-      top?: number;
-      /**
-       * 
-       */
-      left?: number;
-      /**
-       * 
-       */
-      bottom?: number;
-      /**
-       * 
-       */
-      right?: number;
-    };
+      | 'top left'
+      | 'top right'
+      | 'bottom left'
+      | 'bottom right'
+      | 'top center'
+      | 'bottom center'
+      | 'left center'
+      | 'right center'
+      | 'center'
+      | {
+          /**
+           * 
+           */
+          top?: number;
+          /**
+           * 
+           */
+          left?: number;
+          /**
+           * 
+           */
+          bottom?: number;
+          /**
+           * 
+           */
+          right?: number;
+        };
     /**
      * 
      */
     direction?:
-    | 'down-push'
-    | 'up-push'
-    | 'left-push'
-    | 'right-push'
-    | 'down-stack'
-    | 'up-stack'
-    | 'left-stack'
-    | 'right-stack';
+      | 'down-push'
+      | 'up-push'
+      | 'left-push'
+      | 'right-push'
+      | 'down-stack'
+      | 'up-stack'
+      | 'left-stack'
+      | 'right-stack';
   }
   /**
    * 
@@ -30511,10 +30456,169 @@ declare module DevExpress.ui.dxDataGrid {
   };
 }
 declare module DevExpress.ui.dxDiagram {
+  export type AutoZoomMode = 'fitContent' | 'fitWidth' | 'disabled';
+  export type Command =
+    | 'separator'
+    | 'exportSvg'
+    | 'exportPng'
+    | 'exportJpg'
+    | 'undo'
+    | 'redo'
+    | 'cut'
+    | 'copy'
+    | 'paste'
+    | 'selectAll'
+    | 'delete'
+    | 'fontName'
+    | 'fontSize'
+    | 'bold'
+    | 'italic'
+    | 'underline'
+    | 'fontColor'
+    | 'lineStyle'
+    | 'lineWidth'
+    | 'lineColor'
+    | 'fillColor'
+    | 'textAlignLeft'
+    | 'textAlignCenter'
+    | 'textAlignRight'
+    | 'lock'
+    | 'unlock'
+    | 'sendToBack'
+    | 'bringToFront'
+    | 'insertShapeImage'
+    | 'editShapeImage'
+    | 'deleteShapeImage'
+    | 'connectorLineType'
+    | 'connectorLineStart'
+    | 'connectorLineEnd'
+    | 'layoutTreeTopToBottom'
+    | 'layoutTreeBottomToTop'
+    | 'layoutTreeLeftToRight'
+    | 'layoutTreeRightToLeft'
+    | 'layoutLayeredTopToBottom'
+    | 'layoutLayeredBottomToTop'
+    | 'layoutLayeredLeftToRight'
+    | 'layoutLayeredRightToLeft'
+    | 'fullScreen'
+    | 'zoomLevel'
+    | 'showGrid'
+    | 'snapToGrid'
+    | 'gridSize'
+    | 'units'
+    | 'pageSize'
+    | 'pageOrientation'
+    | 'pageColor'
+    | 'simpleView'
+    | 'toolbox';
+  export type ConnectorLineEnd =
+    | 'none'
+    | 'arrow'
+    | 'outlinedTriangle'
+    | 'filledTriangle';
+  export type ConnectorLineType = 'straight' | 'orthogonal';
+  export type ConnectorPosition = 'start' | 'end';
+  /**
+   * An object that provides information about a custom command in the Diagram UI component.
+   */
+  export type CustomCommand = {
+    /**
+     * Specifies the custom command&apos;s identifier.
+     */
+    name?: string | Command;
+    /**
+     * Specifies the custom command&apos;s text and tooltip text.
+     */
+    text?: string;
+    /**
+     * Specifies the custom command&apos;s icon.
+     */
+    icon?: string;
+    /**
+     * Lists command sub items.
+     */
+    items?: Array<CustomCommand | Command>;
+    /**
+     * Specifies a location for the command or separator on the main toolbar.
+     */
+    location?: DevExpress.common.ToolbarItemLocation;
+  };
+  export type DataLayoutType = 'auto' | 'off' | 'tree' | 'layered';
+  export type DiagramExportFormat = 'svg' | 'png' | 'jpg';
   /**
    * An object that provides information about an item (shape or connector) in the Diagram UI component.
    */
   export type Item = dxDiagramItem;
+  export type ItemType = 'shape' | 'connector';
+  export type ModelOperation =
+    | 'addShape'
+    | 'addShapeFromToolbox'
+    | 'deleteShape'
+    | 'deleteConnector'
+    | 'changeConnection'
+    | 'changeConnectorPoints'
+    | 'beforeChangeShapeText'
+    | 'changeShapeText'
+    | 'beforeChangeConnectorText'
+    | 'changeConnectorText'
+    | 'resizeShape'
+    | 'moveShape';
+  export type PanelVisibility = 'auto' | 'visible' | 'collapsed' | 'disabled';
+  export type RequestEditOperationReason =
+    | 'checkUIElementAvailability'
+    | 'modelModification';
+  export type ShapeCategory =
+    | 'general'
+    | 'flowchart'
+    | 'orgChart'
+    | 'containers'
+    | 'custom';
+  export type ShapeType =
+    | 'text'
+    | 'rectangle'
+    | 'ellipse'
+    | 'cross'
+    | 'triangle'
+    | 'diamond'
+    | 'heart'
+    | 'pentagon'
+    | 'hexagon'
+    | 'octagon'
+    | 'star'
+    | 'arrowLeft'
+    | 'arrowTop'
+    | 'arrowRight'
+    | 'arrowBottom'
+    | 'arrowNorthSouth'
+    | 'arrowEastWest'
+    | 'process'
+    | 'decision'
+    | 'terminator'
+    | 'predefinedProcess'
+    | 'document'
+    | 'multipleDocuments'
+    | 'manualInput'
+    | 'preparation'
+    | 'data'
+    | 'database'
+    | 'hardDisk'
+    | 'internalStorage'
+    | 'paperTape'
+    | 'manualOperation'
+    | 'delay'
+    | 'storedData'
+    | 'display'
+    | 'merge'
+    | 'connector'
+    | 'or'
+    | 'summingJunction'
+    | 'verticalContainer'
+    | 'horizontalContainer'
+    | 'cardWithImageOnLeft'
+    | 'cardWithImageOnTop'
+    | 'cardWithImageOnRight';
+  export type ToolboxDisplayMode = 'icons' | 'texts';
+  export type Units = 'in' | 'cm' | 'px';
 }
 declare module DevExpress.ui.dxDropDownButton {
   export type Item = dxDropDownButtonItem;
@@ -30584,6 +30688,9 @@ declare module DevExpress.ui.dxPopup {
 }
 declare module DevExpress.ui.dxResponsiveBox {
   export type Item = dxResponsiveBoxItem;
+}
+declare module DevExpress.ui.dxSplitter {
+  export type Item<TKey = any> = dxSplitterItem<TKey>;
 }
 declare module DevExpress.ui.dxTabPanel {
   export type Item = dxTabPanelItem;
@@ -30795,11 +30902,11 @@ declare module DevExpress.viz {
      * Specifies an SVG element that serves as a custom legend item marker.
      */
     markerTemplate?:
-    | DevExpress.core.template
-    | ((
-      legendItem: DevExpress.common.charts.LegendItem,
-      element: SVGGElement
-    ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+      | DevExpress.core.template
+      | ((
+          legendItem: DevExpress.common.charts.LegendItem,
+          element: SVGGElement
+        ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
   }
   /**
    * 
@@ -30815,25 +30922,25 @@ declare module DevExpress.viz {
      * Specifies animation properties.
      */
     animation?:
-    | {
-      /**
-       * Specifies how long the animation runs in milliseconds.
-       */
-      duration?: number;
-      /**
-       * Specifies the easing function of the animation.
-       */
-      easing?: DevExpress.common.charts.AnimationEaseMode;
-      /**
-       * Enables the animation in the UI component.
-       */
-      enabled?: boolean;
-      /**
-       * Specifies how many series points the UI component should have before the animation will be disabled.
-       */
-      maxPointCountSupported?: number;
-    }
-    | boolean;
+      | {
+          /**
+           * Specifies how long the animation runs in milliseconds.
+           */
+          duration?: number;
+          /**
+           * Specifies the easing function of the animation.
+           */
+          easing?: DevExpress.common.charts.AnimationEaseMode;
+          /**
+           * Enables the animation in the UI component.
+           */
+          enabled?: boolean;
+          /**
+           * Specifies how many series points the UI component should have before the animation will be disabled.
+           */
+          maxPointCountSupported?: number;
+        }
+      | boolean;
     /**
      * Customizes the appearance of an individual point label.
      */
@@ -30858,14 +30965,14 @@ declare module DevExpress.viz {
      * A function that is executed when a series point is clicked or tapped.
      */
     onPointClick?:
-    | ((
-      e: DevExpress.events.NativeEventInfo<
-        TComponent,
-        MouseEvent | PointerEvent
-      > &
-        DevExpress.viz.BaseChart.PointInteractionInfo
-    ) => void)
-    | string;
+      | ((
+          e: DevExpress.events.NativeEventInfo<
+            TComponent,
+            MouseEvent | PointerEvent
+          > &
+            DevExpress.viz.BaseChart.PointInteractionInfo
+        ) => void)
+      | string;
     /**
      * A function that is executed after the pointer enters or leaves a series point.
      */
@@ -30928,11 +31035,11 @@ declare module DevExpress.viz {
      * Specifies a custom template for a tooltip.
      */
     contentTemplate?:
-    | DevExpress.core.template
-    | ((
-      pointInfo: any,
-      element: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          pointInfo: any,
+          element: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Allows you to change tooltip appearance.
      */
@@ -31245,11 +31352,11 @@ declare module DevExpress.viz {
      * Specifies a custom template for a tooltip.
      */
     contentTemplate?:
-    | DevExpress.core.template
-    | ((
-      scaleValue: { value?: number; valueText?: string },
-      element: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          scaleValue: { value?: number; valueText?: string },
+          element: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Allows you to change the appearance of specified tooltips.
      */
@@ -31510,11 +31617,11 @@ declare module DevExpress.viz {
      * Specifies a custom template for tooltips.
      */
     contentTemplate?:
-    | DevExpress.core.template
-    | ((
-      pointsInfo: any,
-      element: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          pointsInfo: any,
+          element: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
     /**
      * Allows you to change tooltip appearance.
      */
@@ -31691,21 +31798,21 @@ declare module DevExpress.viz {
      * Configures the image to be displayed in the annotation. Applies only if the type is &apos;image&apos;.
      */
     image?:
-    | string
-    | {
-      /**
-       * Specifies the image&apos;s height in pixels.
-       */
-      height?: number;
-      /**
-       * Specifies the image&apos;s URL.
-       */
-      url?: string;
-      /**
-       * Specifies the image&apos;s width in pixels.
-       */
-      width?: number;
-    };
+      | string
+      | {
+          /**
+           * Specifies the image&apos;s height in pixels.
+           */
+          height?: number;
+          /**
+           * Specifies the image&apos;s URL.
+           */
+          url?: string;
+          /**
+           * Specifies the image&apos;s width in pixels.
+           */
+          width?: number;
+        };
     /**
      * Moves the annotation horizontally.
      */
@@ -31987,25 +32094,25 @@ declare module DevExpress.viz {
      * Generates space around the title.
      */
     margin?:
-    | number
-    | {
-      /**
-       * Specifies the bottom margin of the title.
-       */
-      bottom?: number;
-      /**
-       * Specifies the left margin of the title.
-       */
-      left?: number;
-      /**
-       * Specifies the right margin of the title.
-       */
-      right?: number;
-      /**
-       * Specifies the top margin of the title.
-       */
-      top?: number;
-    };
+      | number
+      | {
+          /**
+           * Specifies the bottom margin of the title.
+           */
+          bottom?: number;
+          /**
+           * Specifies the left margin of the title.
+           */
+          left?: number;
+          /**
+           * Specifies the right margin of the title.
+           */
+          right?: number;
+          /**
+           * Specifies the top margin of the title.
+           */
+          top?: number;
+        };
     /**
      * Reserves a pixel-measured space for the title.
      */
@@ -32014,29 +32121,29 @@ declare module DevExpress.viz {
      * Configures the UI component&apos;s subtitle.
      */
     subtitle?:
-    | {
-      /**
-       * Specifies font properties for the subtitle.
-       */
-      font?: DevExpress.common.charts.Font;
-      /**
-       * Specifies the distance between the title and subtitle in pixels.
-       */
-      offset?: number;
-      /**
-       * Specifies text for the subtitle.
-       */
-      text?: string;
-      /**
-       * Specifies what to do with the subtitle when it overflows the allocated space after applying wordWrap: hide, truncate it and display an ellipsis, or do nothing.
-       */
-      textOverflow?: DevExpress.common.charts.TextOverflow;
-      /**
-       * Specifies how to wrap the subtitle if it does not fit into a single line.
-       */
-      wordWrap?: DevExpress.common.charts.WordWrap;
-    }
-    | string;
+      | {
+          /**
+           * Specifies font properties for the subtitle.
+           */
+          font?: DevExpress.common.charts.Font;
+          /**
+           * Specifies the distance between the title and subtitle in pixels.
+           */
+          offset?: number;
+          /**
+           * Specifies text for the subtitle.
+           */
+          text?: string;
+          /**
+           * Specifies what to do with the subtitle when it overflows the allocated space after applying wordWrap: hide, truncate it and display an ellipsis, or do nothing.
+           */
+          textOverflow?: DevExpress.common.charts.TextOverflow;
+          /**
+           * Specifies how to wrap the subtitle if it does not fit into a single line.
+           */
+          wordWrap?: DevExpress.common.charts.WordWrap;
+        }
+      | string;
     /**
      * Specifies the title&apos;s text.
      */
@@ -32439,7 +32546,7 @@ declare module DevExpress.viz {
      */
     export type IncidentOccurredEvent =
       DevExpress.events.EventInfo<dxBarGauge> &
-      DevExpress.viz.BaseWidget.IncidentInfo;
+        DevExpress.viz.BaseWidget.IncidentInfo;
     /**
      * The type of the initialized event handler&apos;s argument.
      */
@@ -32475,11 +32582,11 @@ declare module DevExpress.viz {
        * Specifies an SVG element that serves as a custom legend item marker.
        */
       markerTemplate?:
-      | DevExpress.core.template
-      | ((
-        legendItem: LegendItem,
-        element: SVGGElement
-      ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+        | DevExpress.core.template
+        | ((
+            legendItem: LegendItem,
+            element: SVGGElement
+          ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
       /**
        * Specifies whether the legend is visible.
        */
@@ -32508,11 +32615,11 @@ declare module DevExpress.viz {
        * Specifies a custom template for a tooltip.
        */
       contentTemplate?:
-      | DevExpress.core.template
-      | ((
-        scaleValue: { value?: number; valueText?: string; index?: number },
-        element: DevExpress.core.DxElement
-      ) => string | DevExpress.core.UserDefinedElement);
+        | DevExpress.core.template
+        | ((
+            scaleValue: { value?: number; valueText?: string; index?: number },
+            element: DevExpress.core.DxElement
+          ) => string | DevExpress.core.UserDefinedElement);
       /**
        * Allows you to change tooltip appearance.
        */
@@ -32590,11 +32697,11 @@ declare module DevExpress.viz {
      * Specifies a custom template for content in the component&apos;s center.
      */
     centerTemplate?:
-    | DevExpress.core.template
-    | ((
-      component: dxBarGauge,
-      element: SVGGElement
-    ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+      | DevExpress.core.template
+      | ((
+          component: dxBarGauge,
+          element: SVGGElement
+        ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
     /**
      * Specifies the properties of the labels that accompany gauge bars.
      */
@@ -32679,7 +32786,7 @@ declare module DevExpress.viz {
   /**
    * The Bullet UI component is useful when you need to compare a single measure to a target value. The UI component comprises a horizontal bar indicating the measure and a vertical line indicating the target value.
    */
-  export class dxBullet extends BaseSparkline<dxBulletOptions> { }
+  export class dxBullet extends BaseSparkline<dxBulletOptions> {}
   module dxBullet {
     /**
      * The type of the disposing event handler&apos;s argument.
@@ -32918,8 +33025,8 @@ declare module DevExpress.viz {
        * Defines the axis&apos; displayed range. Cannot be wider than the wholeRange.
        */
       visualRange?:
-      | DevExpress.common.charts.VisualRange
-      | Array<number | string | Date>;
+        | DevExpress.common.charts.VisualRange
+        | Array<number | string | Date>;
       /**
        * Specifies how the axis&apos;s visual range should behave when chart data is updated.
        */
@@ -32928,8 +33035,8 @@ declare module DevExpress.viz {
        * Defines the range where the axis can be zoomed and panned.
        */
       wholeRange?:
-      | DevExpress.common.charts.VisualRange
-      | Array<number | string | Date>;
+        | DevExpress.common.charts.VisualRange
+        | Array<number | string | Date>;
       /**
        * Specifies which days are workdays. The array can contain values from 0 (Sunday) to 6 (Saturday). Applies only if workdaysOnly is true.
        */
@@ -33343,11 +33450,11 @@ declare module DevExpress.viz {
        * Specifies a custom template for axis labels.
        */
       template?:
-      | DevExpress.core.template
-      | ((
-        data: object,
-        element: SVGGElement
-      ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+        | DevExpress.core.template
+        | ((
+            data: object,
+            element: SVGGElement
+          ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
       /**
        * Aligns axis labels in relation to ticks.
        */
@@ -33372,8 +33479,8 @@ declare module DevExpress.viz {
        * Specifies the position of labels relative to the chart or its axis.
        */
       position?:
-      | DevExpress.common.charts.RelativePosition
-      | DevExpress.common.Position;
+        | DevExpress.common.charts.RelativePosition
+        | DevExpress.common.Position;
       /**
        * Specifies the rotation angle of axis labels. Applies only if displayMode or overlappingBehavior is &apos;rotate&apos;.
        */
@@ -33725,7 +33832,7 @@ declare module DevExpress.viz {
      */
     export type PointSelectionChangedEvent =
       DevExpress.events.EventInfo<dxChart> &
-      DevExpress.viz.BaseChart.PointInteractionInfo;
+        DevExpress.viz.BaseChart.PointInteractionInfo;
     export type Properties = dxChartOptions;
     /**
      * The type of the seriesClick event handler&apos;s argument.
@@ -33895,8 +34002,8 @@ declare module DevExpress.viz {
        * Defines the axis&apos; displayed range. Cannot be wider than the wholeRange.
        */
       visualRange?:
-      | DevExpress.common.charts.VisualRange
-      | Array<number | string | Date>;
+        | DevExpress.common.charts.VisualRange
+        | Array<number | string | Date>;
       /**
        * Specifies how the axis&apos;s visual range should behave when chart data is updated.
        */
@@ -33905,8 +34012,8 @@ declare module DevExpress.viz {
        * Defines the range where the axis can be zoomed and panned.
        */
       wholeRange?:
-      | DevExpress.common.charts.VisualRange
-      | Array<number | string | Date>;
+        | DevExpress.common.charts.VisualRange
+        | Array<number | string | Date>;
     };
     /**
      * Declares a collection of constant lines belonging to the value axis.
@@ -34119,20 +34226,20 @@ declare module DevExpress.viz {
      * Specifies a custom template for the annotation. Applies only if the type is &apos;custom&apos;.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      annotation: dxChartAnnotationConfig | any,
-      element: SVGGElement
-    ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+      | DevExpress.core.template
+      | ((
+          annotation: dxChartAnnotationConfig | any,
+          element: SVGGElement
+        ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
     /**
      * Specifies a custom template for an annotation&apos;s tooltip.
      */
     tooltipTemplate?:
-    | DevExpress.core.template
-    | ((
-      annotation: dxChartAnnotationConfig | any,
-      element: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          annotation: dxChartAnnotationConfig | any,
+          element: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
   }
   /**
    * 
@@ -34204,58 +34311,58 @@ declare module DevExpress.viz {
        * Configures the horizontal crosshair line individually.
        */
       horizontalLine?:
-      | {
-        /**
-         * Specifies the color of the horizontal crosshair line.
-         */
-        color?: string;
-        /**
-         * Specifies the dash style of the horizontal crosshair line.
-         */
-        dashStyle?: DevExpress.common.charts.DashStyle;
-        /**
-         * Configures the label that belongs to the horizontal crosshair line.
-         */
-        label?: {
-          /**
-           * Paints the background of the label that belongs to the horizontal crosshair line.
-           */
-          backgroundColor?: string;
-          /**
-           * Customizes the text displayed by the label that belongs to the horizontal crosshair line.
-           */
-          customizeText?: (info: {
-            value?: Date | number | string;
-            valueText?: string;
-            point?: chartPointObject;
-          }) => string;
-          /**
-           * Specifies font properties for the label of the horizontal crosshair line.
-           */
-          font?: DevExpress.common.charts.Font;
-          /**
-           * Formats a point value before it is displayed in the crosshair label.
-           */
-          format?: DevExpress.ui.Format;
-          /**
-           * Makes the label of the horizontal crosshair line visible. Applies only if the crosshair feature is enabled and the horizontal line is visible.
-           */
-          visible?: boolean;
-        };
-        /**
-         * Specifies how transparent the horizontal crosshair line should be.
-         */
-        opacity?: number;
-        /**
-         * Specifies whether to show the horizontal crosshair line or not.
-         */
-        visible?: boolean;
-        /**
-         * Specifies the width of the horizontal crosshair line in pixels.
-         */
-        width?: number;
-      }
-      | boolean;
+        | {
+            /**
+             * Specifies the color of the horizontal crosshair line.
+             */
+            color?: string;
+            /**
+             * Specifies the dash style of the horizontal crosshair line.
+             */
+            dashStyle?: DevExpress.common.charts.DashStyle;
+            /**
+             * Configures the label that belongs to the horizontal crosshair line.
+             */
+            label?: {
+              /**
+               * Paints the background of the label that belongs to the horizontal crosshair line.
+               */
+              backgroundColor?: string;
+              /**
+               * Customizes the text displayed by the label that belongs to the horizontal crosshair line.
+               */
+              customizeText?: (info: {
+                value?: Date | number | string;
+                valueText?: string;
+                point?: chartPointObject;
+              }) => string;
+              /**
+               * Specifies font properties for the label of the horizontal crosshair line.
+               */
+              font?: DevExpress.common.charts.Font;
+              /**
+               * Formats a point value before it is displayed in the crosshair label.
+               */
+              format?: DevExpress.ui.Format;
+              /**
+               * Makes the label of the horizontal crosshair line visible. Applies only if the crosshair feature is enabled and the horizontal line is visible.
+               */
+              visible?: boolean;
+            };
+            /**
+             * Specifies how transparent the horizontal crosshair line should be.
+             */
+            opacity?: number;
+            /**
+             * Specifies whether to show the horizontal crosshair line or not.
+             */
+            visible?: boolean;
+            /**
+             * Specifies the width of the horizontal crosshair line in pixels.
+             */
+            width?: number;
+          }
+        | boolean;
       /**
        * Configures the crosshair labels.
        */
@@ -34293,58 +34400,58 @@ declare module DevExpress.viz {
        * Configures the vertical crosshair line individually.
        */
       verticalLine?:
-      | {
-        /**
-         * Specifies the color of the vertical crosshair line.
-         */
-        color?: string;
-        /**
-         * Specifies the dash style of the vertical crosshair line.
-         */
-        dashStyle?: DevExpress.common.charts.DashStyle;
-        /**
-         * Configures the label that belongs to the vertical crosshair line.
-         */
-        label?: {
-          /**
-           * Paints the background of the label that belongs to the vertical crosshair line.
-           */
-          backgroundColor?: string;
-          /**
-           * Customizes the text displayed by the label that belongs to the vertical crosshair line.
-           */
-          customizeText?: (info: {
-            value?: Date | number | string;
-            valueText?: string;
-            point?: chartPointObject;
-          }) => string;
-          /**
-           * Specifies font properties for the label of the vertical crosshair line.
-           */
-          font?: DevExpress.common.charts.Font;
-          /**
-           * Formats the point argument before it is displayed in the crosshair label.
-           */
-          format?: DevExpress.ui.Format;
-          /**
-           * Makes the label of the vertical crosshair line visible. Applies only if the crosshair feature is enabled and the vertical line is visible.
-           */
-          visible?: boolean;
-        };
-        /**
-         * Specifies how transparent the vertical crosshair line should be.
-         */
-        opacity?: number;
-        /**
-         * Specifies whether to show the vertical crosshair line or not.
-         */
-        visible?: boolean;
-        /**
-         * Specifies the width of the vertical crosshair line in pixels.
-         */
-        width?: number;
-      }
-      | boolean;
+        | {
+            /**
+             * Specifies the color of the vertical crosshair line.
+             */
+            color?: string;
+            /**
+             * Specifies the dash style of the vertical crosshair line.
+             */
+            dashStyle?: DevExpress.common.charts.DashStyle;
+            /**
+             * Configures the label that belongs to the vertical crosshair line.
+             */
+            label?: {
+              /**
+               * Paints the background of the label that belongs to the vertical crosshair line.
+               */
+              backgroundColor?: string;
+              /**
+               * Customizes the text displayed by the label that belongs to the vertical crosshair line.
+               */
+              customizeText?: (info: {
+                value?: Date | number | string;
+                valueText?: string;
+                point?: chartPointObject;
+              }) => string;
+              /**
+               * Specifies font properties for the label of the vertical crosshair line.
+               */
+              font?: DevExpress.common.charts.Font;
+              /**
+               * Formats the point argument before it is displayed in the crosshair label.
+               */
+              format?: DevExpress.ui.Format;
+              /**
+               * Makes the label of the vertical crosshair line visible. Applies only if the crosshair feature is enabled and the vertical line is visible.
+               */
+              visible?: boolean;
+            };
+            /**
+             * Specifies how transparent the vertical crosshair line should be.
+             */
+            opacity?: number;
+            /**
+             * Specifies whether to show the vertical crosshair line or not.
+             */
+            visible?: boolean;
+            /**
+             * Specifies the width of the vertical crosshair line in pixels.
+             */
+            width?: number;
+          }
+        | boolean;
       /**
        * Specifies the width of the crosshair lines.
        */
@@ -34397,20 +34504,20 @@ declare module DevExpress.viz {
      * A function that is executed when a label on the argument axis is clicked or tapped.
      */
     onArgumentAxisClick?:
-    | ((e: DevExpress.viz.dxChart.ArgumentAxisClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxChart.ArgumentAxisClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a legend item is clicked or tapped.
      */
     onLegendClick?:
-    | ((e: DevExpress.viz.dxChart.LegendClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxChart.LegendClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a series is clicked or tapped.
      */
     onSeriesClick?:
-    | ((e: DevExpress.viz.dxChart.SeriesClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxChart.SeriesClickEvent) => void)
+      | string;
     /**
      * A function that is executed after the pointer enters or leaves a series.
      */
@@ -34513,8 +34620,8 @@ declare module DevExpress.viz {
      * Configures the value axis.
      */
     valueAxis?:
-    | DevExpress.viz.dxChart.ValueAxis
-    | Array<DevExpress.viz.dxChart.ValueAxis>;
+      | DevExpress.viz.dxChart.ValueAxis
+      | Array<DevExpress.viz.dxChart.ValueAxis>;
     /**
      * Configures zooming and panning.
      */
@@ -34737,10 +34844,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects a bar.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
   }
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -34783,10 +34890,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects a bubble.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
   }
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -34837,10 +34944,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects a point.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
     /**
      * Configures the appearance adopted by the series when a user selects it.
      */
@@ -35365,10 +35472,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects a bar.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
   }
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -35653,10 +35760,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects a range bar.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
   }
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -35887,10 +35994,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects a bar.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
   }
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -36241,10 +36348,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects a point.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
   }
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -36269,7 +36376,7 @@ declare module DevExpress.viz {
   /**
    * The CircularGauge is a UI component that indicates values on a circular numeric scale.
    */
-  export class dxCircularGauge extends BaseGauge<dxCircularGaugeOptions> { }
+  export class dxCircularGauge extends BaseGauge<dxCircularGaugeOptions> {}
   module dxCircularGauge {
     export type CircularGaugeElementOrientation =
       | 'center'
@@ -36303,7 +36410,7 @@ declare module DevExpress.viz {
      */
     export type IncidentOccurredEvent =
       DevExpress.events.EventInfo<dxCircularGauge> &
-      DevExpress.viz.BaseWidget.IncidentInfo;
+        DevExpress.viz.BaseWidget.IncidentInfo;
     /**
      * The type of the initialized event handler&apos;s argument.
      */
@@ -36314,7 +36421,7 @@ declare module DevExpress.viz {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxCircularGauge> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxCircularGaugeOptions;
     /**
      * Specifies gauge range container properties.
@@ -36360,13 +36467,13 @@ declare module DevExpress.viz {
      */
     export type TooltipHiddenEvent =
       DevExpress.events.EventInfo<dxCircularGauge> &
-      DevExpress.viz.BaseGauge.TooltipInfo;
+        DevExpress.viz.BaseGauge.TooltipInfo;
     /**
      * The type of the tooltipShown event handler&apos;s argument.
      */
     export type TooltipShownEvent =
       DevExpress.events.EventInfo<dxCircularGauge> &
-      DevExpress.viz.BaseGauge.TooltipInfo;
+        DevExpress.viz.BaseGauge.TooltipInfo;
   }
   /**
    * 
@@ -36392,11 +36499,11 @@ declare module DevExpress.viz {
      * Specifies a custom template for content in the component&apos;s center.
      */
     centerTemplate?:
-    | DevExpress.core.template
-    | ((
-      component: dxCircularGauge,
-      element: SVGGElement
-    ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+      | DevExpress.core.template
+      | ((
+          component: dxCircularGauge,
+          element: SVGGElement
+        ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
     /**
      * Specifies gauge range container properties.
      */
@@ -36509,11 +36616,11 @@ declare module DevExpress.viz {
        * Specifies an SVG element that serves as a custom legend item marker.
        */
       markerTemplate?:
-      | DevExpress.core.template
-      | ((
-        legendItem: LegendItem,
-        element: SVGGElement
-      ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+        | DevExpress.core.template
+        | ((
+            legendItem: LegendItem,
+            element: SVGGElement
+          ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
       /**
        * Specifies whether the legend is visible.
        */
@@ -36546,17 +36653,17 @@ declare module DevExpress.viz {
        * Specifies a custom template for a tooltip.
        */
       contentTemplate?:
-      | DevExpress.core.template
-      | ((
-        info: {
-          item?: Item;
-          value?: number;
-          valueText?: string;
-          percent?: number;
-          percentText?: string;
-        },
-        element: DevExpress.core.DxElement
-      ) => string | DevExpress.core.UserDefinedElement);
+        | DevExpress.core.template
+        | ((
+            info: {
+              item?: Item;
+              value?: number;
+              valueText?: string;
+              percent?: number;
+              percentText?: string;
+            },
+            element: DevExpress.core.DxElement
+          ) => string | DevExpress.core.UserDefinedElement);
       /**
        * Customizes a specific tooltip&apos;s appearance.
        */
@@ -36887,14 +36994,14 @@ declare module DevExpress.viz {
      * A function that is executed when a funnel item is clicked or tapped.
      */
     onItemClick?:
-    | ((e: DevExpress.viz.dxFunnel.ItemClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxFunnel.ItemClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a legend item is clicked or tapped.
      */
     onLegendClick?:
-    | ((e: DevExpress.viz.dxFunnel.LegendClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxFunnel.LegendClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a funnel item is selected or selection is canceled.
      */
@@ -36933,7 +37040,7 @@ declare module DevExpress.viz {
   /**
    * The LinearGauge is a UI component that indicates values on a linear numeric scale.
    */
-  export class dxLinearGauge extends BaseGauge<dxLinearGaugeOptions> { }
+  export class dxLinearGauge extends BaseGauge<dxLinearGaugeOptions> {}
   module dxLinearGauge {
     /**
      * The type of the disposing event handler&apos;s argument.
@@ -36962,7 +37069,7 @@ declare module DevExpress.viz {
      */
     export type IncidentOccurredEvent =
       DevExpress.events.EventInfo<dxLinearGauge> &
-      DevExpress.viz.BaseWidget.IncidentInfo;
+        DevExpress.viz.BaseWidget.IncidentInfo;
     /**
      * The type of the initialized event handler&apos;s argument.
      */
@@ -36973,7 +37080,7 @@ declare module DevExpress.viz {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxLinearGauge> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxLinearGaugeOptions;
     /**
      * Specifies gauge range container properties.
@@ -36991,17 +37098,17 @@ declare module DevExpress.viz {
        * Specifies the width of the range container&apos;s start and end boundaries in the LinearGauge UI component.
        */
       width?:
-      | {
-        /**
-         * Specifies a start width of a range container.
-         */
-        start?: number;
-        /**
-         * Specifies an end width of a range container.
-         */
-        end?: number;
-      }
-      | number;
+        | {
+            /**
+             * Specifies a start width of a range container.
+             */
+            start?: number;
+            /**
+             * Specifies an end width of a range container.
+             */
+            end?: number;
+          }
+        | number;
     };
     /**
      * Specifies the gauge&apos;s scale properties.
@@ -37038,7 +37145,7 @@ declare module DevExpress.viz {
      */
     export type TooltipHiddenEvent =
       DevExpress.events.EventInfo<dxLinearGauge> &
-      DevExpress.viz.BaseGauge.TooltipInfo;
+        DevExpress.viz.BaseGauge.TooltipInfo;
     /**
      * The type of the tooltipShown event handler&apos;s argument.
      */
@@ -37128,7 +37235,7 @@ declare module DevExpress.viz {
      */
     export type IncidentOccurredEvent =
       DevExpress.events.EventInfo<dxPieChart> &
-      DevExpress.viz.BaseWidget.IncidentInfo;
+        DevExpress.viz.BaseWidget.IncidentInfo;
     /**
      * The type of the initialized event handler&apos;s argument.
      */
@@ -37166,11 +37273,11 @@ declare module DevExpress.viz {
        * Specifies an SVG element that serves as a custom legend item marker.
        */
       markerTemplate?:
-      | DevExpress.core.template
-      | ((
-        legendItem: LegendItem,
-        element: SVGGElement
-      ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+        | DevExpress.core.template
+        | ((
+            legendItem: LegendItem,
+            element: SVGGElement
+          ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
     };
     /**
      * The type of the legendClick event handler&apos;s argument.
@@ -37211,13 +37318,13 @@ declare module DevExpress.viz {
      */
     export type PointHoverChangedEvent =
       DevExpress.events.EventInfo<dxPieChart> &
-      DevExpress.viz.BaseChart.PointInteractionInfo;
+        DevExpress.viz.BaseChart.PointInteractionInfo;
     /**
      * The type of the pointSelectionChanged event handler&apos;s argument.
      */
     export type PointSelectionChangedEvent =
       DevExpress.events.EventInfo<dxPieChart> &
-      DevExpress.viz.BaseChart.PointInteractionInfo;
+        DevExpress.viz.BaseChart.PointInteractionInfo;
     export type Properties = dxPieChartOptions;
     export type SmallValuesGroupingMode =
       | 'none'
@@ -37271,20 +37378,20 @@ declare module DevExpress.viz {
      * Specifies a custom template for the annotation. Applies only if the type is &apos;custom&apos;.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      annotation: dxPieChartAnnotationConfig | any,
-      element: SVGGElement
-    ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+      | DevExpress.core.template
+      | ((
+          annotation: dxPieChartAnnotationConfig | any,
+          element: SVGGElement
+        ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
     /**
      * Specifies a custom template for an annotation&apos;s tooltip.
      */
     tooltipTemplate?:
-    | DevExpress.core.template
-    | ((
-      annotation: dxPieChartAnnotationConfig | any,
-      element: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          annotation: dxPieChartAnnotationConfig | any,
+          element: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
   }
   /**
    * 
@@ -37300,11 +37407,11 @@ declare module DevExpress.viz {
      * Specifies a custom template for content in the pie&apos;s center.
      */
     centerTemplate?:
-    | DevExpress.core.template
-    | ((
-      component: dxPieChart,
-      element: SVGGElement
-    ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+      | DevExpress.core.template
+      | ((
+          component: dxPieChart,
+          element: SVGGElement
+        ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
     /**
      * An object defining the configuration properties that are common for all series of the PieChart UI component.
      */
@@ -37329,8 +37436,8 @@ declare module DevExpress.viz {
      * A function that is executed when a legend item is clicked or tapped.
      */
     onLegendClick?:
-    | ((e: DevExpress.viz.dxPieChart.LegendClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxPieChart.LegendClickEvent) => void)
+      | string;
     /**
      * Sets the palette to be used to colorize series and their elements.
      */
@@ -38195,7 +38302,7 @@ declare module DevExpress.viz {
      */
     export type IncidentOccurredEvent =
       DevExpress.events.EventInfo<dxPolarChart> &
-      DevExpress.viz.BaseWidget.IncidentInfo;
+        DevExpress.viz.BaseWidget.IncidentInfo;
     /**
      * The type of the initialized event handler&apos;s argument.
      */
@@ -38258,13 +38365,13 @@ declare module DevExpress.viz {
      */
     export type PointHoverChangedEvent =
       DevExpress.events.EventInfo<dxPolarChart> &
-      DevExpress.viz.BaseChart.PointInteractionInfo;
+        DevExpress.viz.BaseChart.PointInteractionInfo;
     /**
      * The type of the pointSelectionChanged event handler&apos;s argument.
      */
     export type PointSelectionChangedEvent =
       DevExpress.events.EventInfo<dxPolarChart> &
-      DevExpress.viz.BaseChart.PointInteractionInfo;
+        DevExpress.viz.BaseChart.PointInteractionInfo;
     export type PolarChartSeriesType =
       | 'area'
       | 'bar'
@@ -38407,8 +38514,8 @@ declare module DevExpress.viz {
        * Defines the axis&apos; displayed range. Cannot be wider than the wholeRange.
        */
       visualRange?:
-      | DevExpress.common.charts.VisualRange
-      | Array<number | string | Date>;
+        | DevExpress.common.charts.VisualRange
+        | Array<number | string | Date>;
       /**
        * Specifies how the axis&apos;s visual range should behave when the PolarChart data is updated.
        */
@@ -38417,8 +38524,8 @@ declare module DevExpress.viz {
        * Defines the range where the axis can be zoomed.
        */
       wholeRange?:
-      | DevExpress.common.charts.VisualRange
-      | Array<number | string | Date>;
+        | DevExpress.common.charts.VisualRange
+        | Array<number | string | Date>;
     };
     /**
      * Defines an array of the value axis constant lines.
@@ -38602,20 +38709,20 @@ declare module DevExpress.viz {
      * Specifies a custom template for the annotation. Applies only if the type is &apos;custom&apos;.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      annotation: dxPolarChartAnnotationConfig | any,
-      element: SVGGElement
-    ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+      | DevExpress.core.template
+      | ((
+          annotation: dxPolarChartAnnotationConfig | any,
+          element: SVGGElement
+        ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
     /**
      * Specifies a custom template for an annotation&apos;s tooltip.
      */
     tooltipTemplate?:
-    | DevExpress.core.template
-    | ((
-      annotation: dxPolarChartAnnotationConfig | any,
-      element: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          annotation: dxPolarChartAnnotationConfig | any,
+          element: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
   }
   /**
    * 
@@ -38681,11 +38788,11 @@ declare module DevExpress.viz {
        * Specifies how to sort the series points.
        */
       sortingMethod?:
-      | boolean
-      | ((
-        a: { arg?: Date | number | string; val?: Date | number | string },
-        b: { arg?: Date | number | string; val?: Date | number | string }
-      ) => number);
+        | boolean
+        | ((
+            a: { arg?: Date | number | string; val?: Date | number | string },
+            b: { arg?: Date | number | string; val?: Date | number | string }
+          ) => number);
     };
     /**
      * Specifies the properties of a chart&apos;s legend.
@@ -38699,20 +38806,20 @@ declare module DevExpress.viz {
      * A function that is executed when a label on the argument axis is clicked or tapped.
      */
     onArgumentAxisClick?:
-    | ((e: DevExpress.viz.dxPolarChart.ArgumentAxisClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxPolarChart.ArgumentAxisClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a legend item is clicked or tapped.
      */
     onLegendClick?:
-    | ((e: DevExpress.viz.dxPolarChart.LegendClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxPolarChart.LegendClickEvent) => void)
+      | string;
     /**
      * A function that is executed when a series is clicked or tapped.
      */
     onSeriesClick?:
-    | ((e: DevExpress.viz.dxPolarChart.SeriesClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxPolarChart.SeriesClickEvent) => void)
+      | string;
     /**
      * A function that is executed after the pointer enters or leaves a series.
      */
@@ -38842,10 +38949,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects the series.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
   }
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -39266,21 +39373,21 @@ declare module DevExpress.viz {
      * An object specifying the parameters of an image that is used as a point marker.
      */
     image?:
-    | string
-    | {
-      /**
-       * Specifies the height of an image that is used as a point marker.
-       */
-      height?: number;
-      /**
-       * Specifies a URL leading to the image to be used as a point marker.
-       */
-      url?: string;
-      /**
-       * Specifies the width of an image that is used as a point marker.
-       */
-      width?: number;
-    };
+      | string
+      | {
+          /**
+           * Specifies the height of an image that is used as a point marker.
+           */
+          height?: number;
+          /**
+           * Specifies a URL leading to the image to be used as a point marker.
+           */
+          url?: string;
+          /**
+           * Specifies the width of an image that is used as a point marker.
+           */
+          width?: number;
+        };
     /**
      * Specifies what series points to highlight when a point is selected.
      */
@@ -39359,10 +39466,10 @@ declare module DevExpress.viz {
      * Specifies series elements to be highlighted when a user selects the series.
      */
     selectionMode?:
-    | 'onlyPoint'
-    | 'allSeriesPoints'
-    | 'allArgumentPoints'
-    | 'none';
+      | 'onlyPoint'
+      | 'allSeriesPoints'
+      | 'allArgumentPoints'
+      | 'none';
   }
   /**
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
@@ -39442,7 +39549,7 @@ declare module DevExpress.viz {
      */
     export type IncidentOccurredEvent =
       DevExpress.events.EventInfo<dxRangeSelector> &
-      DevExpress.viz.BaseWidget.IncidentInfo;
+        DevExpress.viz.BaseWidget.IncidentInfo;
     /**
      * The type of the initialized event handler&apos;s argument.
      */
@@ -39453,7 +39560,7 @@ declare module DevExpress.viz {
      */
     export type OptionChangedEvent =
       DevExpress.events.EventInfo<dxRangeSelector> &
-      DevExpress.events.ChangedOptionInfo;
+        DevExpress.events.ChangedOptionInfo;
     export type Properties = dxRangeSelectorOptions;
     export type ValueChangedCallMode = 'onMoving' | 'onMovingComplete';
     /**
@@ -39576,11 +39683,11 @@ declare module DevExpress.viz {
          * Specifies how to sort series points.
          */
         sortingMethod?:
-        | boolean
-        | ((
-          a: { arg?: Date | number | string; val?: Date | number | string },
-          b: { arg?: Date | number | string; val?: Date | number | string }
-        ) => number);
+          | boolean
+          | ((
+              a: { arg?: Date | number | string; val?: Date | number | string },
+              b: { arg?: Date | number | string; val?: Date | number | string }
+            ) => number);
       };
       /**
        * Specifies a coefficient that determines the diameter of the largest bubble.
@@ -40008,8 +40115,8 @@ declare module DevExpress.viz {
      * The selected range (initial or current). Equals the entire scale when not set.
      */
     value?:
-    | Array<number | string | Date>
-    | DevExpress.common.charts.VisualRange;
+      | Array<number | string | Date>
+      | DevExpress.common.charts.VisualRange;
   }
   /**
    * The Sankey is a UI component that visualizes the flow magnitude between value sets. The values being connected are called nodes; the connections - links. The higher the flow magnitude, the wider the link is.
@@ -40140,20 +40247,20 @@ declare module DevExpress.viz {
        * Specifies a custom template for a link&apos;s tooltip.
        */
       linkTooltipTemplate?:
-      | DevExpress.core.template
-      | ((
-        info: { source?: string; target?: string; weight?: number },
-        element: DevExpress.core.DxElement
-      ) => string | DevExpress.core.UserDefinedElement);
+        | DevExpress.core.template
+        | ((
+            info: { source?: string; target?: string; weight?: number },
+            element: DevExpress.core.DxElement
+          ) => string | DevExpress.core.UserDefinedElement);
       /**
        * Specifies a custom template for a node&apos;s tooltip.
        */
       nodeTooltipTemplate?:
-      | DevExpress.core.template
-      | ((
-        info: { label?: string; weightIn?: number; weightOut?: number },
-        element: DevExpress.core.DxElement
-      ) => string | DevExpress.core.UserDefinedElement);
+        | DevExpress.core.template
+        | ((
+            info: { label?: string; weightIn?: number; weightOut?: number },
+            element: DevExpress.core.DxElement
+          ) => string | DevExpress.core.UserDefinedElement);
     };
   }
   /**
@@ -40266,8 +40373,8 @@ declare module DevExpress.viz {
      * Aligns node columns vertically.
      */
     alignment?:
-    | DevExpress.common.VerticalAlignment
-    | Array<DevExpress.common.VerticalAlignment>;
+      | DevExpress.common.VerticalAlignment
+      | Array<DevExpress.common.VerticalAlignment>;
     /**
      * Binds the UI component to data.
      */
@@ -40529,8 +40636,8 @@ declare module DevExpress.viz {
      * A function that is executed when a sankey link is clicked or tapped.
      */
     onLinkClick?:
-    | ((e: DevExpress.viz.dxSankey.LinkClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxSankey.LinkClickEvent) => void)
+      | string;
     /**
      * A function that is executed after the pointer enters or leaves a sankey link.
      */
@@ -40539,8 +40646,8 @@ declare module DevExpress.viz {
      * A function that is executed when a sankey node is clicked or tapped.
      */
     onNodeClick?:
-    | ((e: DevExpress.viz.dxSankey.NodeClickEvent) => void)
-    | string;
+      | ((e: DevExpress.viz.dxSankey.NodeClickEvent) => void)
+      | string;
     /**
      * A function that is executed after the pointer enters or leaves a sankey node.
      */
@@ -40608,7 +40715,7 @@ declare module DevExpress.viz {
      */
     export type IncidentOccurredEvent =
       DevExpress.events.EventInfo<dxSparkline> &
-      DevExpress.viz.BaseWidget.IncidentInfo;
+        DevExpress.viz.BaseWidget.IncidentInfo;
     /**
      * The type of the initialized event handler&apos;s argument.
      */
@@ -40871,11 +40978,11 @@ declare module DevExpress.viz {
        * Specifies a custom template for a tooltip.
        */
       contentTemplate?:
-      | DevExpress.core.template
-      | ((
-        info: { value?: number; valueText?: string; node?: dxTreeMapNode },
-        element: DevExpress.core.DxElement
-      ) => string | DevExpress.core.UserDefinedElement);
+        | DevExpress.core.template
+        | ((
+            info: { value?: number; valueText?: string; node?: dxTreeMapNode },
+            element: DevExpress.core.DxElement
+          ) => string | DevExpress.core.UserDefinedElement);
       /**
        * Allows you to change tooltip appearance.
        */
@@ -41148,12 +41255,12 @@ declare module DevExpress.viz {
      * Specifies the layout algorithm.
      */
     layoutAlgorithm?:
-    | DevExpress.viz.dxTreeMap.TreeMapLayoutAlgorithm
-    | ((e: {
-      rect?: Array<number>;
-      sum?: number;
-      items?: Array<any>;
-    }) => any);
+      | DevExpress.viz.dxTreeMap.TreeMapLayoutAlgorithm
+      | ((e: {
+          rect?: Array<number>;
+          sum?: number;
+          items?: Array<any>;
+        }) => any);
     /**
      * Specifies the direction in which the items will be laid out.
      */
@@ -41408,7 +41515,7 @@ declare module DevExpress.viz {
      */
     export type IncidentOccurredEvent =
       DevExpress.events.EventInfo<dxVectorMap> &
-      DevExpress.viz.BaseWidget.IncidentInfo;
+        DevExpress.viz.BaseWidget.IncidentInfo;
     /**
      * The type of the initialized event handler&apos;s argument.
      */
@@ -41462,11 +41569,11 @@ declare module DevExpress.viz {
        * Specifies an SVG element that serves as a custom legend item marker.
        */
       markerTemplate?:
-      | DevExpress.core.template
-      | ((
-        legendItem: LegendItem,
-        element: SVGGElement
-      ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+        | DevExpress.core.template
+        | ((
+            legendItem: LegendItem,
+            element: SVGGElement
+          ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
       /**
        * Specifies the source of data for the legend.
        */
@@ -41505,11 +41612,11 @@ declare module DevExpress.viz {
        * Specifies a custom template for a tooltip.
        */
       contentTemplate?:
-      | DevExpress.core.template
-      | ((
-        info: MapLayerElement,
-        element: DevExpress.core.DxElement
-      ) => string | DevExpress.core.UserDefinedElement);
+        | DevExpress.core.template
+        | ((
+            info: MapLayerElement,
+            element: DevExpress.core.DxElement
+          ) => string | DevExpress.core.UserDefinedElement);
       /**
        * Specifies text and appearance of a set of tooltips.
        */
@@ -41582,20 +41689,20 @@ declare module DevExpress.viz {
      * Specifies a custom template for the annotation. Applies only if the type is &apos;custom&apos;.
      */
     template?:
-    | DevExpress.core.template
-    | ((
-      annotation: dxVectorMapAnnotationConfig | any,
-      element: SVGGElement
-    ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
+      | DevExpress.core.template
+      | ((
+          annotation: dxVectorMapAnnotationConfig | any,
+          element: SVGGElement
+        ) => string | DevExpress.core.UserDefinedElement<SVGElement>);
     /**
      * Specifies a custom template for an annotation&apos;s tooltip.
      */
     tooltipTemplate?:
-    | DevExpress.core.template
-    | ((
-      annotation: dxVectorMapAnnotationConfig | any,
-      element: DevExpress.core.DxElement
-    ) => string | DevExpress.core.UserDefinedElement);
+      | DevExpress.core.template
+      | ((
+          annotation: dxVectorMapAnnotationConfig | any,
+          element: DevExpress.core.DxElement
+        ) => string | DevExpress.core.UserDefinedElement);
   }
   /**
    * 
@@ -41669,177 +41776,177 @@ declare module DevExpress.viz {
      * Specifies properties for VectorMap UI component layers.
      */
     layers?:
-    | Array<{
-      /**
-       * Specifies a color for the border of the layer elements.
-       */
-      borderColor?: string;
-      /**
-       * Specifies the line width (for layers of a line type) or width of the layer elements border in pixels.
-       */
-      borderWidth?: number;
-      /**
-       * Specifies a color for layer elements.
-       */
-      color?: string;
-      /**
-       * Specifies the field that provides data to be used for coloring of layer elements.
-       */
-      colorGroupingField?: string;
-      /**
-       * Allows you to paint layer elements with similar attributes in the same color.
-       */
-      colorGroups?: Array<number>;
-      /**
-       * A function that customizes each layer element individually.
-       */
-      customize?: (elements: Array<MapLayerElement>) => void;
-      /**
-       * Specifies the name of the attribute containing marker data. Setting this property makes sense only if the layer type is &apos;marker&apos; and the elementType is &apos;bubble&apos;, &apos;pie&apos; or &apos;image&apos;.
-       */
-      dataField?: string;
-      /**
-       * Specifies a data source for the layer.
-       */
-      dataSource?:
-      | object
-      | DevExpress.data.DataSource.DataSourceLike<any>
-      | null;
-      /**
-       * Specifies the type of a marker element. Setting this property makes sense only if the layer type is &apos;marker&apos;.
-       */
-      elementType?: DevExpress.viz.dxVectorMap.VectorMapMarkerType;
-      /**
-       * Specifies whether or not to change the appearance of a layer element when it is hovered over.
-       */
-      hoverEnabled?: boolean;
-      /**
-       * Specifies a color for the border of the layer element when it is hovered over.
-       */
-      hoveredBorderColor?: string;
-      /**
-       * Specifies the pixel-measured line width (for layers of a line type) or width for the border of the layer element when it is hovered over.
-       */
-      hoveredBorderWidth?: number;
-      /**
-       * Specifies a color for a layer element when it is hovered over.
-       */
-      hoveredColor?: string;
-      /**
-       * Specifies marker label properties.
-       */
-      label?: {
-        /**
-         * The name of the data source attribute containing marker texts.
-         */
-        dataField?: string;
-        /**
-         * Enables marker labels.
-         */
-        enabled?: boolean;
-        /**
-         * Specifies font properties for marker labels.
-         */
-        font?: DevExpress.common.charts.Font;
-      };
-      /**
-       * Specifies the pixel-measured diameter of the marker that represents the biggest value. Setting this property makes sense only if the layer type is &apos;marker&apos;.
-       */
-      maxSize?: number;
-      /**
-       * Specifies the pixel-measured diameter of the marker that represents the smallest value. Setting this property makes sense only if the layer type is &apos;marker&apos;.
-       */
-      minSize?: number;
-      /**
-       * Specifies the layer name.
-       */
-      name?: string;
-      /**
-       * Specifies the layer opacity (from 0 to 1).
-       */
-      opacity?: number;
-      /**
-       * The name of a predefined palette or a custom range of colors to be used as a palette.
-       */
-      palette?: Array<string> | DevExpress.common.charts.Palette;
-      /**
-       * Specifies the number of colors in a palette.
-       */
-      paletteSize?: number;
-      /**
-       * The position of a color in the palette[] array. Should not exceed the value of the paletteSize property.
-       */
-      paletteIndex?: number;
-      /**
-       * Specifies a color for the border of the layer element when it is selected.
-       */
-      selectedBorderColor?: string;
-      /**
-       * Specifies a pixel-measured line width (for layers of a line type) or width for the border of the layer element when it is selected.
-       */
-      selectedBorderWidth?: number;
-      /**
-       * Specifies a color for the layer element when it is selected.
-       */
-      selectedColor?: string;
-      /**
-       * Specifies whether single or multiple map elements can be selected on a vector map.
-       */
-      selectionMode?: DevExpress.common.SingleMultipleOrNone;
-      /**
-       * Specifies the size of markers. Setting this property makes sense only if the layer type is &apos;marker&apos; and the elementType is &apos;dot&apos;, &apos;pie&apos; or &apos;image&apos;.
-       */
-      size?: number;
-      /**
-       * Specifies the field that provides data to be used for sizing bubble markers. Setting this property makes sense only if the layer type is &apos;marker&apos; and the elementType is &apos;bubble&apos;.
-       */
-      sizeGroupingField?: string;
-      /**
-       * Allows you to display bubbles with similar attributes in the same size. Setting this property makes sense only if the layer type is &apos;marker&apos; and the elementType is &apos;bubble&apos;.
-       */
-      sizeGroups?: Array<number>;
-      /**
-       * Specifies layer type.
-       */
-      type?: DevExpress.viz.dxVectorMap.VectorMapLayerType;
-    }>
-    | {
-      borderColor?: string;
-      borderWidth?: number;
-      color?: string;
-      colorGroupingField?: string;
-      colorGroups?: Array<number>;
-      customize?: (elements: Array<MapLayerElement>) => any;
-      dataField?: string;
-      dataSource?:
-      | object
-      | DevExpress.data.DataSource.DataSourceLike<any>
-      | null;
-      elementType?: 'bubble' | 'dot' | 'image' | 'pie';
-      hoverEnabled?: boolean;
-      hoveredBorderColor?: string;
-      hoveredBorderWidth?: number;
-      hoveredColor?: string;
-      label?: {
-        dataField?: string;
-        enabled?: boolean;
-        font?: DevExpress.common.charts.Font;
-      };
-      maxSize?: number;
-      minSize?: number;
-      name?: string;
-      opacity?: number;
-      palette?: Array<string> | DevExpress.common.charts.Palette;
-      paletteSize?: number;
-      selectedBorderColor?: string;
-      selectedBorderWidth?: number;
-      selectedColor?: string;
-      selectionMode?: DevExpress.common.SingleMultipleOrNone;
-      size?: number;
-      sizeGroupingField?: string;
-      sizeGroups?: Array<number>;
-      type?: 'area' | 'line' | 'marker';
-    };
+      | Array<{
+          /**
+           * Specifies a color for the border of the layer elements.
+           */
+          borderColor?: string;
+          /**
+           * Specifies the line width (for layers of a line type) or width of the layer elements border in pixels.
+           */
+          borderWidth?: number;
+          /**
+           * Specifies a color for layer elements.
+           */
+          color?: string;
+          /**
+           * Specifies the field that provides data to be used for coloring of layer elements.
+           */
+          colorGroupingField?: string;
+          /**
+           * Allows you to paint layer elements with similar attributes in the same color.
+           */
+          colorGroups?: Array<number>;
+          /**
+           * A function that customizes each layer element individually.
+           */
+          customize?: (elements: Array<MapLayerElement>) => void;
+          /**
+           * Specifies the name of the attribute containing marker data. Setting this property makes sense only if the layer type is &apos;marker&apos; and the elementType is &apos;bubble&apos;, &apos;pie&apos; or &apos;image&apos;.
+           */
+          dataField?: string;
+          /**
+           * Specifies a data source for the layer.
+           */
+          dataSource?:
+            | object
+            | DevExpress.data.DataSource.DataSourceLike<any>
+            | null;
+          /**
+           * Specifies the type of a marker element. Setting this property makes sense only if the layer type is &apos;marker&apos;.
+           */
+          elementType?: DevExpress.viz.dxVectorMap.VectorMapMarkerType;
+          /**
+           * Specifies whether or not to change the appearance of a layer element when it is hovered over.
+           */
+          hoverEnabled?: boolean;
+          /**
+           * Specifies a color for the border of the layer element when it is hovered over.
+           */
+          hoveredBorderColor?: string;
+          /**
+           * Specifies the pixel-measured line width (for layers of a line type) or width for the border of the layer element when it is hovered over.
+           */
+          hoveredBorderWidth?: number;
+          /**
+           * Specifies a color for a layer element when it is hovered over.
+           */
+          hoveredColor?: string;
+          /**
+           * Specifies marker label properties.
+           */
+          label?: {
+            /**
+             * The name of the data source attribute containing marker texts.
+             */
+            dataField?: string;
+            /**
+             * Enables marker labels.
+             */
+            enabled?: boolean;
+            /**
+             * Specifies font properties for marker labels.
+             */
+            font?: DevExpress.common.charts.Font;
+          };
+          /**
+           * Specifies the pixel-measured diameter of the marker that represents the biggest value. Setting this property makes sense only if the layer type is &apos;marker&apos;.
+           */
+          maxSize?: number;
+          /**
+           * Specifies the pixel-measured diameter of the marker that represents the smallest value. Setting this property makes sense only if the layer type is &apos;marker&apos;.
+           */
+          minSize?: number;
+          /**
+           * Specifies the layer name.
+           */
+          name?: string;
+          /**
+           * Specifies the layer opacity (from 0 to 1).
+           */
+          opacity?: number;
+          /**
+           * The name of a predefined palette or a custom range of colors to be used as a palette.
+           */
+          palette?: Array<string> | DevExpress.common.charts.Palette;
+          /**
+           * Specifies the number of colors in a palette.
+           */
+          paletteSize?: number;
+          /**
+           * The position of a color in the palette[] array. Should not exceed the value of the paletteSize property.
+           */
+          paletteIndex?: number;
+          /**
+           * Specifies a color for the border of the layer element when it is selected.
+           */
+          selectedBorderColor?: string;
+          /**
+           * Specifies a pixel-measured line width (for layers of a line type) or width for the border of the layer element when it is selected.
+           */
+          selectedBorderWidth?: number;
+          /**
+           * Specifies a color for the layer element when it is selected.
+           */
+          selectedColor?: string;
+          /**
+           * Specifies whether single or multiple map elements can be selected on a vector map.
+           */
+          selectionMode?: DevExpress.common.SingleMultipleOrNone;
+          /**
+           * Specifies the size of markers. Setting this property makes sense only if the layer type is &apos;marker&apos; and the elementType is &apos;dot&apos;, &apos;pie&apos; or &apos;image&apos;.
+           */
+          size?: number;
+          /**
+           * Specifies the field that provides data to be used for sizing bubble markers. Setting this property makes sense only if the layer type is &apos;marker&apos; and the elementType is &apos;bubble&apos;.
+           */
+          sizeGroupingField?: string;
+          /**
+           * Allows you to display bubbles with similar attributes in the same size. Setting this property makes sense only if the layer type is &apos;marker&apos; and the elementType is &apos;bubble&apos;.
+           */
+          sizeGroups?: Array<number>;
+          /**
+           * Specifies layer type.
+           */
+          type?: DevExpress.viz.dxVectorMap.VectorMapLayerType;
+        }>
+      | {
+          borderColor?: string;
+          borderWidth?: number;
+          color?: string;
+          colorGroupingField?: string;
+          colorGroups?: Array<number>;
+          customize?: (elements: Array<MapLayerElement>) => any;
+          dataField?: string;
+          dataSource?:
+            | object
+            | DevExpress.data.DataSource.DataSourceLike<any>
+            | null;
+          elementType?: 'bubble' | 'dot' | 'image' | 'pie';
+          hoverEnabled?: boolean;
+          hoveredBorderColor?: string;
+          hoveredBorderWidth?: number;
+          hoveredColor?: string;
+          label?: {
+            dataField?: string;
+            enabled?: boolean;
+            font?: DevExpress.common.charts.Font;
+          };
+          maxSize?: number;
+          minSize?: number;
+          name?: string;
+          opacity?: number;
+          palette?: Array<string> | DevExpress.common.charts.Palette;
+          paletteSize?: number;
+          selectedBorderColor?: string;
+          selectedBorderWidth?: number;
+          selectedColor?: string;
+          selectionMode?: DevExpress.common.SingleMultipleOrNone;
+          size?: number;
+          sizeGroupingField?: string;
+          sizeGroups?: Array<number>;
+          type?: 'area' | 'line' | 'marker';
+        };
     /**
      * Configures map legends.
      */
@@ -41931,7 +42038,7 @@ declare module DevExpress.viz {
    * Allows you to export UI components using their SVG markup.
    */
   export function exportFromMarkup(
-    markup: string,
+    markup: string | DevExpress.core.UserDefinedElement,
     options: {
       fileName?: string;
       format?: string;
@@ -42191,12 +42298,12 @@ declare module DevExpress.viz {
    * This section describes the Series object, which represents a series.
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface polarChartSeriesObject extends baseSeriesObject { }
+  export interface polarChartSeriesObject extends baseSeriesObject {}
   /**
    * This section describes the Point object, which represents a series point.
    * @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution.
    */
-  export interface polarPointObject extends basePointObject { }
+  export interface polarPointObject extends basePointObject {}
   /**
    * The method to be called every time the active entry in the browser history is modified without reloading the current page.
    */
@@ -42316,770 +42423,821 @@ declare module DevExpress.viz.map {
 }
 
 declare module DevExpress {
-  /** @deprecated Use DevExpress.events.EventObject instead */
-  export type dxEvent = DevExpress.events.EventObject;
-  /** @deprecated Use DevExpress.events.event instead */
-  export type event = DevExpress.events.event;
+    /** @deprecated Use DevExpress.events.EventObject instead */
+    export type dxEvent = DevExpress.events.EventObject;
+    /** @deprecated Use DevExpress.events.event instead */
+    export type event = DevExpress.events.event;
 }
 
 declare module DevExpress.viz {
-  /** @deprecated Use DevExpress.viz.ChartSeries instead */
-  export type dxChartSeries = DevExpress.viz.ChartSeries;
-  /** @deprecated Use DevExpress.viz.PieChartSeries instead */
-  export type dxPieChartSeries = DevExpress.viz.PieChartSeries;
-  /** @deprecated Use DevExpress.viz.PolarChartSeries instead */
-  export type dxPolarChartSeries = DevExpress.viz.PolarChartSeries;
+    /** @deprecated Use DevExpress.viz.ChartSeries instead */
+    export type dxChartSeries =  DevExpress.viz.ChartSeries;
+    /** @deprecated Use DevExpress.viz.PieChartSeries instead */
+    export type dxPieChartSeries =  DevExpress.viz.PieChartSeries;
+    /** @deprecated Use DevExpress.viz.PolarChartSeries instead */
+    export type dxPolarChartSeries =  DevExpress.viz.PolarChartSeries;
 
-  /** @deprecated Use DevExpress.viz instead */
-  export module charts {
-    /** @deprecated */
-    export type dxChartOptions = DevExpress.viz.dxChartOptions;
-    /** @deprecated */
-    export type dxChartArgumentAxis = DevExpress.viz.dxChartArgumentAxis;
-    /** @deprecated */
-    export type dxChartArgumentAxisConstantLines = DevExpress.viz.dxChartArgumentAxisConstantLines;
-    /** @deprecated */
-    export type dxChartArgumentAxisConstantLinesLabel = DevExpress.viz.dxChartArgumentAxisConstantLinesLabel;
-    /** @deprecated */
-    export type dxChartArgumentAxisConstantLineStyle = DevExpress.viz.dxChartArgumentAxisConstantLineStyle;
-    /** @deprecated */
-    export type dxChartArgumentAxisConstantLineStyleLabel = DevExpress.viz.dxChartArgumentAxisConstantLineStyleLabel;
-    /** @deprecated */
-    export type dxChartArgumentAxisLabel = DevExpress.viz.dxChartArgumentAxisLabel;
-    /** @deprecated */
-    export type dxChartArgumentAxisStrips = DevExpress.viz.dxChartArgumentAxisStrips;
-    /** @deprecated */
-    export type dxChartArgumentAxisStripsLabel = DevExpress.viz.dxChartArgumentAxisStripsLabel;
-    /** @deprecated */
-    export type dxChartArgumentAxisTitle = DevExpress.viz.dxChartArgumentAxisTitle;
-    /** @deprecated */
-    export type dxChartCommonAxisSettings = DevExpress.viz.dxChartCommonAxisSettings;
-    /** @deprecated */
-    export type dxChartCommonAxisSettingsConstantLineStyle = DevExpress.viz.dxChartCommonAxisSettingsConstantLineStyle;
-    /** @deprecated */
-    export type dxChartCommonAxisSettingsConstantLineStyleLabel = DevExpress.viz.dxChartCommonAxisSettingsConstantLineStyleLabel;
-    /** @deprecated */
-    export type dxChartCommonAxisSettingsLabel = DevExpress.viz.dxChartCommonAxisSettingsLabel;
-    /** @deprecated */
-    export type dxChartCommonAxisSettingsStripStyle = DevExpress.viz.dxChartCommonAxisSettingsStripStyle;
-    /** @deprecated */
-    export type dxChartCommonAxisSettingsStripStyleLabel = DevExpress.viz.dxChartCommonAxisSettingsStripStyleLabel;
-    /** @deprecated */
-    export type dxChartCommonAxisSettingsTitle = DevExpress.viz.dxChartCommonAxisSettingsTitle;
-    /** @deprecated */
-    export type dxChartCommonPaneSettings = DevExpress.viz.dxChartCommonPaneSettings;
-    /** @deprecated */
-    export type dxChartCommonSeriesSettings = DevExpress.viz.dxChartCommonSeriesSettings;
-    /** @deprecated */
-    export type dxChartLegend = DevExpress.viz.dxChartLegend;
-    /** @deprecated */
-    export type dxChartPanes = DevExpress.viz.dxChartPanes;
-    /** @deprecated */
-    export type dxChartSeries = DevExpress.viz.dxChartSeries;
-    /** @deprecated */
-    export type dxChartTooltip = DevExpress.viz.dxChartTooltip;
-    /** @deprecated */
-    export type dxChartValueAxis = DevExpress.viz.dxChartValueAxis;
-    /** @deprecated */
-    export type dxChartValueAxisConstantLines = DevExpress.viz.dxChartValueAxisConstantLines;
-    /** @deprecated */
-    export type dxChartValueAxisConstantLinesLabel = DevExpress.viz.dxChartValueAxisConstantLinesLabel;
-    /** @deprecated */
-    export type dxChartValueAxisConstantLineStyle = DevExpress.viz.dxChartValueAxisConstantLineStyle;
-    /** @deprecated */
-    export type dxChartValueAxisConstantLineStyleLabel = DevExpress.viz.dxChartValueAxisConstantLineStyleLabel;
-    /** @deprecated */
-    export type dxChartValueAxisLabel = DevExpress.viz.dxChartValueAxisLabel;
-    /** @deprecated */
-    export type dxChartValueAxisStrips = DevExpress.viz.dxChartValueAxisStrips;
-    /** @deprecated */
-    export type dxChartValueAxisStripsLabel = DevExpress.viz.dxChartValueAxisStripsLabel;
-    /** @deprecated */
-    export type dxChartValueAxisTitle = DevExpress.viz.dxChartValueAxisTitle;
+    /** @deprecated Use DevExpress.viz instead */
+    export module charts {
+        /** @deprecated */
+        export type dxChartOptions = DevExpress.viz.dxChartOptions;
+        /** @deprecated */
+        export type dxChartArgumentAxis = DevExpress.viz.dxChartArgumentAxis;
+        /** @deprecated */
+        export type dxChartArgumentAxisConstantLines  = DevExpress.viz.dxChartArgumentAxisConstantLines;
+        /** @deprecated */
+        export type dxChartArgumentAxisConstantLinesLabel = DevExpress.viz.dxChartArgumentAxisConstantLinesLabel;
+        /** @deprecated */
+        export type dxChartArgumentAxisConstantLineStyle = DevExpress.viz.dxChartArgumentAxisConstantLineStyle;
+        /** @deprecated */
+        export type dxChartArgumentAxisConstantLineStyleLabel = DevExpress.viz.dxChartArgumentAxisConstantLineStyleLabel;
+        /** @deprecated */
+        export type dxChartArgumentAxisLabel = DevExpress.viz.dxChartArgumentAxisLabel;
+        /** @deprecated */
+        export type dxChartArgumentAxisStrips = DevExpress.viz.dxChartArgumentAxisStrips;
+        /** @deprecated */
+        export type dxChartArgumentAxisStripsLabel = DevExpress.viz.dxChartArgumentAxisStripsLabel;
+        /** @deprecated */
+        export type dxChartArgumentAxisTitle = DevExpress.viz.dxChartArgumentAxisTitle;
+        /** @deprecated */
+        export type dxChartCommonAxisSettings = DevExpress.viz.dxChartCommonAxisSettings;
+        /** @deprecated */
+        export type dxChartCommonAxisSettingsConstantLineStyle = DevExpress.viz.dxChartCommonAxisSettingsConstantLineStyle;
+        /** @deprecated */
+        export type dxChartCommonAxisSettingsConstantLineStyleLabel = DevExpress.viz.dxChartCommonAxisSettingsConstantLineStyleLabel;
+        /** @deprecated */
+        export type dxChartCommonAxisSettingsLabel = DevExpress.viz.dxChartCommonAxisSettingsLabel;
+        /** @deprecated */
+        export type dxChartCommonAxisSettingsStripStyle = DevExpress.viz.dxChartCommonAxisSettingsStripStyle;
+        /** @deprecated */
+        export type dxChartCommonAxisSettingsStripStyleLabel = DevExpress.viz.dxChartCommonAxisSettingsStripStyleLabel;
+        /** @deprecated */
+        export type dxChartCommonAxisSettingsTitle = DevExpress.viz.dxChartCommonAxisSettingsTitle;
+        /** @deprecated */
+        export type dxChartCommonPaneSettings = DevExpress.viz.dxChartCommonPaneSettings;
+        /** @deprecated */
+        export type dxChartCommonSeriesSettings = DevExpress.viz.dxChartCommonSeriesSettings;
+        /** @deprecated */
+        export type dxChartLegend = DevExpress.viz.dxChartLegend;
+        /** @deprecated */
+        export type dxChartPanes = DevExpress.viz.dxChartPanes;
+        /** @deprecated */
+        export type dxChartSeries = DevExpress.viz.dxChartSeries;
+        /** @deprecated */
+        export type dxChartTooltip = DevExpress.viz.dxChartTooltip;
+        /** @deprecated */
+        export type dxChartValueAxis = DevExpress.viz.dxChartValueAxis;
+        /** @deprecated */
+        export type dxChartValueAxisConstantLines = DevExpress.viz.dxChartValueAxisConstantLines;
+        /** @deprecated */
+        export type dxChartValueAxisConstantLinesLabel = DevExpress.viz.dxChartValueAxisConstantLinesLabel;
+        /** @deprecated */
+        export type dxChartValueAxisConstantLineStyle = DevExpress.viz.dxChartValueAxisConstantLineStyle;
+        /** @deprecated */
+        export type dxChartValueAxisConstantLineStyleLabel = DevExpress.viz.dxChartValueAxisConstantLineStyleLabel;
+        /** @deprecated */
+        export type dxChartValueAxisLabel = DevExpress.viz.dxChartValueAxisLabel;
+        /** @deprecated */
+        export type dxChartValueAxisStrips = DevExpress.viz.dxChartValueAxisStrips;
+        /** @deprecated */
+        export type dxChartValueAxisStripsLabel = DevExpress.viz.dxChartValueAxisStripsLabel;
+        /** @deprecated */
+        export type dxChartValueAxisTitle = DevExpress.viz.dxChartValueAxisTitle;
 
-    /** @deprecated */
-    export type dxPieChartOptions = DevExpress.viz.dxPieChartOptions;
-    /** @deprecated */
-    export type dxPieChartAdaptiveLayout = DevExpress.viz.dxPieChartAdaptiveLayout;
-    /** @deprecated */
-    export type dxPieChartLegend = DevExpress.viz.dxPieChartLegend;
-    /** @deprecated */
-    export type dxPieChartSeries = DevExpress.viz.dxPieChartSeries;
+        /** @deprecated */
+        export type dxPieChartOptions = DevExpress.viz.dxPieChartOptions;
+        /** @deprecated */
+        export type dxPieChartAdaptiveLayout = DevExpress.viz.dxPieChartAdaptiveLayout;
+        /** @deprecated */
+        export type dxPieChartLegend = DevExpress.viz.dxPieChartLegend;
+        /** @deprecated */
+        export type dxPieChartSeries = DevExpress.viz.dxPieChartSeries;
 
-    /** @deprecated */
-    export type dxPolarChartOptions = DevExpress.viz.dxPolarChartOptions;
-    /** @deprecated */
-    export type dxPolarChartAdaptiveLayout = DevExpress.viz.dxPolarChartAdaptiveLayout;
-    /** @deprecated */
-    export type dxPolarChartArgumentAxis = DevExpress.viz.dxPolarChartArgumentAxis;
-    /** @deprecated */
-    export type dxPolarChartArgumentAxisConstantLines = DevExpress.viz.dxPolarChartArgumentAxisConstantLines;
-    /** @deprecated */
-    export type dxPolarChartArgumentAxisConstantLinesLabel = DevExpress.viz.dxPolarChartArgumentAxisConstantLinesLabel;
-    /** @deprecated */
-    export type dxPolarChartArgumentAxisLabel = DevExpress.viz.dxPolarChartArgumentAxisLabel;
-    /** @deprecated */
-    export type dxPolarChartArgumentAxisStrips = DevExpress.viz.dxPolarChartArgumentAxisStrips;
-    /** @deprecated */
-    export type dxPolarChartArgumentAxisStripsLabel = DevExpress.viz.dxPolarChartArgumentAxisStripsLabel;
-    /** @deprecated */
-    export type dxPolarChartCommonAxisSettings = DevExpress.viz.dxPolarChartCommonAxisSettings;
-    /** @deprecated */
-    export type dxPolarChartCommonAxisSettingsConstantLineStyle = DevExpress.viz.dxPolarChartCommonAxisSettingsConstantLineStyle;
-    /** @deprecated */
-    export type dxPolarChartCommonAxisSettingsConstantLineStyleLabel = DevExpress.viz.dxPolarChartCommonAxisSettingsConstantLineStyleLabel;
-    /** @deprecated */
-    export type dxPolarChartCommonAxisSettingsLabel = DevExpress.viz.dxPolarChartCommonAxisSettingsLabel;
-    /** @deprecated */
-    export type dxPolarChartCommonAxisSettingsStripStyle = DevExpress.viz.dxPolarChartCommonAxisSettingsStripStyle;
-    /** @deprecated */
-    export type dxPolarChartCommonAxisSettingsStripStyleLabel = DevExpress.viz.dxPolarChartCommonAxisSettingsStripStyleLabel;
-    /** @deprecated */
-    export type dxPolarChartCommonAxisSettingsTick = DevExpress.viz.dxPolarChartCommonAxisSettingsTick;
-    /** @deprecated */
-    export type dxPolarChartCommonSeriesSettings = DevExpress.viz.dxPolarChartCommonSeriesSettings;
-    /** @deprecated */
-    export type dxPolarChartLegend = DevExpress.viz.dxPolarChartLegend;
-    /** @deprecated */
-    export type dxPolarChartSeries = DevExpress.viz.dxPolarChartSeries;
-    /** @deprecated */
-    export type dxPolarChartTooltip = DevExpress.viz.dxPolarChartTooltip;
-    /** @deprecated */
-    export type dxPolarChartValueAxis = DevExpress.viz.dxPolarChartValueAxis;
-    /** @deprecated */
-    export type dxPolarChartValueAxisConstantLines = DevExpress.viz.dxPolarChartValueAxisConstantLines;
-    /** @deprecated */
-    export type dxPolarChartValueAxisConstantLinesLabel = DevExpress.viz.dxPolarChartValueAxisConstantLinesLabel;
-    /** @deprecated */
-    export type dxPolarChartValueAxisLabel = DevExpress.viz.dxPolarChartValueAxisLabel;
-    /** @deprecated */
-    export type dxPolarChartValueAxisStrips = DevExpress.viz.dxPolarChartValueAxisStrips;
-    /** @deprecated */
-    export type dxPolarChartValueAxisStripsLabel = DevExpress.viz.dxPolarChartValueAxisStripsLabel;
-    /** @deprecated */
-    export type dxPolarChartValueAxisTick = DevExpress.viz.dxPolarChartValueAxisTick;
-  }
+        /** @deprecated */
+        export type dxPolarChartOptions = DevExpress.viz.dxPolarChartOptions;
+        /** @deprecated */
+        export type dxPolarChartAdaptiveLayout = DevExpress.viz.dxPolarChartAdaptiveLayout;
+        /** @deprecated */
+        export type dxPolarChartArgumentAxis = DevExpress.viz.dxPolarChartArgumentAxis;
+        /** @deprecated */
+        export type dxPolarChartArgumentAxisConstantLines = DevExpress.viz.dxPolarChartArgumentAxisConstantLines;
+        /** @deprecated */
+        export type dxPolarChartArgumentAxisConstantLinesLabel = DevExpress.viz.dxPolarChartArgumentAxisConstantLinesLabel;
+        /** @deprecated */
+        export type dxPolarChartArgumentAxisLabel = DevExpress.viz.dxPolarChartArgumentAxisLabel;
+        /** @deprecated */
+        export type dxPolarChartArgumentAxisStrips = DevExpress.viz.dxPolarChartArgumentAxisStrips;
+        /** @deprecated */
+        export type dxPolarChartArgumentAxisStripsLabel = DevExpress.viz.dxPolarChartArgumentAxisStripsLabel;
+        /** @deprecated */
+        export type dxPolarChartCommonAxisSettings = DevExpress.viz.dxPolarChartCommonAxisSettings;
+        /** @deprecated */
+        export type dxPolarChartCommonAxisSettingsConstantLineStyle = DevExpress.viz.dxPolarChartCommonAxisSettingsConstantLineStyle;
+        /** @deprecated */
+        export type dxPolarChartCommonAxisSettingsConstantLineStyleLabel = DevExpress.viz.dxPolarChartCommonAxisSettingsConstantLineStyleLabel;
+        /** @deprecated */
+        export type dxPolarChartCommonAxisSettingsLabel = DevExpress.viz.dxPolarChartCommonAxisSettingsLabel;
+        /** @deprecated */
+        export type dxPolarChartCommonAxisSettingsStripStyle = DevExpress.viz.dxPolarChartCommonAxisSettingsStripStyle;
+        /** @deprecated */
+        export type dxPolarChartCommonAxisSettingsStripStyleLabel = DevExpress.viz.dxPolarChartCommonAxisSettingsStripStyleLabel;
+        /** @deprecated */
+        export type dxPolarChartCommonAxisSettingsTick = DevExpress.viz.dxPolarChartCommonAxisSettingsTick;
+        /** @deprecated */
+        export type dxPolarChartCommonSeriesSettings = DevExpress.viz.dxPolarChartCommonSeriesSettings;
+        /** @deprecated */
+        export type dxPolarChartLegend = DevExpress.viz.dxPolarChartLegend;
+        /** @deprecated */
+        export type dxPolarChartSeries = DevExpress.viz.dxPolarChartSeries;
+        /** @deprecated */
+        export type dxPolarChartTooltip = DevExpress.viz.dxPolarChartTooltip;
+        /** @deprecated */
+        export type dxPolarChartValueAxis = DevExpress.viz.dxPolarChartValueAxis;
+        /** @deprecated */
+        export type dxPolarChartValueAxisConstantLines = DevExpress.viz.dxPolarChartValueAxisConstantLines;
+        /** @deprecated */
+        export type dxPolarChartValueAxisConstantLinesLabel = DevExpress.viz.dxPolarChartValueAxisConstantLinesLabel;
+        /** @deprecated */
+        export type dxPolarChartValueAxisLabel = DevExpress.viz.dxPolarChartValueAxisLabel;
+        /** @deprecated */
+        export type dxPolarChartValueAxisStrips = DevExpress.viz.dxPolarChartValueAxisStrips;
+        /** @deprecated */
+        export type dxPolarChartValueAxisStripsLabel = DevExpress.viz.dxPolarChartValueAxisStripsLabel;
+        /** @deprecated */
+        export type dxPolarChartValueAxisTick = DevExpress.viz.dxPolarChartValueAxisTick;
+    }
 
-  /** @deprecated Use DevExpress.viz instead */
-  export module funnel {
-    /** @deprecated */
-    export type dxFunnelOptions = DevExpress.viz.dxFunnelOptions;
-    /** @deprecated */
-    export type dxFunnelTooltip = DevExpress.viz.dxFunnelTooltip;
-  }
+    /** @deprecated Use DevExpress.viz instead */
+    export module funnel {
+        /** @deprecated */
+        export type dxFunnelOptions = DevExpress.viz.dxFunnelOptions;
+        /** @deprecated */
+        export type dxFunnelTooltip = DevExpress.viz.dxFunnelTooltip;
+    }
 
-  /** @deprecated Use DevExpress.viz instead */
-  export module gauges {
-    /** @deprecated */
-    export type dxCircularGaugeOptions = DevExpress.viz.dxCircularGaugeOptions;
-    /** @deprecated */
-    export type dxCircularGaugeRangeContainer = DevExpress.viz.dxCircularGaugeRangeContainer;
-    /** @deprecated */
-    export type dxCircularGaugeScale = DevExpress.viz.dxCircularGaugeScale;
-    /** @deprecated */
-    export type dxCircularGaugeScaleLabel = DevExpress.viz.dxCircularGaugeScaleLabel;
+    /** @deprecated Use DevExpress.viz instead */
+    export module gauges {
+        /** @deprecated */
+        export type dxCircularGaugeOptions = DevExpress.viz.dxCircularGaugeOptions;
+        /** @deprecated */
+        export type dxCircularGaugeRangeContainer = DevExpress.viz.dxCircularGaugeRangeContainer;
+        /** @deprecated */
+        export type dxCircularGaugeScale = DevExpress.viz.dxCircularGaugeScale;
+        /** @deprecated */
+        export type dxCircularGaugeScaleLabel = DevExpress.viz.dxCircularGaugeScaleLabel;
 
-    /** @deprecated */
-    export type dxLinearGaugeOptions = DevExpress.viz.dxLinearGaugeOptions;
-    /** @deprecated */
-    export type dxLinearGaugeRangeContainer = DevExpress.viz.dxLinearGaugeRangeContainer;
-    /** @deprecated */
-    export type dxLinearGaugeScale = DevExpress.viz.dxLinearGaugeScale;
-    /** @deprecated */
-    export type dxLinearGaugeScaleLabel = DevExpress.viz.dxLinearGaugeScaleLabel;
+        /** @deprecated */
+        export type dxLinearGaugeOptions = DevExpress.viz.dxLinearGaugeOptions;
+        /** @deprecated */
+        export type dxLinearGaugeRangeContainer = DevExpress.viz.dxLinearGaugeRangeContainer;
+        /** @deprecated */
+        export type dxLinearGaugeScale = DevExpress.viz.dxLinearGaugeScale;
+        /** @deprecated */
+        export type dxLinearGaugeScaleLabel = DevExpress.viz.dxLinearGaugeScaleLabel;
 
-    /** @deprecated */
-    export type dxBarGaugeOptions = DevExpress.viz.dxBarGaugeOptions;
-    /** @deprecated */
-    export type dxBarGaugeTooltip = DevExpress.viz.dxBarGaugeTooltip;
-  }
+        /** @deprecated */
+        export type dxBarGaugeOptions = DevExpress.viz.dxBarGaugeOptions;
+        /** @deprecated */
+        export type dxBarGaugeTooltip = DevExpress.viz.dxBarGaugeTooltip;
+    }
 
-  /** @deprecated Use DevExpress.viz instead */
-  export module rangeSelector {
-    /** @deprecated */
-    export type dxRangeSelectorOptions = DevExpress.viz.dxRangeSelectorOptions;
-  }
+    /** @deprecated Use DevExpress.viz instead */
+    export module rangeSelector {
+        /** @deprecated */
+        export type dxRangeSelectorOptions = DevExpress.viz.dxRangeSelectorOptions;
+    }
 
-  /** @deprecated Use DevExpress.viz instead */
-  export module sparklines {
-    /** @deprecated */
-    export type dxSparklineOptions = DevExpress.viz.dxSparklineOptions;
-    /** @deprecated */
-    export type dxBulletOptions = DevExpress.viz.dxBulletOptions;
-  }
+    /** @deprecated Use DevExpress.viz instead */
+    export module sparklines {
+        /** @deprecated */
+        export type dxSparklineOptions = DevExpress.viz.dxSparklineOptions;
+        /** @deprecated */
+        export type dxBulletOptions = DevExpress.viz.dxBulletOptions;
+    }
 
-  /** @deprecated Use DevExpress.viz instead */
-  export module map {
-    /** @deprecated */
-    export type dxVectorMapOptions = DevExpress.viz.dxVectorMapOptions;
-    /** @deprecated */
-    export type dxVectorMapTooltip = DevExpress.viz.dxVectorMapTooltip;
-  }
+    /** @deprecated Use DevExpress.viz instead */
+    export module map {
+        /** @deprecated */
+        export type dxVectorMapOptions = DevExpress.viz.dxVectorMapOptions;
+        /** @deprecated */
+        export type dxVectorMapTooltip = DevExpress.viz.dxVectorMapTooltip;
+    }
 
-  /** @deprecated Use DevExpress.viz instead */
-  export module treeMap {
-    /** @deprecated */
-    export type dxTreeMapOptions = DevExpress.viz.dxTreeMapOptions;
-    /** @deprecated */
-    export type dxTreeMapTooltip = DevExpress.viz.dxTreeMapTooltip;
-  }
+    /** @deprecated Use DevExpress.viz instead */
+    export module treeMap {
+        /** @deprecated */
+        export type dxTreeMapOptions = DevExpress.viz.dxTreeMapOptions;
+        /** @deprecated */
+        export type dxTreeMapTooltip = DevExpress.viz.dxTreeMapTooltip;
+    }
 }
 
 declare module DevExpress.ui {
-  /** @deprecated Use DevExpress.ui.dxAccordionItem */
-  export type dxAccordionItemTemplate = DevExpress.ui.dxAccordionItem;
+    /** @deprecated Use DevExpress.ui.dxAccordionItem */
+    export type dxAccordionItemTemplate = DevExpress.ui.dxAccordionItem;
 
-  /** @deprecated Use DevExpress.ui.dxActionSheetItem */
-  export type dxActionSheetItemTemplate = DevExpress.ui.dxActionSheetItem;
+    /** @deprecated Use DevExpress.ui.dxActionSheetItem */
+    export type dxActionSheetItemTemplate = DevExpress.ui.dxActionSheetItem;
 
-  /** @deprecated Use DevExpress.ui.dxBoxItem */
-  export type dxBoxItemTemplate = DevExpress.ui.dxBoxItem;
+    /** @deprecated Use DevExpress.ui.dxBoxItem */
+    export type dxBoxItemTemplate = DevExpress.ui.dxBoxItem;
 
-  /** @deprecated Use DevExpress.ui.dxGalleryItem */
-  export type dxGalleryItemTemplate = DevExpress.ui.dxGalleryItem;
+    /** @deprecated Use DevExpress.ui.dxGalleryItem */
+    export type dxGalleryItemTemplate = DevExpress.ui.dxGalleryItem;
 
-  /** @deprecated Use DevExpress.ui.dxMultiViewItem */
-  export type dxMultiViewItemTemplate = DevExpress.ui.dxMultiViewItem;
+    /** @deprecated Use DevExpress.ui.dxMultiViewItem */
+    export type dxMultiViewItemTemplate = DevExpress.ui.dxMultiViewItem;
 
-  /** @deprecated Use DevExpress.ui.dxResponsiveBoxItem */
-  export type dxResponsiveBoxItemTemplate = DevExpress.ui.dxResponsiveBoxItem;
+    /** @deprecated Use DevExpress.ui.dxResponsiveBoxItem */
+    export type dxResponsiveBoxItemTemplate = DevExpress.ui.dxResponsiveBoxItem;
 
-  /** @deprecated Use DevExpress.ui.dxSchedulerAppointment */
-  export type dxSchedulerAppointmentTemplate = DevExpress.ui.dxSchedulerAppointment;
+    /** @deprecated Use DevExpress.ui.dxSchedulerAppointment */
+    export type dxSchedulerAppointmentTemplate = DevExpress.ui.dxSchedulerAppointment;
 
-  /** @deprecated Use DevExpress.ui.dxTabsItem */
-  export type dxTabsItemTemplate = DevExpress.ui.dxTabsItem;
+    /** @deprecated Use DevExpress.ui.dxTabsItem */
+    export type dxTabsItemTemplate = DevExpress.ui.dxTabsItem;
 
-  /** @deprecated Use DevExpress.ui.dxTabPanelItem */
-  export type dxTabPanelItemTemplate = DevExpress.ui.dxTabPanelItem;
+    /** @deprecated Use DevExpress.ui.dxTabPanelItem */
+    export type dxTabPanelItemTemplate = DevExpress.ui.dxTabPanelItem;
 
-  /** @deprecated Use DevExpress.ui.dxTileViewItem */
-  export type dxTileViewItemTemplate = DevExpress.ui.dxTileViewItem;
+    /** @deprecated Use DevExpress.ui.dxTileViewItem */
+    export type dxTileViewItemTemplate = DevExpress.ui.dxTileViewItem;
 
-  /** @deprecated Use DevExpress.ui.dxToolbarItem */
-  export type dxToolbarItemTemplate = DevExpress.ui.dxToolbarItem;
+    /** @deprecated Use DevExpress.ui.dxToolbarItem */
+    export type dxToolbarItemTemplate = DevExpress.ui.dxToolbarItem;
 
-  /** @deprecated Use DevExpress.ui.CollectionWidgetItem */
-  export type CollectionWidgetItemTemplate = DevExpress.ui.CollectionWidgetItem;
+    /** @deprecated Use DevExpress.ui.CollectionWidgetItem */
+    export type CollectionWidgetItemTemplate = DevExpress.ui.CollectionWidgetItem;
 
-  /** @deprecated Use DevExpress.ui.dxContextMenuItem */
-  export type dxContextMenuItemTemplate = DevExpress.ui.dxContextMenuItem;
+    /** @deprecated Use DevExpress.ui.dxContextMenuItem */
+    export type dxContextMenuItemTemplate = DevExpress.ui.dxContextMenuItem;
 
-  /** @deprecated Use DevExpress.ui.dxMenuBaseItem */
-  export type dxMenuBaseItemTemplate = DevExpress.ui.dxMenuBaseItem;
+    /** @deprecated Use DevExpress.ui.dxMenuBaseItem */
+    export type dxMenuBaseItemTemplate = DevExpress.ui.dxMenuBaseItem;
 
-  /** @deprecated Use DevExpress.ui.CollectionWidgetItem */
-  export type DataExpressionMixinItemTemplate = DevExpress.ui.CollectionWidgetItem;
+    /** @deprecated Use DevExpress.ui.CollectionWidgetItem */
+    export type DataExpressionMixinItemTemplate = DevExpress.ui.CollectionWidgetItem;
 
-  /** @deprecated Use DevExpress.ui.dxListItem */
-  export type dxListItemTemplate = DevExpress.ui.dxListItem;
+    /** @deprecated Use DevExpress.ui.dxListItem */
+    export type dxListItemTemplate = DevExpress.ui.dxListItem;
 
-  /** @deprecated Use DevExpress.ui.dxMenuItem */
-  export type dxMenuItemTemplate = DevExpress.ui.dxMenuItem;
+    /** @deprecated Use DevExpress.ui.dxMenuItem */
+    export type dxMenuItemTemplate = DevExpress.ui.dxMenuItem;
 
-  /** @deprecated Use DevExpress.ui.dxTreeViewItem */
-  export type dxTreeViewItemTemplate = DevExpress.ui.dxTreeViewItem;
+    /** @deprecated Use DevExpress.ui.dxTreeViewItem */
+    export type dxTreeViewItemTemplate = DevExpress.ui.dxTreeViewItem;
 }
 
 
 // v22.1
 
 declare module DevExpress.ui {
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type GridBase<TRowData = any, TKey = any> = DevExpress.common.grids.GridBase<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type GridBaseOptions<TComponent extends GridBase<TRowData, TKey>, TRowData = any, TKey = any> = DevExpress.common.grids.GridBaseOptions<TComponent, TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type GridBase<TRowData = any, TKey = any> = DevExpress.common.grids.GridBase<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type GridBaseOptions<TComponent extends GridBase<TRowData, TKey>, TRowData = any, TKey = any> = DevExpress.common.grids.GridBaseOptions<TComponent, TRowData, TKey>;
 }
 
 declare module DevExpress.ui.dxDataGrid {
 
-  /** @deprecated Use DevExpress.common.Scrollable */
-  export type Scrollable = DevExpress.common.Scrollable;
+    /** @deprecated Use DevExpress.common.Scrollable */
+    export type Scrollable = DevExpress.common.Scrollable;
 
-  /** @deprecated Use DevExpress.common.grids.ColumnChooser instead */
-  export type ColumnChooser = DevExpress.common.grids.ColumnChooser;
-  /** @deprecated Use DevExpress.common.grids.ColumnCustomizeTextArg instead */
-  export type ColumnCustomizeTextArg = DevExpress.common.grids.ColumnCustomizeTextArg;
-  /** @deprecated Use DevExpress.common.grids.ColumnFixing instead */
-  export type ColumnFixing = DevExpress.common.grids.ColumnFixing;
-  /** @deprecated Use DevExpress.common.grids.ColumnFixingTexts instead */
-  export type ColumnFixingTexts = DevExpress.common.grids.ColumnFixingTexts;
-  /** @deprecated Use DevExpress.common.grids.ColumnHeaderFilter instead */
-  export type ColumnHeaderFilter = DevExpress.common.grids.ColumnHeaderFilter;
-  /** @deprecated Use DevExpress.common.grids.ColumnLookup instead */
-  export type ColumnLookup = DevExpress.common.grids.ColumnLookup;
-  /** @deprecated Use DevExpress.common.grids.DataChange instead */
-  export type DataChange<TRowData = any, TKey = any> = DevExpress.common.grids.DataChange<TRowData, TKey>;
-  /** @deprecated Use DevExpress.common.grids.FilterPanelTexts instead */
-  export type FilterPanelTexts = DevExpress.common.grids.FilterPanelTexts;
-  /** @deprecated Use DevExpress.common.grids.FilterRow instead */
-  export type FilterRow = DevExpress.common.grids.FilterRow;
-  /** @deprecated Use DevExpress.common.grids.FilterRowOperationDescriptions instead */
-  export type FilterRowOperationDescriptions = DevExpress.common.grids.FilterRowOperationDescriptions;
-  /** @deprecated Use DevExpress.common.grids.HeaderFilter instead */
-  export type HeaderFilter = DevExpress.common.grids.HeaderFilter;
-  /** @deprecated Use DevExpress.common.grids.HeaderFilterGroupInterval instead */
-  export type HeaderFilterGroupInterval = DevExpress.common.grids.HeaderFilterGroupInterval;
-  /** @deprecated Use DevExpress.common.grids.HeaderFilterTexts instead */
-  export type HeaderFilterTexts = DevExpress.common.grids.HeaderFilterTexts;
-  /** @deprecated Use DevExpress.common.grids.KeyboardNavigation instead */
-  export type KeyboardNavigation = DevExpress.common.grids.KeyboardNavigation;
-  /** @deprecated Use DevExpress.common.grids.LoadPanel instead */
-  export type LoadPanel = DevExpress.common.grids.LoadPanel;
-  /** @deprecated Use DevExpress.common.grids.Pager instead */
-  export type Pager = DevExpress.common.grids.Pager;
-  /** @deprecated Use DevExpress.common.grids.RowDraggingTemplateData instead */
-  export type RowDraggingTemplateData = DevExpress.common.grids.RowDraggingTemplateData;
-  /** @deprecated Use DevExpress.common.grids.RowDraggingTemplateData instead */
-  export type RowDraggingTemplateDataModel = DevExpress.common.grids.RowDraggingTemplateData;
-  /** @deprecated Use DevExpress.common.grids.SearchPanel instead */
-  export type SearchPanel = DevExpress.common.grids.SearchPanel;
-  /** @deprecated Use DevExpress.common.grids.Sorting instead */
-  export type Sorting = DevExpress.common.grids.Sorting;
-  /** @deprecated Use DevExpress.common.grids.StateStoring instead */
-  export type StateStoring = DevExpress.common.grids.StateStoring;
+    /** @deprecated Use DevExpress.common.grids.ColumnChooser instead */
+    export type ColumnChooser = DevExpress.common.grids.ColumnChooser;
+    /** @deprecated Use DevExpress.common.grids.ColumnCustomizeTextArg instead */
+    export type ColumnCustomizeTextArg = DevExpress.common.grids.ColumnCustomizeTextArg;
+    /** @deprecated Use DevExpress.common.grids.ColumnFixing instead */
+    export type ColumnFixing = DevExpress.common.grids.ColumnFixing;
+    /** @deprecated Use DevExpress.common.grids.ColumnFixingTexts instead */
+    export type ColumnFixingTexts = DevExpress.common.grids.ColumnFixingTexts;
+    /** @deprecated Use DevExpress.common.grids.ColumnHeaderFilter instead */
+    export type ColumnHeaderFilter = DevExpress.common.grids.ColumnHeaderFilter;
+    /** @deprecated Use DevExpress.common.grids.ColumnLookup instead */
+    export type ColumnLookup = DevExpress.common.grids.ColumnLookup;
+    /** @deprecated Use DevExpress.common.grids.DataChange instead */
+    export type DataChange<TRowData = any, TKey = any> = DevExpress.common.grids.DataChange<TRowData, TKey>;
+    /** @deprecated Use DevExpress.common.grids.FilterPanelTexts instead */
+    export type FilterPanelTexts = DevExpress.common.grids.FilterPanelTexts;
+    /** @deprecated Use DevExpress.common.grids.FilterRow instead */
+    export type FilterRow = DevExpress.common.grids.FilterRow;
+    /** @deprecated Use DevExpress.common.grids.FilterRowOperationDescriptions instead */
+    export type FilterRowOperationDescriptions = DevExpress.common.grids.FilterRowOperationDescriptions;
+    /** @deprecated Use DevExpress.common.grids.HeaderFilter instead */
+    export type HeaderFilter = DevExpress.common.grids.HeaderFilter;
+    /** @deprecated Use DevExpress.common.grids.HeaderFilterGroupInterval instead */
+    export type HeaderFilterGroupInterval = DevExpress.common.grids.HeaderFilterGroupInterval;
+    /** @deprecated Use DevExpress.common.grids.HeaderFilterTexts instead */
+    export type HeaderFilterTexts = DevExpress.common.grids.HeaderFilterTexts;
+    /** @deprecated Use DevExpress.common.grids.KeyboardNavigation instead */
+    export type KeyboardNavigation = DevExpress.common.grids.KeyboardNavigation;
+    /** @deprecated Use DevExpress.common.grids.LoadPanel instead */
+    export type LoadPanel = DevExpress.common.grids.LoadPanel;
+    /** @deprecated Use DevExpress.common.grids.Pager instead */
+    export type Pager = DevExpress.common.grids.Pager;
+    /** @deprecated Use DevExpress.common.grids.RowDraggingTemplateData instead */
+    export type RowDraggingTemplateData = DevExpress.common.grids.RowDraggingTemplateData;
+    /** @deprecated Use DevExpress.common.grids.RowDraggingTemplateData instead */
+    export type RowDraggingTemplateDataModel = DevExpress.common.grids.RowDraggingTemplateData;
+    /** @deprecated Use DevExpress.common.grids.SearchPanel instead */
+    export type SearchPanel = DevExpress.common.grids.SearchPanel;
+    /** @deprecated Use DevExpress.common.grids.Sorting instead */
+    export type Sorting = DevExpress.common.grids.Sorting;
+    /** @deprecated Use DevExpress.common.grids.StateStoring instead */
+    export type StateStoring = DevExpress.common.grids.StateStoring;
 
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type AdaptiveDetailRowPreparingInfo = DevExpress.common.grids.AdaptiveDetailRowPreparingInfo;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type DataChangeInfo<TRowData = any, TKey = any> = DevExpress.common.grids.DataChangeInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type DataErrorOccurredInfo = DevExpress.common.grids.DataErrorOccurredInfo;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type DragDropInfo = DevExpress.common.grids.DragDropInfo;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type DragReorderInfo = DevExpress.common.grids.DragReorderInfo;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type DragStartEventInfo<TRowData = any> = DevExpress.common.grids.DragStartEventInfo<TRowData>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type KeyDownInfo = DevExpress.common.grids.KeyDownInfo;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type NewRowInfo<TRowData = any> = DevExpress.common.grids.NewRowInfo<TRowData>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type PagingBase = DevExpress.common.grids.PagingBase;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowDraggingEventInfo<TRowData = any> = DevExpress.common.grids.RowDraggingEventInfo<TRowData>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowInsertedInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowInsertedInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowInsertingInfo<TRowData = any> = DevExpress.common.grids.RowInsertingInfo<TRowData>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowKeyInfo<TKey = any> = DevExpress.common.grids.RowKeyInfo<TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowRemovedInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowRemovedInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowRemovingInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowRemovingInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowUpdatedInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowUpdatedInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowUpdatingInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowUpdatingInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type RowValidatingInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowValidatingInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type SavingInfo<TRowData = any, TKey = any> = DevExpress.common.grids.SavingInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type SelectionChangedInfo<TRowData = any, TKey = any> = DevExpress.common.grids.SelectionChangedInfo<TRowData, TKey>;
-  /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
-  export type ToolbarPreparingInfo = DevExpress.common.grids.ToolbarPreparingInfo;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type AdaptiveDetailRowPreparingInfo = DevExpress.common.grids.AdaptiveDetailRowPreparingInfo;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type DataChangeInfo<TRowData = any, TKey = any> = DevExpress.common.grids.DataChangeInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type DataErrorOccurredInfo = DevExpress.common.grids.DataErrorOccurredInfo;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type DragDropInfo = DevExpress.common.grids.DragDropInfo;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type DragReorderInfo = DevExpress.common.grids.DragReorderInfo;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type DragStartEventInfo<TRowData = any> = DevExpress.common.grids.DragStartEventInfo<TRowData>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type KeyDownInfo = DevExpress.common.grids.KeyDownInfo;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type NewRowInfo<TRowData = any> = DevExpress.common.grids.NewRowInfo<TRowData>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type PagingBase = DevExpress.common.grids.PagingBase;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowDraggingEventInfo<TRowData = any> = DevExpress.common.grids.RowDraggingEventInfo<TRowData>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowInsertedInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowInsertedInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowInsertingInfo<TRowData = any> = DevExpress.common.grids.RowInsertingInfo<TRowData>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowKeyInfo<TKey = any> = DevExpress.common.grids.RowKeyInfo<TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowRemovedInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowRemovedInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowRemovingInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowRemovingInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowUpdatedInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowUpdatedInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowUpdatingInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowUpdatingInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type RowValidatingInfo<TRowData = any, TKey = any> = DevExpress.common.grids.RowValidatingInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type SavingInfo<TRowData = any, TKey = any> = DevExpress.common.grids.SavingInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type SelectionChangedInfo<TRowData = any, TKey = any> = DevExpress.common.grids.SelectionChangedInfo<TRowData, TKey>;
+    /** @deprecated Attention! This type is for internal purposes only. If you used it previously, please submit a ticket to our {@link https://supportcenter.devexpress.com/ticket/create Support Center}. We will check if there is an alternative solution. */
+    export type ToolbarPreparingInfo = DevExpress.common.grids.ToolbarPreparingInfo;
 }
 
 declare module DevExpress.common.charts {
-  /** @deprecated Use DevExpress.common.grids.ApplyChangesMode instead */
-  export type ApplyChangesMode = DevExpress.common.grids.ApplyChangesMode;
-  /** @deprecated Use DevExpress.common.grids.ApplyFilterMode instead */
-  export type ApplyFilterMode = DevExpress.common.grids.ApplyFilterMode;
-  /** @deprecated Use DevExpress.common.grids.ColumnChooserMode instead */
-  export type ColumnChooserMode = DevExpress.common.grids.ColumnChooserMode;
-  /** @deprecated Use DevExpress.common.grids.ColumnResizeMode instead */
-  export type ColumnResizeMode = DevExpress.common.grids.ColumnResizeMode;
-  /** @deprecated Use DevExpress.common.grids.DataChangeType instead */
-  export type DataChangeType = DevExpress.common.grids.DataChangeType;
-  /** @deprecated Use DevExpress.common.grids.DataRenderMode instead */
-  export type DataRenderMode = DevExpress.common.grids.DataRenderMode;
-  /** @deprecated Use DevExpress.common.grids.EnterKeyAction instead */
-  export type EnterKeyAction = DevExpress.common.grids.EnterKeyAction;
-  /** @deprecated Use DevExpress.common.grids.EnterKeyDirection instead */
-  export type EnterKeyDirection = DevExpress.common.grids.EnterKeyDirection;
-  /** @deprecated Use DevExpress.common.grids.FilterOperation instead */
-  export type FilterOperation = DevExpress.common.grids.FilterOperation;
-  /** @deprecated Use DevExpress.common.grids.FilterType instead */
-  export type FilterType = DevExpress.common.grids.FilterType;
-  /** @deprecated Use DevExpress.common.grids.GridsEditMode instead */
-  export type GridsEditMode = DevExpress.common.grids.GridsEditMode;
-  /** @deprecated Use DevExpress.common.grids.GridsEditRefreshMode instead */
-  export type GridsEditRefreshMode = DevExpress.common.grids.GridsEditRefreshMode;
-  /** @deprecated Use DevExpress.common.grids.GroupExpandMode instead */
-  export type GroupExpandMode = DevExpress.common.grids.GroupExpandMode;
-  /** @deprecated Use DevExpress.common.grids.NewRowPosition instead */
-  export type NewRowPosition = DevExpress.common.grids.NewRowPosition;
-  /** @deprecated Use DevExpress.common.grids.PagerDisplayMode instead */
-  export type PagerDisplayMode = DevExpress.common.grids.PagerDisplayMode;
-  /** @deprecated Use DevExpress.common.grids.PagerPageSize instead */
-  export type PagerPageSize = DevExpress.common.grids.PagerPageSize;
-  /** @deprecated Use DevExpress.common.grids.SelectedFilterOperation instead */
-  export type SelectedFilterOperation = DevExpress.common.grids.SelectedFilterOperation;
-  /** @deprecated Use DevExpress.common.grids.SelectionColumnDisplayMode instead */
-  export type SelectionColumnDisplayMode = DevExpress.common.grids.SelectionColumnDisplayMode;
-  /** @deprecated Use DevExpress.common.grids.StartEditAction instead */
-  export type StartEditAction = DevExpress.common.grids.StartEditAction;
-  /** @deprecated Use DevExpress.common.grids.StateStoreType instead */
-  export type StateStoreType = DevExpress.common.grids.StateStoreType;
-  /** @deprecated Use DevExpress.common.grids.SummaryType instead */
-  export type SummaryType = DevExpress.common.grids.SummaryType;
+    /** @deprecated Use DevExpress.common.grids.ApplyChangesMode instead */
+    export type ApplyChangesMode = DevExpress.common.grids.ApplyChangesMode;
+    /** @deprecated Use DevExpress.common.grids.ApplyFilterMode instead */
+    export type ApplyFilterMode = DevExpress.common.grids.ApplyFilterMode;
+    /** @deprecated Use DevExpress.common.grids.ColumnChooserMode instead */
+    export type ColumnChooserMode = DevExpress.common.grids.ColumnChooserMode;
+    /** @deprecated Use DevExpress.common.grids.ColumnResizeMode instead */
+    export type ColumnResizeMode = DevExpress.common.grids.ColumnResizeMode;
+    /** @deprecated Use DevExpress.common.grids.DataChangeType instead */
+    export type DataChangeType = DevExpress.common.grids.DataChangeType;
+    /** @deprecated Use DevExpress.common.grids.DataRenderMode instead */
+    export type DataRenderMode = DevExpress.common.grids.DataRenderMode;
+    /** @deprecated Use DevExpress.common.grids.EnterKeyAction instead */
+    export type EnterKeyAction = DevExpress.common.grids.EnterKeyAction;
+    /** @deprecated Use DevExpress.common.grids.EnterKeyDirection instead */
+    export type EnterKeyDirection = DevExpress.common.grids.EnterKeyDirection;
+    /** @deprecated Use DevExpress.common.grids.FilterOperation instead */
+    export type FilterOperation = DevExpress.common.grids.FilterOperation;
+    /** @deprecated Use DevExpress.common.grids.FilterType instead */
+    export type FilterType = DevExpress.common.grids.FilterType;
+    /** @deprecated Use DevExpress.common.grids.GridsEditMode instead */
+    export type GridsEditMode = DevExpress.common.grids.GridsEditMode;
+    /** @deprecated Use DevExpress.common.grids.GridsEditRefreshMode instead */
+    export type GridsEditRefreshMode = DevExpress.common.grids.GridsEditRefreshMode;
+    /** @deprecated Use DevExpress.common.grids.GroupExpandMode instead */
+    export type GroupExpandMode = DevExpress.common.grids.GroupExpandMode;
+    /** @deprecated Use DevExpress.common.grids.NewRowPosition instead */
+    export type NewRowPosition = DevExpress.common.grids.NewRowPosition;
+    /** @deprecated Use DevExpress.common.grids.PagerDisplayMode instead */
+    export type PagerDisplayMode = DevExpress.common.grids.PagerDisplayMode;
+    /** @deprecated Use DevExpress.common.grids.PagerPageSize instead */
+    export type PagerPageSize = DevExpress.common.grids.PagerPageSize;
+    /** @deprecated Use DevExpress.common.grids.SelectedFilterOperation instead */
+    export type SelectedFilterOperation = DevExpress.common.grids.SelectedFilterOperation;
+    /** @deprecated Use DevExpress.common.grids.SelectionColumnDisplayMode instead */
+    export type SelectionColumnDisplayMode = DevExpress.common.grids.SelectionColumnDisplayMode;
+    /** @deprecated Use DevExpress.common.grids.StartEditAction instead */
+    export type StartEditAction = DevExpress.common.grids.StartEditAction;
+    /** @deprecated Use DevExpress.common.grids.StateStoreType instead */
+    export type StateStoreType = DevExpress.common.grids.StateStoreType;
+    /** @deprecated Use DevExpress.common.grids.SummaryType instead */
+    export type SummaryType = DevExpress.common.grids.SummaryType;
 }
 
 // v22.2
 declare module DevExpress {
-  /** @deprecated Use DevExpress.GlobalConfig instead */
-  export type globalConfig = DevExpress.common.GlobalConfig;
+    /** @deprecated Use DevExpress.GlobalConfig instead */
+    export type globalConfig = DevExpress.common.GlobalConfig;
 }
 
 declare module DevExpress.ui {
-  /** @deprecated Use DevExpress.common.AsyncRule instead */
-  export type AsyncRule = DevExpress.common.AsyncRule;
-  /** @deprecated Use DevExpress.common.CompareRule instead */
-  export type CompareRule = DevExpress.common.CompareRule;
-  /** @deprecated Use DevExpress.common.CustomRule instead */
-  export type CustomRule = DevExpress.common.CustomRule;
-  /** @deprecated Use DevExpress.common.EmailRule instead */
-  export type EmailRule = DevExpress.common.EmailRule;
-  /** @deprecated Use DevExpress.common.NumericRule instead */
-  export type NumericRule = DevExpress.common.NumericRule;
-  /** @deprecated Use DevExpress.common.PatternRule instead */
-  export type PatternRule = DevExpress.common.PatternRule;
-  /** @deprecated Use DevExpress.common.RangeRule instead */
-  export type RangeRule = DevExpress.common.RangeRule;
-  /** @deprecated Use DevExpress.common.RequiredRule instead */
-  export type RequiredRule = DevExpress.common.RequiredRule;
-  /** @deprecated Use DevExpress.common.StringLengthRule instead */
-  export type StringLengthRule = DevExpress.common.StringLengthRule;
-  /** @deprecated Use DevExpress.common.ValidationCallbackData instead */
-  export type ValidationCallbackData = DevExpress.common.ValidationCallbackData;
-  /** @deprecated Use DevExpress.common.ValidationRule instead */
-  export type ValidationRule = DevExpress.common.ValidationRule;
-  /** @deprecated Use DevExpress.common.ValidationRuleType instead */
-  export type ValidationRuleType = DevExpress.common.ValidationRuleType;
+    /** @deprecated Use DevExpress.common.AsyncRule instead */
+    export type AsyncRule = DevExpress.common.AsyncRule;
+    /** @deprecated Use DevExpress.common.CompareRule instead */
+    export type CompareRule = DevExpress.common.CompareRule;
+    /** @deprecated Use DevExpress.common.CustomRule instead */
+    export type CustomRule = DevExpress.common.CustomRule;
+    /** @deprecated Use DevExpress.common.EmailRule instead */
+    export type EmailRule = DevExpress.common.EmailRule;
+    /** @deprecated Use DevExpress.common.NumericRule instead */
+    export type NumericRule = DevExpress.common.NumericRule;
+    /** @deprecated Use DevExpress.common.PatternRule instead */
+    export type PatternRule = DevExpress.common.PatternRule;
+    /** @deprecated Use DevExpress.common.RangeRule instead */
+    export type RangeRule = DevExpress.common.RangeRule;
+    /** @deprecated Use DevExpress.common.RequiredRule instead */
+    export type RequiredRule = DevExpress.common.RequiredRule;
+    /** @deprecated Use DevExpress.common.StringLengthRule instead */
+    export type StringLengthRule = DevExpress.common.StringLengthRule;
+    /** @deprecated Use DevExpress.common.ValidationCallbackData instead */
+    export type ValidationCallbackData = DevExpress.common.ValidationCallbackData;
+    /** @deprecated Use DevExpress.common.ValidationRule instead */
+    export type ValidationRule = DevExpress.common.ValidationRule;
+    /** @deprecated Use DevExpress.common.ValidationRuleType instead */
+    export type ValidationRuleType = DevExpress.common.ValidationRuleType;
 }
 
 declare module DevExpress.viz {
-  /** @deprecated Use DevExpress.common.charts.ScaleBreak instead */
-  export type ScaleBreak = DevExpress.common.charts.ScaleBreak
-  /** @deprecated Use DevExpress.common.charts.SeriesType instead */
-  export type SeriesType = DevExpress.common.charts.SeriesType
-  /** @deprecated Use DevExpress.common.charts.VisualRange instead */
-  export type VisualRange = DevExpress.common.charts.VisualRange
-  /** @deprecated Use DevExpress.common.charts.TimeIntervalConfig instead */
-  export type VizTimeInterval = DevExpress.common.charts.TimeIntervalConfig
-  /** @deprecated Use DevExpress.common.charts.SeriesPoint instead */
-  export type dxChartSeriesTypesCommonSeriesPoint = DevExpress.common.charts.SeriesPoint;
-  /** @deprecated Use DevExpress.common.charts.SeriesLabel instead */
-  export type dxChartSeriesTypesCommonSeriesLabel = DevExpress.common.charts.SeriesLabel;
-  /** @deprecated Use DevExpress.common.charts.LegendItem instead */
-  export type BaseChartLegendItem = DevExpress.common.charts.LegendItem;
+    /** @deprecated Use DevExpress.common.charts.ScaleBreak instead */
+    export type ScaleBreak = DevExpress.common.charts.ScaleBreak
+    /** @deprecated Use DevExpress.common.charts.SeriesType instead */
+    export type SeriesType = DevExpress.common.charts.SeriesType
+    /** @deprecated Use DevExpress.common.charts.VisualRange instead */
+    export type VisualRange = DevExpress.common.charts.VisualRange
+    /** @deprecated Use DevExpress.common.charts.TimeIntervalConfig instead */
+    export type VizTimeInterval = DevExpress.common.charts.TimeIntervalConfig
+    /** @deprecated Use DevExpress.common.charts.SeriesPoint instead */
+    export type dxChartSeriesTypesCommonSeriesPoint = DevExpress.common.charts.SeriesPoint;
+    /** @deprecated Use DevExpress.common.charts.SeriesLabel instead */
+    export type dxChartSeriesTypesCommonSeriesLabel = DevExpress.common.charts.SeriesLabel;
+    /** @deprecated Use DevExpress.common.charts.LegendItem instead */
+    export type BaseChartLegendItem = DevExpress.common.charts.LegendItem;
 }
 
 declare namespace DevExpress.data {
-  /** @deprecated Use DevExpress.data.Store.Options instead */
-  export type StoreOptions = Store.Options;
+    /** @deprecated Use DevExpress.data.Store.Options instead */
+    export type StoreOptions = Store.Options;
 }
 
 // v23.1
 
 declare module DevExpress.ui.dxSlider {
-  /** @deprecated Use DevExpress.common.SliderValueChangeMode instead */
-  export type ValueChangeMode = DevExpress.common.SliderValueChangeMode;
+    /** @deprecated Use DevExpress.common.SliderValueChangeMode instead */
+    export type ValueChangeMode = DevExpress.common.SliderValueChangeMode;
 }
 
 declare module DevExpress.viz.dxFunnel {
-  /** @deprecated Use DevExpress.common.charts.ShiftLabelOverlap instead */
-  export type FunnelLabelOverlap = DevExpress.common.charts.ShiftLabelOverlap;
+    /** @deprecated Use DevExpress.common.charts.ShiftLabelOverlap instead */
+    export type FunnelLabelOverlap = DevExpress.common.charts.ShiftLabelOverlap;
 }
 
 declare module DevExpress.viz.dxPieChart {
-  /** @deprecated Use DevExpress.common.charts.ShiftLabelOverlap instead */
-  export type PieChartLabelOverlap = DevExpress.common.charts.ShiftLabelOverlap;
+    /** @deprecated Use DevExpress.common.charts.ShiftLabelOverlap instead */
+    export type PieChartLabelOverlap = DevExpress.common.charts.ShiftLabelOverlap;
 }
 
 declare module DevExpress.viz {
 
-  /** @deprecated Use DevExpress.viz.dxBarGauge.Legend instead */
-  export type dxBarGaugeLegend = DevExpress.viz.dxBarGauge.Legend;
+    /** @deprecated Use DevExpress.viz.dxBarGauge.Legend instead */
+    export type dxBarGaugeLegend = DevExpress.viz.dxBarGauge.Legend;
 
-  /** @deprecated Use DevExpress.viz.dxBarGauge.LoadingIndicator instead */
-  export type dxBarGaugeLoadingIndicator = DevExpress.viz.dxBarGauge.LoadingIndicator;
+    /** @deprecated Use DevExpress.viz.dxBarGauge.LoadingIndicator instead */
+    export type dxBarGaugeLoadingIndicator = DevExpress.viz.dxBarGauge.LoadingIndicator;
 
-  /** @deprecated Use DevExpress.viz.dxBarGauge.Tooltip instead */
-  export type dxBarGaugeTooltip = DevExpress.viz.dxBarGauge.Tooltip;
+    /** @deprecated Use DevExpress.viz.dxBarGauge.Tooltip instead */
+    export type dxBarGaugeTooltip = DevExpress.viz.dxBarGauge.Tooltip;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxis instead */
-  export type dxChartArgumentAxis = DevExpress.viz.dxChart.ArgumentAxis;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxis instead */
+    export type dxChartArgumentAxis = DevExpress.viz.dxChart.ArgumentAxis;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisConstantLines instead */
-  export type dxChartArgumentAxisConstantLines = DevExpress.viz.dxChart.ArgumentAxisConstantLines;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisConstantLines instead */
+    export type dxChartArgumentAxisConstantLines = DevExpress.viz.dxChart.ArgumentAxisConstantLines;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisConstantLinesLabel instead */
-  export type dxChartArgumentAxisConstantLinesLabel = DevExpress.viz.dxChart.ArgumentAxisConstantLinesLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisConstantLinesLabel instead */
+    export type dxChartArgumentAxisConstantLinesLabel = DevExpress.viz.dxChart.ArgumentAxisConstantLinesLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisConstantLineStyle instead */
-  export type dxChartArgumentAxisConstantLineStyle = DevExpress.viz.dxChart.ArgumentAxisConstantLineStyle;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisConstantLineStyle instead */
+    export type dxChartArgumentAxisConstantLineStyle = DevExpress.viz.dxChart.ArgumentAxisConstantLineStyle;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisConstantLineStyleLabel instead */
-  export type dxChartArgumentAxisConstantLineStyleLabel = DevExpress.viz.dxChart.ArgumentAxisConstantLineStyleLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisConstantLineStyleLabel instead */
+    export type dxChartArgumentAxisConstantLineStyleLabel = DevExpress.viz.dxChart.ArgumentAxisConstantLineStyleLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisLabel instead */
-  export type dxChartArgumentAxisLabel = DevExpress.viz.dxChart.ArgumentAxisLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisLabel instead */
+    export type dxChartArgumentAxisLabel = DevExpress.viz.dxChart.ArgumentAxisLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisStrips instead */
-  export type dxChartArgumentAxisStrips = DevExpress.viz.dxChart.ArgumentAxisStrips;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisStrips instead */
+    export type dxChartArgumentAxisStrips = DevExpress.viz.dxChart.ArgumentAxisStrips;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisStripsLabel instead */
-  export type dxChartArgumentAxisStripsLabel = DevExpress.viz.dxChart.ArgumentAxisStripsLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisStripsLabel instead */
+    export type dxChartArgumentAxisStripsLabel = DevExpress.viz.dxChart.ArgumentAxisStripsLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisTitle instead */
-  export type dxChartArgumentAxisTitle = DevExpress.viz.dxChart.ArgumentAxisTitle;
+    /** @deprecated Use DevExpress.viz.dxChart.ArgumentAxisTitle instead */
+    export type dxChartArgumentAxisTitle = DevExpress.viz.dxChart.ArgumentAxisTitle;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettings instead */
-  export type dxChartCommonAxisSettings = DevExpress.viz.dxChart.CommonAxisSettings;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettings instead */
+    export type dxChartCommonAxisSettings = DevExpress.viz.dxChart.CommonAxisSettings;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsConstantLineStyle instead */
-  export type dxChartCommonAxisSettingsConstantLineStyle = DevExpress.viz.dxChart.CommonAxisSettingsConstantLineStyle;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsConstantLineStyle instead */
+    export type dxChartCommonAxisSettingsConstantLineStyle = DevExpress.viz.dxChart.CommonAxisSettingsConstantLineStyle;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsConstantLineStyleLabel instead */
-  export type dxChartCommonAxisSettingsConstantLineStyleLabel = DevExpress.viz.dxChart.CommonAxisSettingsConstantLineStyleLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsConstantLineStyleLabel instead */
+    export type dxChartCommonAxisSettingsConstantLineStyleLabel = DevExpress.viz.dxChart.CommonAxisSettingsConstantLineStyleLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsLabel instead */
-  export type dxChartCommonAxisSettingsLabel = DevExpress.viz.dxChart.CommonAxisSettingsLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsLabel instead */
+    export type dxChartCommonAxisSettingsLabel = DevExpress.viz.dxChart.CommonAxisSettingsLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsStripStyle instead */
-  export type dxChartCommonAxisSettingsStripStyle = DevExpress.viz.dxChart.CommonAxisSettingsStripStyle;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsStripStyle instead */
+    export type dxChartCommonAxisSettingsStripStyle = DevExpress.viz.dxChart.CommonAxisSettingsStripStyle;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsStripStyleLabel instead */
-  export type dxChartCommonAxisSettingsStripStyleLabel = DevExpress.viz.dxChart.CommonAxisSettingsStripStyleLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsStripStyleLabel instead */
+    export type dxChartCommonAxisSettingsStripStyleLabel = DevExpress.viz.dxChart.CommonAxisSettingsStripStyleLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsTitle instead */
-  export type dxChartCommonAxisSettingsTitle = DevExpress.viz.dxChart.CommonAxisSettingsTitle;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonAxisSettingsTitle instead */
+    export type dxChartCommonAxisSettingsTitle = DevExpress.viz.dxChart.CommonAxisSettingsTitle;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonPaneSettings instead */
-  export type dxChartCommonPaneSettings = DevExpress.viz.dxChart.CommonPaneSettings;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonPaneSettings instead */
+    export type dxChartCommonPaneSettings = DevExpress.viz.dxChart.CommonPaneSettings;
 
-  /** @deprecated Use DevExpress.viz.dxChart.CommonSeriesSettings instead */
-  export type dxChartCommonSeriesSettings = DevExpress.viz.dxChart.CommonSeriesSettings;
+    /** @deprecated Use DevExpress.viz.dxChart.CommonSeriesSettings instead */
+    export type dxChartCommonSeriesSettings = DevExpress.viz.dxChart.CommonSeriesSettings;
 
-  /** @deprecated Use DevExpress.viz.dxChart.Legend instead */
-  export type dxChartLegend = DevExpress.viz.dxChart.Legend;
+    /** @deprecated Use DevExpress.viz.dxChart.Legend instead */
+    export type dxChartLegend = DevExpress.viz.dxChart.Legend;
 
-  /** @deprecated Use DevExpress.viz.dxChart.Panes instead */
-  export type dxChartPanes = DevExpress.viz.dxChart.Panes;
+    /** @deprecated Use DevExpress.viz.dxChart.Panes instead */
+    export type dxChartPanes = DevExpress.viz.dxChart.Panes;
 
-  /** @deprecated Use DevExpress.viz.dxChart.Tooltip instead */
-  export type dxChartTooltip = DevExpress.viz.dxChart.Tooltip;
+    /** @deprecated Use DevExpress.viz.dxChart.Tooltip instead */
+    export type dxChartTooltip = DevExpress.viz.dxChart.Tooltip;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxis instead */
-  export type dxChartValueAxis = DevExpress.viz.dxChart.ValueAxis;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxis instead */
+    export type dxChartValueAxis = DevExpress.viz.dxChart.ValueAxis;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxisConstantLines instead */
-  export type dxChartValueAxisConstantLines = DevExpress.viz.dxChart.ValueAxisConstantLines;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxisConstantLines instead */
+    export type dxChartValueAxisConstantLines = DevExpress.viz.dxChart.ValueAxisConstantLines;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxisConstantLinesLabel instead */
-  export type dxChartValueAxisConstantLinesLabel = DevExpress.viz.dxChart.ValueAxisConstantLinesLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxisConstantLinesLabel instead */
+    export type dxChartValueAxisConstantLinesLabel = DevExpress.viz.dxChart.ValueAxisConstantLinesLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxisConstantLineStyle instead */
-  export type dxChartValueAxisConstantLineStyle = DevExpress.viz.dxChart.ValueAxisConstantLineStyle;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxisConstantLineStyle instead */
+    export type dxChartValueAxisConstantLineStyle = DevExpress.viz.dxChart.ValueAxisConstantLineStyle;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxisConstantLineStyleLabel instead */
-  export type dxChartValueAxisConstantLineStyleLabel = DevExpress.viz.dxChart.ValueAxisConstantLineStyleLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxisConstantLineStyleLabel instead */
+    export type dxChartValueAxisConstantLineStyleLabel = DevExpress.viz.dxChart.ValueAxisConstantLineStyleLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxisLabel instead */
-  export type dxChartValueAxisLabel = DevExpress.viz.dxChart.ValueAxisLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxisLabel instead */
+    export type dxChartValueAxisLabel = DevExpress.viz.dxChart.ValueAxisLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxisStrips instead */
-  export type dxChartValueAxisStrips = DevExpress.viz.dxChart.ValueAxisStrips;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxisStrips instead */
+    export type dxChartValueAxisStrips = DevExpress.viz.dxChart.ValueAxisStrips;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxisStripsLabel instead */
-  export type dxChartValueAxisStripsLabel = DevExpress.viz.dxChart.ValueAxisStripsLabel;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxisStripsLabel instead */
+    export type dxChartValueAxisStripsLabel = DevExpress.viz.dxChart.ValueAxisStripsLabel;
 
-  /** @deprecated Use DevExpress.viz.dxChart.ValueAxisTitle instead */
-  export type dxChartValueAxisTitle = DevExpress.viz.dxChart.ValueAxisTitle;
+    /** @deprecated Use DevExpress.viz.dxChart.ValueAxisTitle instead */
+    export type dxChartValueAxisTitle = DevExpress.viz.dxChart.ValueAxisTitle;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.AdaptiveLayout instead */
-  export type dxPolarChartAdaptiveLayout = DevExpress.viz.dxPolarChart.AdaptiveLayout;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.AdaptiveLayout instead */
+    export type dxPolarChartAdaptiveLayout = DevExpress.viz.dxPolarChart.AdaptiveLayout;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxis instead */
-  export type dxPolarChartArgumentAxis = DevExpress.viz.dxPolarChart.ArgumentAxis;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxis instead */
+    export type dxPolarChartArgumentAxis = DevExpress.viz.dxPolarChart.ArgumentAxis;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisConstantLines instead */
-  export type dxPolarChartArgumentAxisConstantLines = DevExpress.viz.dxPolarChart.ArgumentAxisConstantLines;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisConstantLines instead */
+    export type dxPolarChartArgumentAxisConstantLines = DevExpress.viz.dxPolarChart.ArgumentAxisConstantLines;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisConstantLinesLabel instead */
-  export type dxPolarChartArgumentAxisConstantLinesLabel = DevExpress.viz.dxPolarChart.ArgumentAxisConstantLinesLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisConstantLinesLabel instead */
+    export type dxPolarChartArgumentAxisConstantLinesLabel = DevExpress.viz.dxPolarChart.ArgumentAxisConstantLinesLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisLabel instead */
-  export type dxPolarChartArgumentAxisLabel = DevExpress.viz.dxPolarChart.ArgumentAxisLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisLabel instead */
+    export type dxPolarChartArgumentAxisLabel = DevExpress.viz.dxPolarChart.ArgumentAxisLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisMinorTick instead */
-  export type dxPolarChartArgumentAxisMinorTick = DevExpress.viz.dxPolarChart.ArgumentAxisMinorTick;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisMinorTick instead */
+    export type dxPolarChartArgumentAxisMinorTick = DevExpress.viz.dxPolarChart.ArgumentAxisMinorTick;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisStrips instead */
-  export type dxPolarChartArgumentAxisStrips = DevExpress.viz.dxPolarChart.ArgumentAxisStrips;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisStrips instead */
+    export type dxPolarChartArgumentAxisStrips = DevExpress.viz.dxPolarChart.ArgumentAxisStrips;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisStripsLabel instead */
-  export type dxPolarChartArgumentAxisStripsLabel = DevExpress.viz.dxPolarChart.ArgumentAxisStripsLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisStripsLabel instead */
+    export type dxPolarChartArgumentAxisStripsLabel = DevExpress.viz.dxPolarChart.ArgumentAxisStripsLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisTick instead */
-  export type dxPolarChartArgumentAxisTick = DevExpress.viz.dxPolarChart.ArgumentAxisTick;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ArgumentAxisTick instead */
+    export type dxPolarChartArgumentAxisTick = DevExpress.viz.dxPolarChart.ArgumentAxisTick;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettings instead */
-  export type dxPolarChartCommonAxisSettings = DevExpress.viz.dxPolarChart.CommonAxisSettings;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettings instead */
+    export type dxPolarChartCommonAxisSettings = DevExpress.viz.dxPolarChart.CommonAxisSettings;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsConstantLineStyle instead */
-  export type dxPolarChartCommonAxisSettingsConstantLineStyle = DevExpress.viz.dxPolarChart.CommonAxisSettingsConstantLineStyle;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsConstantLineStyle instead */
+    export type dxPolarChartCommonAxisSettingsConstantLineStyle = DevExpress.viz.dxPolarChart.CommonAxisSettingsConstantLineStyle;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsConstantLineStyleLabel instead */
-  export type dxPolarChartCommonAxisSettingsConstantLineStyleLabel = DevExpress.viz.dxPolarChart.CommonAxisSettingsConstantLineStyleLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsConstantLineStyleLabel instead */
+    export type dxPolarChartCommonAxisSettingsConstantLineStyleLabel = DevExpress.viz.dxPolarChart.CommonAxisSettingsConstantLineStyleLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsLabel instead */
-  export type dxPolarChartCommonAxisSettingsLabel = DevExpress.viz.dxPolarChart.CommonAxisSettingsLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsLabel instead */
+    export type dxPolarChartCommonAxisSettingsLabel = DevExpress.viz.dxPolarChart.CommonAxisSettingsLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsMinorTick instead */
-  export type dxPolarChartCommonAxisSettingsMinorTick = DevExpress.viz.dxPolarChart.CommonAxisSettingsMinorTick;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsMinorTick instead */
+    export type dxPolarChartCommonAxisSettingsMinorTick = DevExpress.viz.dxPolarChart.CommonAxisSettingsMinorTick;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsStripStyle instead */
-  export type dxPolarChartCommonAxisSettingsStripStyle = DevExpress.viz.dxPolarChart.CommonAxisSettingsStripStyle;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsStripStyle instead */
+    export type dxPolarChartCommonAxisSettingsStripStyle = DevExpress.viz.dxPolarChart.CommonAxisSettingsStripStyle;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsStripStyleLabel instead */
-  export type dxPolarChartCommonAxisSettingsStripStyleLabel = DevExpress.viz.dxPolarChart.CommonAxisSettingsStripStyleLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsStripStyleLabel instead */
+    export type dxPolarChartCommonAxisSettingsStripStyleLabel = DevExpress.viz.dxPolarChart.CommonAxisSettingsStripStyleLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsTick instead */
-  export type dxPolarChartCommonAxisSettingsTick = DevExpress.viz.dxPolarChart.CommonAxisSettingsTick;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonAxisSettingsTick instead */
+    export type dxPolarChartCommonAxisSettingsTick = DevExpress.viz.dxPolarChart.CommonAxisSettingsTick;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.CommonSeriesSettings instead */
-  export type dxPolarChartCommonSeriesSettings = DevExpress.viz.dxPolarChart.CommonSeriesSettings;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.CommonSeriesSettings instead */
+    export type dxPolarChartCommonSeriesSettings = DevExpress.viz.dxPolarChart.CommonSeriesSettings;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.Legend instead */
-  export type dxPolarChartLegend = DevExpress.viz.dxPolarChart.Legend;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.Legend instead */
+    export type dxPolarChartLegend = DevExpress.viz.dxPolarChart.Legend;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.Tooltip instead */
-  export type dxPolarChartTooltip = DevExpress.viz.dxPolarChart.Tooltip;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.Tooltip instead */
+    export type dxPolarChartTooltip = DevExpress.viz.dxPolarChart.Tooltip;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxis instead */
-  export type dxPolarChartValueAxis = DevExpress.viz.dxPolarChart.ValueAxis;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxis instead */
+    export type dxPolarChartValueAxis = DevExpress.viz.dxPolarChart.ValueAxis;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisConstantLines instead */
-  export type dxPolarChartValueAxisConstantLines = DevExpress.viz.dxPolarChart.ValueAxisConstantLines;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisConstantLines instead */
+    export type dxPolarChartValueAxisConstantLines = DevExpress.viz.dxPolarChart.ValueAxisConstantLines;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisConstantLinesLabel instead */
-  export type dxPolarChartValueAxisConstantLinesLabel = DevExpress.viz.dxPolarChart.ValueAxisConstantLinesLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisConstantLinesLabel instead */
+    export type dxPolarChartValueAxisConstantLinesLabel = DevExpress.viz.dxPolarChart.ValueAxisConstantLinesLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisLabel instead */
-  export type dxPolarChartValueAxisLabel = DevExpress.viz.dxPolarChart.ValueAxisLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisLabel instead */
+    export type dxPolarChartValueAxisLabel = DevExpress.viz.dxPolarChart.ValueAxisLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisStrips instead */
-  export type dxPolarChartValueAxisStrips = DevExpress.viz.dxPolarChart.ValueAxisStrips;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisStrips instead */
+    export type dxPolarChartValueAxisStrips = DevExpress.viz.dxPolarChart.ValueAxisStrips;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisStripsLabel instead */
-  export type dxPolarChartValueAxisStripsLabel = DevExpress.viz.dxPolarChart.ValueAxisStripsLabel;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisStripsLabel instead */
+    export type dxPolarChartValueAxisStripsLabel = DevExpress.viz.dxPolarChart.ValueAxisStripsLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisTick instead */
-  export type dxPolarChartValueAxisTick = DevExpress.viz.dxPolarChart.ValueAxisTick;
+    /** @deprecated Use DevExpress.viz.dxPolarChart.ValueAxisTick instead */
+    export type dxPolarChartValueAxisTick = DevExpress.viz.dxPolarChart.ValueAxisTick;
 
-  /** @deprecated Use DevExpress.viz.dxCircularGauge.RangeContainer instead */
-  export type dxCircularGaugeRangeContainer = DevExpress.viz.dxCircularGauge.RangeContainer;
+    /** @deprecated Use DevExpress.viz.dxCircularGauge.RangeContainer instead */
+    export type dxCircularGaugeRangeContainer = DevExpress.viz.dxCircularGauge.RangeContainer;
 
-  /** @deprecated Use DevExpress.viz.dxCircularGauge.Scale instead */
-  export type dxCircularGaugeScale = DevExpress.viz.dxCircularGauge.Scale;
+    /** @deprecated Use DevExpress.viz.dxCircularGauge.Scale instead */
+    export type dxCircularGaugeScale = DevExpress.viz.dxCircularGauge.Scale;
 
-  /** @deprecated Use DevExpress.viz.dxCircularGauge.ScaleLabel instead */
-  export type dxCircularGaugeScaleLabel = DevExpress.viz.dxCircularGauge.ScaleLabel;
+    /** @deprecated Use DevExpress.viz.dxCircularGauge.ScaleLabel instead */
+    export type dxCircularGaugeScaleLabel = DevExpress.viz.dxCircularGauge.ScaleLabel;
 
-  /** @deprecated Use DevExpress.viz.dxFunnel.Legend instead */
-  export type dxFunnelLegend = DevExpress.viz.dxFunnel.Legend;
+    /** @deprecated Use DevExpress.viz.dxFunnel.Legend instead */
+    export type dxFunnelLegend = DevExpress.viz.dxFunnel.Legend;
 
-  /** @deprecated Use DevExpress.viz.dxFunnel.Tooltip instead */
-  export type dxFunnelTooltip = DevExpress.viz.dxFunnel.Tooltip;
+    /** @deprecated Use DevExpress.viz.dxFunnel.Tooltip instead */
+    export type dxFunnelTooltip = DevExpress.viz.dxFunnel.Tooltip;
 
-  /** @deprecated Use DevExpress.viz.dxLinearGauge.RangeContainer instead */
-  export type dxLinearGaugeRangeContainer = DevExpress.viz.dxLinearGauge.RangeContainer;
+    /** @deprecated Use DevExpress.viz.dxLinearGauge.RangeContainer instead */
+    export type dxLinearGaugeRangeContainer = DevExpress.viz.dxLinearGauge.RangeContainer;
 
-  /** @deprecated Use DevExpress.viz.dxLinearGauge.Scale instead */
-  export type dxLinearGaugeScale = DevExpress.viz.dxLinearGauge.Scale;
+    /** @deprecated Use DevExpress.viz.dxLinearGauge.Scale instead */
+    export type dxLinearGaugeScale = DevExpress.viz.dxLinearGauge.Scale;
 
-  /** @deprecated Use DevExpress.viz.dxLinearGauge.ScaleLabel instead */
-  export type dxLinearGaugeScaleLabel = DevExpress.viz.dxLinearGauge.ScaleLabel;
+    /** @deprecated Use DevExpress.viz.dxLinearGauge.ScaleLabel instead */
+    export type dxLinearGaugeScaleLabel = DevExpress.viz.dxLinearGauge.ScaleLabel;
 
-  /** @deprecated Use DevExpress.viz.dxPieChart.AdaptiveLayout instead */
-  export type dxPieChartAdaptiveLayout = DevExpress.viz.dxPieChart.AdaptiveLayout;
+    /** @deprecated Use DevExpress.viz.dxPieChart.AdaptiveLayout instead */
+    export type dxPieChartAdaptiveLayout = DevExpress.viz.dxPieChart.AdaptiveLayout;
 
-  /** @deprecated Use DevExpress.viz.dxPieChart.Legend instead */
-  export type dxPieChartLegend = DevExpress.viz.dxPieChart.Legend;
+    /** @deprecated Use DevExpress.viz.dxPieChart.Legend instead */
+    export type dxPieChartLegend = DevExpress.viz.dxPieChart.Legend;
 
-  /** @deprecated Use DevExpress.viz.dxSankey.Tooltip instead */
-  export type dxSankeyTooltip = DevExpress.viz.dxSankey.Tooltip;
+    /** @deprecated Use DevExpress.viz.dxSankey.Tooltip instead */
+    export type dxSankeyTooltip = DevExpress.viz.dxSankey.Tooltip;
 
-  /** @deprecated Use DevExpress.viz.dxTreeMap.Tooltip instead */
-  export type dxTreeMapTooltip = DevExpress.viz.dxTreeMap.Tooltip;
+    /** @deprecated Use DevExpress.viz.dxTreeMap.Tooltip instead */
+    export type dxTreeMapTooltip = DevExpress.viz.dxTreeMap.Tooltip;
 
-  /** @deprecated Use DevExpress.viz.dxVectorMap.Legend instead */
-  export type dxVectorMapLegends = DevExpress.viz.dxVectorMap.Legend;
+    /** @deprecated Use DevExpress.viz.dxVectorMap.Legend instead */
+    export type dxVectorMapLegends = DevExpress.viz.dxVectorMap.Legend;
 
-  /** @deprecated Use DevExpress.viz.dxVectorMap.Tooltip instead */
-  export type dxVectorMapTooltip = DevExpress.viz.dxVectorMap.Tooltip;
+    /** @deprecated Use DevExpress.viz.dxVectorMap.Tooltip instead */
+    export type dxVectorMapTooltip = DevExpress.viz.dxVectorMap.Tooltip;
 
 }
 
 declare module DevExpress.ui {
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.Editing instead */
-  export type dxDataGridEditing<TRowData, TKey = any> = DevExpress.ui.dxDataGrid.Editing<TRowData, TKey>;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.Editing instead */
+    export type dxDataGridEditing<TRowData, TKey = any> = DevExpress.ui.dxDataGrid.Editing<TRowData, TKey>;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.Scrolling instead */
-  export type dxDataGridScrolling = DevExpress.ui.dxDataGrid.Scrolling;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.Scrolling instead */
+    export type dxDataGridScrolling = DevExpress.ui.dxDataGrid.Scrolling;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.Selection instead */
-  export type dxDataGridSelection = DevExpress.ui.dxDataGrid.Selection;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.Selection instead */
+    export type dxDataGridSelection = DevExpress.ui.dxDataGrid.Selection;
 
-  /** @deprecated Use DevExpress.ui.dxTreeList.Editing instead */
-  export type dxTreeListEditing<TRowData = any, TKey = any> = DevExpress.ui.dxTreeList.Editing<TRowData, TKey>;
+    /** @deprecated Use DevExpress.ui.dxTreeList.Editing instead */
+    export type dxTreeListEditing<TRowData = any, TKey = any> = DevExpress.ui.dxTreeList.Editing<TRowData, TKey>;
 
-  /** @deprecated Use DevExpress.ui.dxTreeList.Scrolling instead */
-  export type dxTreeListScrolling = DevExpress.ui.dxTreeList.Scrolling;
+    /** @deprecated Use DevExpress.ui.dxTreeList.Scrolling instead */
+    export type dxTreeListScrolling = DevExpress.ui.dxTreeList.Scrolling;
 
-  /** @deprecated Use DevExpress.ui.dxTreeList.Selection instead */
-  export type dxTreeListSelection = DevExpress.ui.dxTreeList.Selection;
+    /** @deprecated Use DevExpress.ui.dxTreeList.Selection instead */
+    export type dxTreeListSelection = DevExpress.ui.dxTreeList.Selection;
 
-  /** @deprecated Use DevExpress.ui.dxTreeList.EditingTexts instead */
-  export type dxTreeListEditingTexts = DevExpress.ui.dxTreeList.EditingTexts;
+    /** @deprecated Use DevExpress.ui.dxTreeList.EditingTexts instead */
+    export type dxTreeListEditingTexts = DevExpress.ui.dxTreeList.EditingTexts;
 
-  /** @deprecated Use DevExpress.ui.dxTreeList.Paging instead */
-  export type dxTreeListPaging = DevExpress.ui.dxTreeList.Paging;
+    /** @deprecated Use DevExpress.ui.dxTreeList.Paging instead */
+    export type dxTreeListPaging = DevExpress.ui.dxTreeList.Paging;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.Column instead */
-  export type GridBaseColumn<TRowData = any> = DevExpress.ui.dxDataGrid.ColumnBase<TRowData>;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.Column instead */
+    export type GridBaseColumn<TRowData = any> = DevExpress.ui.dxDataGrid.ColumnBase<TRowData>;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.ColumnButton instead */
-  export type GridBaseColumnButton = DevExpress.ui.dxDataGrid.ColumnButtonBase;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.ColumnButton instead */
+    export type GridBaseColumnButton = DevExpress.ui.dxDataGrid.ColumnButtonBase;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.Editing instead */
-  export type GridBaseEditing<TRowData = any, TKey = any> = DevExpress.ui.dxDataGrid.EditingBase<TRowData, TKey>;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.Editing instead */
+    export type GridBaseEditing<TRowData = any, TKey = any> = DevExpress.ui.dxDataGrid.EditingBase<TRowData, TKey>;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.EditingTexts instead */
-  export type GridBaseEditingTexts = DevExpress.ui.dxDataGrid.EditingTextsBase;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.EditingTexts instead */
+    export type GridBaseEditingTexts = DevExpress.ui.dxDataGrid.EditingTextsBase;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.Paging instead */
-  export type GridBasePaging = DevExpress.ui.dxDataGrid.Paging;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.Paging instead */
+    export type GridBasePaging = DevExpress.ui.dxDataGrid.Paging;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.Scrolling instead */
-  export type GridBaseScrolling = DevExpress.ui.dxDataGrid.Scrolling;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.Scrolling instead */
+    export type GridBaseScrolling = DevExpress.ui.dxDataGrid.Scrolling;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.Selection instead */
-  export type GridBaseSelection = DevExpress.ui.dxDataGrid.Selection;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.Selection instead */
+    export type GridBaseSelection = DevExpress.ui.dxDataGrid.Selection;
 }
 
 declare module DevExpress.ui.dxDataGrid {
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.SortByGroupSummaryInfoItem instead */
-  export type dxDataGridSortByGroupSummaryInfoItem = DevExpress.ui.dxDataGrid.SortByGroupSummaryInfoItem;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.SortByGroupSummaryInfoItem instead */
+    export type dxDataGridSortByGroupSummaryInfoItem = DevExpress.ui.dxDataGrid.SortByGroupSummaryInfoItem;
 
-  /** @deprecated Use DevExpress.ui.dxDataGrid.EditingTexts instead */
-  export type EditingTextsBase = DevExpress.ui.dxDataGrid.EditingTexts;
+    /** @deprecated Use DevExpress.ui.dxDataGrid.EditingTexts instead */
+    export type EditingTextsBase = DevExpress.ui.dxDataGrid.EditingTexts;
 
+}
+
+// v24.1
+
+declare module DevExpress.ui {
+    /** @deprecated DevExpress.ui.dxDiagram.CustomCommand instead */
+    export type dxDiagramCustomCommand = DevExpress.ui.dxDiagram.CustomCommand;
+}
+
+declare module DevExpress.ui.dxDiagram {
+    /** @deprecated Use DevExpress.ui.dxDiagram.AutoZoomMode instead */
+    export type DiagramAutoZoomMode = DevExpress.ui.dxDiagram.AutoZoomMode;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.Command instead */
+    export type DiagramCommand = DevExpress.ui.dxDiagram.Command;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.ConnectorLineEnd instead */
+    export type DiagramConnectorLineEnd = DevExpress.ui.dxDiagram.ConnectorLineEnd;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.ConnectorLineType instead */
+    export type DiagramConnectorLineType = DevExpress.ui.dxDiagram.ConnectorLineType;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.ConnectorPosition instead */
+    export type DiagramConnectorPosition = DevExpress.ui.dxDiagram.ConnectorPosition;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.DataLayoutType instead */
+    export type DiagramDataLayoutType = DevExpress.ui.dxDiagram.DataLayoutType;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.ItemType instead */
+    export type DiagramItemType = DevExpress.ui.dxDiagram.ItemType;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.ModelOperation instead */
+    export type DiagramModelOperation = DevExpress.ui.dxDiagram.ModelOperation;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.PanelVisibility instead */
+    export type DiagramPanelVisibility = DevExpress.ui.dxDiagram.PanelVisibility;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.RequestEditOperationReason instead */
+    export type DiagramRequestEditOperationReason = DevExpress.ui.dxDiagram.RequestEditOperationReason;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.ShapeCategory instead */
+    export type DiagramShapeCategory = DevExpress.ui.dxDiagram.ShapeCategory;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.ShapeType instead */
+    export type DiagramShapeType = DevExpress.ui.dxDiagram.ShapeType;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.ToolboxDisplayMode instead */
+    export type DiagramToolboxDisplayMode = DevExpress.ui.dxDiagram.ToolboxDisplayMode;
+
+    /** @deprecated Use DevExpress.ui.dxDiagram.Units instead */
+    export type DiagramUnits = DevExpress.ui.dxDiagram.Units;
 }
