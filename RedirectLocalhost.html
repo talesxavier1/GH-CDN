@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionando...</title>
+
+    <!-- Redirecionamento de reserva (caso o JS esteja desativado no navegador) -->
+    <meta http-equiv="refresh" content="3;url=https://www.exemplo.com">
+
+    <script>
+        // Função para redirecionar o usuário
+        function redirecionar() {
+            debugger
+            // Use 'window.location.href' para permitir que o usuário volte com o botão "Voltar" do navegador
+            window.location.href = "https://localhost:7217/oauth/callback";
+
+            // Se preferir que o usuário NÃO consiga voltar para esta página, descomente a linha abaixo e comente a de cima:
+            // window.location.replace("https://www.exemplo.com");
+        }
+
+        // Executa o redirecionamento assim que a página carrega
+        window.onload = redirecionar;
+    </script>
+</head>
+
+<body>
+    <div style="text-align: center; font-family: sans-serif; margin-top: 50px;">
+        <h2>Você está sendo redirecionado...</h2>
+        <p>Se a página não carregar em alguns segundos, <a href="https://www.exemplo.com">clique aqui</a>.</p>
+    </div>
+</body>
+
+</html>
