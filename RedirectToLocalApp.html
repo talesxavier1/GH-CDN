@@ -14,7 +14,7 @@
         function redirecionar() {
             debugger
             // Use 'window.location.href' para permitir que o usuário volte com o botão "Voltar" do navegador
-            window.location.href = "https://localhost:7217/oauth/callback";
+            window.location.href = `https://localhost:7217/oauth/callback${window.location.search}`;
 
             // Se preferir que o usuário NÃO consiga voltar para esta página, descomente a linha abaixo e comente a de cima:
             // window.location.replace("https://www.exemplo.com");
