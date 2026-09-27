@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionando...</title>
+
+    <script>
+        // Removemos o 'debugger' (use apenas em desenvolvimento)
+        // Criamos a URL dinamicamente
+        const urlDestino = `https://127.0.0.1:3000/api/auth/callback${window.location.search}`;
+
+        // Redireciona IMEDIATAMENTE (antes mesmo do HTML abaixo ser renderizado)
+        window.location.href = urlDestino;
+    </script>
+
+    <!-- Fallback corrigido para apontar para a mesma URL do JS caso ele esteja desativado -->
+    <noscript>
+        <meta http-equiv="refresh" content="3;url=https://127.0.0.1:3000/api/auth/callback">
+    </noscript>
+</head>
+
+<body>
+    <div style="text-align: center; font-family: sans-serif; margin-top: 50px;">
+        <h2>Você está sendo redirecionado...</h2>
+        <!-- Link de segurança ajustado dinamicamente via JS caso o redirecionamento automático falhe -->
+        <p>Se a página não carregar em alguns segundos, <a id="link-fallback"
+                href="https://127.0.0.1:3000/api/auth/callback">clique aqui</a>.</p>
+    </div>
+
+    <script>
+        // Atualiza o link manual com a query string correta para o usuário não perder os dados
+        document.getElementById('link-fallback').href = urlDestino;
+    </script>
+</body>
+
+</html>
