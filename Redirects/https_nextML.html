@@ -9,7 +9,7 @@
     <script>
         // Removemos o 'debugger' (use apenas em desenvolvimento)
         // Criamos a URL dinamicamente
-        const urlDestino = `https://127.0.0.1:3000/api/auth/callback${window.location.search}`;
+        const urlDestino = `http://127.0.0.1:3000/api/auth/callback${window.location.search}`;
 
         // Redireciona IMEDIATAMENTE (antes mesmo do HTML abaixo ser renderizado)
         window.location.href = urlDestino;
@@ -17,7 +17,7 @@
 
     <!-- Fallback corrigido para apontar para a mesma URL do JS caso ele esteja desativado -->
     <noscript>
-        <meta http-equiv="refresh" content="3;url=https://127.0.0.1:3000/api/auth/callback">
+        <meta http-equiv="refresh" content="3;url=http://127.0.0.1:3000/api/auth/callback">
     </noscript>
 </head>
 
@@ -26,7 +26,7 @@
         <h2>Você está sendo redirecionado...</h2>
         <!-- Link de segurança ajustado dinamicamente via JS caso o redirecionamento automático falhe -->
         <p>Se a página não carregar em alguns segundos, <a id="link-fallback"
-                href="https://127.0.0.1:3000/api/auth/callback">clique aqui</a>.</p>
+                href="http://127.0.0.1:3000/api/auth/callback">clique aqui</a>.</p>
     </div>
 
     <script>
